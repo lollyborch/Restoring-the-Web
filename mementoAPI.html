@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+/* Simply append the desired datetime and the URI of the resource to the baseURL of this JSON service. 
+
+http://timetravel.mementoweb.org/api/json/YYYY<MM|DD|HH|MM|SS>/URI
+*/
+	function callwebsite() {
+		var requrl = new XMLHttpRequest();
+		requrl.onreadystatechange = function geturl() {
+			if(requrl.getState == 4 && requrl.getStatus == 200);
+			console.log(requrl.responseText);
+		}
+		//requrl.open("POST","http://archive.org/wayback/available?url=",true);
+		requrl.open("GET","http://timetravel.mementoweb.org/api/json/1995/http://nba.com",true);
+		var test = requrl.getAllResponseHeaders();
+		console.log(test);
+		//requrl.setRequestHeader("Content-Type","application/javascript");
+		//requrl.setRequestHeader("Access-Control-Allow-Origin", "*");
+		requrl.send("http://archive.org/wayback/available?url=http://www.cinemedia.net/FOD/FOD0001.html");
+	}
+</script>
+</head>
+<body>
+	<div id="testing">
+		<p id="results">There is some stuff in this div</p>
+		<button type="button" onclick="callwebsite()">Get the trove Data</button>
+	</div>
+</body>
+</html>

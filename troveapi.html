@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+	function callImages() {
+		var imgUrl = new XMLHttpRequest();
+		console.log(imgUrl);
+		/*imgUrl.onreadystatechange = function getImg() {
+			if(imgUrl.readyState == 4 && imgUrl.status == 200);
+			console.log(imgUrl.responseText);
+		}
+		*/
+		imgUrl.open("GET","http://api.trove.nla.gov.au/result?key=jsk1qqntnrj7qbvf&zone=picture&q=sport&encoding=json");
+		var test = imgUrl.responseText;
+		console.log(test);
+		//imgUrl.setRequestHeader("Content-Type","application/javascript");
+		imgUrl.send();
+	}
+</script>
+</head>
+<body>
+	<div id="testing">
+		<p id="results">There is some stuff in this div</p>
+		<button type="button" onclick="callImages()">Get the trove Data</button>
+	</div>
+</body>
+</html>
