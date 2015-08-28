@@ -6,11 +6,11 @@
 	function callImages() {
 		var imgUrl = new XMLHttpRequest();
 		console.log(imgUrl);
-		/*imgUrl.onreadystatechange = function getImg() {
+		imgUrl.onreadystatechange = function getImg() {
 			if(imgUrl.readyState == 4 && imgUrl.status == 200);
 			console.log(imgUrl.responseText);
+			document.getElementById("results").innerHTML = imgUrl.responseText;
 		}
-		*/
 		imgUrl.open("GET","http://api.trove.nla.gov.au/result?key=jsk1qqntnrj7qbvf&zone=picture&q=sport&encoding=json");
 		var test = imgUrl.responseText;
 		console.log(test);
@@ -23,6 +23,7 @@
 	<div id="testing">
 		<p id="results">There is some stuff in this div</p>
 		<button type="button" onclick="callImages()">Get the trove Data</button>
+		<p><a href="index.html">Take me home</a></p>
 	</div>
 </body>
 </html>

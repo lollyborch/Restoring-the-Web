@@ -11,6 +11,7 @@ http://timetravel.mementoweb.org/api/json/YYYY<MM|DD|HH|MM|SS>/URI
 		requrl.onreadystatechange = function geturl() {
 			if(requrl.getState == 4 && requrl.getStatus == 200);
 			console.log(requrl.responseText);
+			document.getElementById("results").innerHTML = requrl.responseText;
 		}
 		//requrl.open("POST","http://archive.org/wayback/available?url=",true);
 		requrl.open("GET","http://timetravel.mementoweb.org/api/json/1995/http://nba.com",true);
@@ -25,7 +26,8 @@ http://timetravel.mementoweb.org/api/json/YYYY<MM|DD|HH|MM|SS>/URI
 <body>
 	<div id="testing">
 		<p id="results">There is some stuff in this div</p>
-		<button type="button" onclick="callwebsite()">Get the trove Data</button>
+		<button type="button" onclick="callwebsite()">Get the Archived Web Links</button>
+		<p><a href="index.html">Take me home</a></p>
 	</div>
 </body>
 </html>
