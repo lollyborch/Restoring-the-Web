@@ -1,8 +1,40 @@
 <!DOCTYPE html>
 <html>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web Historians</title>
+
+	<!--Stylesheet-->
+	<link rel="stylesheet" href="css/style.css">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/roboto.min.css" rel="stylesheet">
+    <link href="css/material-fullpalette.min.css" rel="stylesheet">
+    <link href="css/ripples.min.css" rel="stylesheet">
+    <link href="css/snackbar.min.css" rel="stylesheet">
+    
+    <!-- HTML imports -->
+    <!--<link rel="import" href="header.html"> -->
+	
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- scripts from http://getbootstrap.com  document.body.appendChild(el.cloneNode(true));-->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- adds active class to particular child in nav.  CHANGE THIS FOR EACH PAGE -->
+    <script type="text/javascript">
+        $(".activate li:nth-child(1)").addClass('active');
+    </script>
 <head>
 <script>
+	$(document).ready(function() {
+		$("button").click(function() {
+			$.get("http://api.trove.nla.gov.au/result?key=jsk1qqntnrj7qbvf&encoding=json&callback=?&zone=picture&sortby=relevance&q=basketball", testing())
+			});
+		});
 
+/*
 	function callImages() {
 		var imgUrl = new XMLHttpRequest();
 		console.log(imgUrl);
@@ -11,18 +43,23 @@
 			console.log(imgUrl.responseText);
 			document.getElementById("results").innerHTML = imgUrl.responseText;
 		}
-		imgUrl.open("GET","http://api.trove.nla.gov.au/result?key=jsk1qqntnrj7qbvf&zone=picture&q=sport&encoding=json");
+		imgUrl.open("GET","http://api.trove.nla.gov.au/result?key=jsk1qqntnrj7qbvf&encoding=json&callback=?&zone=picture&sortby=relevance&q=basketball");
+		//imgUrl.setRequestHeader("Content-Type","application/javascript");	
+		//imgUrl.setRequestHeader("Accept", "application/javascript")
 		var test = imgUrl.responseText;
 		console.log(test);
-		//imgUrl.setRequestHeader("Content-Type","application/javascript");
 		imgUrl.send();
+	}
+*/
+	function testing() {
+		console.log("Callback Worked");
 	}
 </script>
 </head>
 <body>
 	<div id="testing">
 		<p id="results">There is some stuff in this div</p>
-		<button type="button" onclick="callImages()">Get the trove Data</button>
+		<button type="button">Get the trove Data</button>
 		<p><a href="index.html">Take me home</a></p>
 	</div>
 </body>
