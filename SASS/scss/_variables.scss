@@ -32,11 +32,27 @@ $gray-light:                #818a91 !default;
 $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
-$brand-primary:             #0275d8 !default;
-$brand-success:             #5cb85c !default;
-$brand-info:                #5bc0de !default;
-$brand-warning:             #f0ad4e !default;
-$brand-danger:              #d9534f !default;
+//RTW colours from https://www.google.com/design/spec/style/color.html#color-color-palette
+
+//Amber
+$brand-amber-500:           #FFC107 !default;
+$brand-amber-300:           #FFD54F !default;
+$brand-amber-700:           #FFA000 !default;
+$brand-amber-900:           #FF6F00 !default;
+$brand-amber-50:            #FFF8E1 !default;
+
+//Indigo
+$brand-indigo-500:           #3F51B5 !default;
+$brand-indigo-300:           #7986CB !default;
+$brand-indigo-700:           #303F9F !default;
+$brand-indigo-900:           #1A237E !default;
+$brand-indigo-50:           #E8EAF6  !default;
+
+$brand-primary:             $brand-amber-500 !default;
+$brand-success:             $brand-indigo-500  !default;
+$brand-info:                $brand-amber-300  !default;
+$brand-warning:             $brand-amber-700  !default;
+$brand-danger:              $brand-amber-900 !default;
 
 
 // Options
@@ -66,7 +82,7 @@ $border-width:               .0625rem !default;
 //
 // Settings for the `<body>` element.
 
-$body-bg:                    #fff !default;
+$body-bg:                    #fafafa !default;
 $body-color:                 $gray-dark !default;
 
 
@@ -74,8 +90,8 @@ $body-color:                 $gray-dark !default;
 //
 // Style anchor elements.
 
-$link-color:                 $brand-primary !default;
-$link-hover-color:           darken($link-color, 15%) !default;
+$link-color:                 $brand-indigo-500 !default;
+$link-hover-color:           $brand-indigo-700 !default;
 $link-hover-decoration:      underline !default;
 
 
