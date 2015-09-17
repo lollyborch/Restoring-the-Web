@@ -1,93 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Web Historians</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- all other head elements after this point -->
+    <!-- page is built on Bootstrap 4 -->
+    <title>Web Historians</title>
 
-	<!--Stylesheet-->
+	<!--Stylesheet
 	<link rel="stylesheet" href="css/style.css">
+<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">-->
     
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/roboto.min.css" rel="stylesheet">
-    <link href="css/material-fullpalette.min.css" rel="stylesheet">
-    <link href="css/ripples.min.css" rel="stylesheet">
-    <link href="css/snackbar.min.css" rel="stylesheet">
     
-    <!-- HTML imports -->
-    <!--<link rel="import" href="header.html"> -->
+      <link href="bootstrap4/css/bootstrap.css" rel="stylesheet">
+      
+    <!--Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
 
-</head>
-<body>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      
+      
     <header>
     
-            <img src="images/WebHistorians.png">
-            <div class="navbar navbar-default">
-
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Web Historians</a>
-            </div>
-            <div class="navbar-collapse collapse navbar-responsive-collapse">
-                <ul class="nav navbar-nav activate">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Start here</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Account</a></li>
-                </ul>
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Login</a></li>
-                    <li class="dropdown">
-                        <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Settings <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Account</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <img src="images/WebHistorians-l.png" style="width:600px">
+            
+      <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
+      <nav class="navbar navbar-default navbar-static-top">
+      <ul class="nav nav-pills">
+        <li class="nav-item active">
+          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Start here</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Account</a>
+        </li>
+      </ul>
+          
+    </nav>
     </header>
 
 
-    <p><a href="testing.html">Link to HTML API</a></p>
-    <p><a href="mementoAPI.html">Link to the MementoAPI</a></p>
-    <p><a href="troveapi.html">Link to the troveAPI</a></p>
-    <p><a href="html_editor.html">Link to HTML editor</a></p>
+    <div class="container">
 
-    <!--adds HTML import to header section
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>H1 title</h1>
+        <p><a href="testing.html">Link to HTML API</a></p>
+          <p><a href="mementoAPI.html">Link to the MementoAPI</a></p>
+          <p><a href="troveapi.html">Link to the troveAPI</a></p>
+          <p><a href="html_editor.html">Link to HTML editor</a></p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="#" role="button">Log in &raquo;</a>
+        </p>
+          <p>
+          <a class="btn btn-lg btn-primary" href="#" role="button">Sign up &raquo;</a>
+        </p>
+      </div>
+
+    </div> <!-- /container -->
     
-    <script>
-        //select header id headerimport
-        var insertHeader = document.getElementById('headerimport');
-        // creates new variable doc which is the import
-        var doc = document.querySelector('link[rel="import"]').import;
-        // get content from doc - html import
-        var text = doc.querySelector('.headertest');
-        //append variable text to variable insertHeader
-        insertHeader.appendChild(text);
-       // document.body.appendChild(text);
-    </script>-->
-    
-    <!-- jQuery -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- scripts from http://getbootstrap.com  document.body.appendChild(el.cloneNode(true));-->
-    <script src="js/bootstrap.min.js"></script>
-    
-    <!-- adds active class to particular child in nav.  CHANGE THIS FOR EACH PAGE -->
-    <script type="text/javascript">
-        $(".activate li:nth-child(1)").addClass('active');
-    </script>
-</body>
-
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap4/js/bootstrap.min.js"></script>
+  </body>
 </html>
