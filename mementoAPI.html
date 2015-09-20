@@ -1,32 +1,64 @@
 <!DOCTYPE html>
 <html>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web Historians</title>
+
+	<!--Stylesheet-->
+	<link rel="stylesheet" href="css/style.css">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/roboto.min.css" rel="stylesheet">
+    <link href="css/material-fullpalette.min.css" rel="stylesheet">
+    <link href="css/ripples.min.css" rel="stylesheet">
+    <link href="css/snackbar.min.css" rel="stylesheet">
+    
+    <!-- HTML imports -->
+    <!--<link rel="import" href="header.html"> -->
+	
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- scripts from http://getbootstrap.com  document.body.appendChild(el.cloneNode(true));-->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- adds active class to particular child in nav.  CHANGE THIS FOR EACH PAGE -->
+    <script type="text/javascript">
+        $(".activate li:nth-child(1)").addClass('active');
+    </script>
 <head>
 <script>
 /* Simply append the desired datetime and the URI of the resource to the baseURL of this JSON service. 
 
 http://timetravel.mementoweb.org/api/json/YYYY<MM|DD|HH|MM|SS>/URI
 */
-	function callwebsite() {
-		var requrl = new XMLHttpRequest();
+	$(document).ready(function callwebsite() {
+		var requrl = "http://timetravel.mementoweb.org/api/json/20050105/http://cricket.com.au";
+		$.ajax ({
+			type: "GET",
+			url: requrl,
+			asynch: false,
+			dataType: "json",
+			success: function(responseData) {
+				console.log(responseData.mementos.closest.uri);
+			}
+		});
+	});
+		/*var requrl = new XMLHttpRequest();
 		requrl.onreadystatechange = function geturl() {
 			if(requrl.getState == 4 && requrl.getStatus == 200);
 			console.log(requrl.responseText);
 			document.getElementById("results").innerHTML = requrl.responseText;
 		}
 		//requrl.open("POST","http://archive.org/wayback/available?url=",true);
-		requrl.open("GET","http://timetravel.mementoweb.org/api/json/1995/http://nba.com",true);
-		var test = requrl.getAllResponseHeaders();
-		console.log(test);
-		//requrl.setRequestHeader("Content-Type","application/javascript");
-		//requrl.setRequestHeader("Access-Control-Allow-Origin", "*");
-		requrl.send("http://archive.org/wayback/available?url=http://www.cinemedia.net/FOD/FOD0001.html");
-	}
+		requrl.open("GET","http://timetravel.mementoweb.org/api/json/20050105/http://cricket.com.au",true);
+		requrl.send();*/
 </script>
 </head>
 <body>
 	<div id="testing">
 		<p id="results">There is some stuff in this div</p>
-		<button type="button" onclick="callwebsite()">Get the Archived Web Links</button>
+		<button type="button">Get the Archived Web Links</button>
 		<p><a href="index.html">Take me home</a></p>
 	</div>
 </body>
