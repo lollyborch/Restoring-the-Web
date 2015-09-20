@@ -62,7 +62,7 @@ $brand-danger:              $brand-indigo-900 !default;
 //RTW enable flex is not support in IE9 and limited support in IE10
 $enable-flex:               false !default;
 $enable-rounded:            true !default;
-$enable-shadows:            true !default;
+$enable-shadows:            false !default;
 $enable-gradients:          false !default;
 $enable-transitions:        true !default;
 $enable-hover-media-query:  false !default;

@@ -78,7 +78,7 @@
       <div class="container-fluid">
           <h2 id="categorieslink">Categories go here</h2>
           <div class="otherrow">
-              <a class="btnactive btn btn-primary" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/180/150"/><br />Sport</a>
+              <a class="btnactive btn btn-primary-outline active" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/180/150"/><br />Sport</a>
               <a class="btnactive btn btn-primary-outline" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/180/150"/><br />Arts</a>
               <a class="btnactive btn btn-primary-outline" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/180/150"/><br />Government</a>
               <a class="btnactive btn btn-primary-outline" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/180/150"/><br />Education</a>
@@ -106,9 +106,8 @@
         $('.btnactive').on('click', changeClass);
 
         function changeClass() {
-           $('.btnactive').removeClass('btn-primary');
-           $(this).addClass('btn-primary-outline');
-           $(".btnactive:nth-child(1)").addClass('btn-primary-outline');
+           $('.btnactive').removeClass('active');
+           $(this).addClass('active');
         }
     </script>
   </body>
