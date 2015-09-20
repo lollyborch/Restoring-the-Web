@@ -55,11 +55,12 @@
     </header>
 
 
-    <div class="container">
+    <div class="container-fluid">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h2>H1 title</h2>
+        <h2>Getting started</h2>
+          <p>put infographic/illustrated explanation here</p>
         <p><a href="testing.html">Link to HTML API</a></p>
           <p><a href="mementoAPI.html">Link to the MementoAPI</a></p>
           <p><a href="troveapi.html">Link to the troveAPI</a></p>
@@ -73,11 +74,42 @@
       </div>
 
     </div> <!-- /container -->
+      <!-- categories -->
+      <div class="container-fluid">
+          <h2 id="categorieslink">Categories go here</h2>
+          <div class="otherrow">
+              <a class="btnactive btn btn-primary" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/180/150"/><br />Sport</a>
+              <a class="btnactive btn btn-primary-outline" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/180/150"/><br />Arts</a>
+              <a class="btnactive btn btn-primary-outline" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/180/150"/><br />Government</a>
+              <a class="btnactive btn btn-primary-outline" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/180/150"/><br />Education</a>
+              <a class="btnactive btn btn-primary-outline" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/180/150"/><br />Business</a>
+              
+          </div>
+      </div>
+      
+      <!-- footer -->
+      <div class="container-fluid">
+          <div class="jumbotron">
+            <h2>Footer</h2>
+          </div>
+      </div>
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="SASS/dist/js/bootstrap.min.js"></script>
+      
+    <!-- change solid or outline button class for categories on click --> 
+    <!-- adapted from http://stackoverflow.com/questions/15645626/change-class-onclick-using-jquery -->  
+    <script type="text/javascript">
+        $('.btnactive').on('click', changeClass);
+
+        function changeClass() {
+           $('.btnactive').removeClass('btn-primary');
+           $(this).addClass('btn-primary-outline');
+           $(".btnactive:nth-child(1)").addClass('btn-primary-outline');
+        }
+    </script>
   </body>
 </html>
