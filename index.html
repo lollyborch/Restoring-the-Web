@@ -33,7 +33,7 @@
   </head>
   <body ng-app="myApp">
       
-    <header>
+    <header class="container">
             
       <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
       <nav class="navbar navbar-default navbar-static-top">
@@ -69,7 +69,7 @@
     </nav>
     </header>
       <!--breadcrumbs for pages NOT HOMEPAGE index.html
-    <div class="container-fluid">
+    <div class="container">
         <ol class="breadcrumb">
           <li class="active">Gallery</li>
         </ol>
@@ -82,133 +82,41 @@
       </div>-->
 
 
-    <div class="container-fluid">
+    <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h2>How do I start?</h2>
           <p>put infographic/illustrated explanation here</p>
-          <h3>Here is an example of a progress bar we can use from bootstrap</h3>
-          <progress class="progress" value="83" max="137">
-              <!--the div is for IE9 support-->
-          <div class="progress">
-            <span class="progress-bar" style="width: 25%;">25%</span>
-          </div>
-              
-        </progress>
           <p class="text-right">83/137 Errors fixed</p>
-        <div>
+          <div>
           <a class="btn btn-primary-outline" href="testing.html" role="button">Link to HTML API</a>
           <a class="btn btn-primary-outline" href="mementoAPI.html" role="button">Link to the MementoAPI</a>
           <a class="btn btn-primary-outline" href="troveapi.html" role="button">Link to trove API</a>
           <a class="btn btn-primary-outline" href="html_editor.html" role="button">Link to HTML editor</a>
               </div>
+          
           <br />
           <div>
+            <a class="btn btn-danger-outline active" href="index.html" role="button">index.html - Landing page</a>
+            <a class="btn btn-danger-outline " href="home.html" role="button">Home page</a>
+            <a class="btn btn-danger-outline " href="index-fullwidth-square.html" role="button">Full width/image categorie</a>
+          </div>
+      </div>
+
+    </div> 
+      
+    <div class="container">
+          <div class="otherrow activerow">
             <a class="btn btn-lg btn-primary" href="#" role="button">Log in &raquo;</a>
-          <a class="btn btn-lg btn-primary" href="#" role="button">Sign up &raquo;</a>
+            <a class="btn btn-lg btn-primary" href="#" role="button">Sign up &raquo;</a>
           
           </div>
-          <br />
-          <div>
-            <a class="btn btn-danger-outline active" href="index.html" role="button">index.html</a>
-            <a class="btn btn-danger-outline" href="index-webTabs.html" role="button">index-webTabs.html</a>
-          </div>
-      </div>
-
-    </div> <!-- /container -->
-      <!-- categories ANGULAR-->
-      <!--<div class="container-fluid" ng-controller="MainController">
-          <h2 id="categorieslink">Choose a category</h2>          
-          <div class="otherrow activerow" >
-              <a ng-repeat="category in categories" class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="{{ category.coverImg }}"/><br />{{ category.name }}</a>
-            <div ng-init="fireEvent()"></div>
-          </div>
-      </div>-->
       
-      <!-- categories -->
-      <div class="container-fluid" >
-          <h2 id="categorieslink">Choose a category</h2>          
-          <div class="otherrow activerow" >
-              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/150/120"/><br />Sport</a>
-              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/150/120"/><br />Arts</a>
-              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/150/120"/><br />Education</a>
-              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/150/120"/><br />Government</a>
-              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/150/120"/><br />Business</a>
-            
-          </div>
-    	<!--regular html
-        <article class='row'> 
-        	<div class='col-md-12'>
-
-	               <ul class="categoryItems">
-				    <li>
-					    <figure class="cap-bot">
-                            <h4>Website 1</h4>
-                            <img src="http://www.fillmurray.com/g/250/150" class="img-responsive" alt=""/></a>      
-                            <figcaption>
-                                <a class="ghost-button" href="#">Easy mode</a>
-                                <a class="ghost-button" href="#" >Hard mode</a>
-                            </figcaption>
-                        </figure>
-				    </li><li>
-					    <figure class="cap-bot">
-                            <h4>Website 1</h4>
-                            <img src="http://www.fillmurray.com/g/250/150" class="img-responsive" alt=""/></a>      
-                            <figcaption>
-                                
-                                <a class="ghost-button" href="#">Easy mode</a>
-                                <a class="ghost-button" href="#" >Hard mode</a>
-                            </figcaption>
-                        </figure>
-				    </li><li>
-					    <figure class="cap-bot">
-                            <h4>Website 1</h4>
-                            <img src="http://www.fillmurray.com/g/250/150" class="img-responsive" alt=""/></a>      
-                            <figcaption>
-                                
-                                <a class="ghost-button" href="#">Easy mode</a>
-                                <a class="ghost-button" href="#" >Hard mode</a>
-                            </figcaption>
-                        </figure>
-				    </li><li>
-					    <figure class="cap-bot">
-                            <h4>Website 1</h4>
-                            <img src="http://www.fillmurray.com/g/250/150" class="img-responsive" alt=""/></a>      
-                            <figcaption>
-                                
-                                <a class="ghost-button" href="#">Easy mode</a>
-                                <a class="ghost-button" href="#" >Hard mode</a>
-                            </figcaption>
-                        </figure>
-				    </li>
-            
-          </article>-->
-          <!--ANGULAR-->
-        
-            <article class='row' ng-controller="WebsiteController"> 
-        	   <div class='col-md-12'>
-
-	               <ul class="categoryItems">
-				    <li ng-repeat="website in websiteSport">
-					    <figure class="cap-bot">
-                            <h4>{{ website.title }}</h4>
-                            <img ng-src="{{ website.coverImg }}" class="img-responsive" alt=""/></a>      
-                            <figcaption>
-                                <a class="ghost-button" href="#">Easy mode</a>
-                                <a class="ghost-button" href="#" >Hard mode</a>
-                            </figcaption>
-                        </figure>
-				    </li>
-                </ul>
-            
-          </article>
-            
-
-      </div>
+    </div>
       
       <!-- footer -->
-      <div class="container-fluid">
+      <div class="container">
           <div class="jumbotron">
             <h2>Footer</h2>
           </div>
@@ -246,6 +154,13 @@
         $(".btnactive:nth-child(1)").addClass('active');
           console.log('active');
       
+    </script>
+    
+    <!--for tabs-->
+    <script>
+      $(function () {
+        $('#myTab a:first').tab('show')
+      })
     </script>
       
   </body>
