@@ -474,10 +474,6 @@ output {
   display: inline-block;
 }
 
-.brand-heading {
-  font-family: "Inconsolata", Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
@@ -2229,6 +2225,10 @@ fieldset[disabled] .checkbox label {
   }
 }
 
+.btnactive {
+  margin: .2rem;
+}
+
 .btn {
   display: inline-block;
   padding: .375rem 1rem;
@@ -3681,6 +3681,7 @@ input[type="button"].btn-block {
 .navbar {
   position: relative;
   padding: .5rem 1rem;
+  margin-top: .5rem;
 }
 
 .navbar:before,
@@ -3762,6 +3763,11 @@ input[type="button"].btn-block {
 
 .navbar-brand > img {
   display: block;
+}
+
+.brand-heading {
+  margin-top: -1rem;
+  font-family: "Inconsolata", Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .navbar-divider {

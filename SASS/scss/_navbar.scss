@@ -3,8 +3,10 @@
 // Provide a static navbar from which we expand to create full-width, fixed, and
 // other navbar variations.
 
+//RTW added top margin
 .navbar {
   position: relative;
+  margin-top: $navbar-top-margin;
   padding: $navbar-padding-vertical $navbar-padding-horizontal;
   @include clearfix;
 
@@ -82,6 +84,11 @@
   > img {
     display: block;
   }
+}
+//RTW added class
+.brand-heading {
+  font-family: $font-family-monospace;  
+  margin-top: -1rem; 
 }
 
 
