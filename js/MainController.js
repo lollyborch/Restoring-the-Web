@@ -23,6 +23,7 @@ app.controller('MainController', ['$scope', function ($scope) {
             coverImg: 'http://www.fillmurray.com/g/180/150'
         }
     ];
+    
     // adapted from http://stackoverflow.com/questions/13471129/ng-repeat-finish-event
     $scope.fireEvent = function () {
 

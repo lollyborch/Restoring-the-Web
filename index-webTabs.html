@@ -97,18 +97,23 @@
               
         </progress>
           <p class="text-right">83/137 Errors fixed</p>
-        <p><a href="testing.html">Link to HTML API</a></p>
-          <p><a href="mementoAPI.html">Link to the MementoAPI</a></p>
-          <p><a href="troveapi.html">Link to the troveAPI</a></p>
-          <p><a href="html_editor.html">Link to HTML editor</a></p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="#" role="button">Log in &raquo;</a>
-        </p>
-          <p>
+          <div>
+          <a class="btn btn-primary-outline" href="testing.html" role="button">Link to HTML API</a>
+          <a class="btn btn-primary-outline" href="mementoAPI.html" role="button">Link to the MementoAPI</a>
+          <a class="btn btn-primary-outline" href="troveapi.html" role="button">Link to trove API</a>
+          <a class="btn btn-primary-outline" href="html_editor.html" role="button">Link to HTML editor</a>
+              </div>
+          <br />
+          <div>
+            <a class="btn btn-lg btn-primary" href="#" role="button">Log in &raquo;</a>
           <a class="btn btn-lg btn-primary" href="#" role="button">Sign up &raquo;</a>
-        </p>
-          <h3><a href="index.html">index.html</a></h3>
-          <h3><a href="index-webTabs.html">index-webTabs.html</a></h3>
+          
+          </div>
+          <br />
+          <div>
+            <a class="btn btn-danger-outline" href="index.html" role="button">index.html</a>
+            <a class="btn btn-danger-outline active" href="index-webTabs.html" role="button">index-webTabs.html</a>
+          </div>
       </div>
 
     </div> <!-- /container -->
@@ -127,43 +132,99 @@
           <div class="otherrow activerow" >
               <ul class="nav nav-tabs" role="tablist" id="myTab">
                   <li class="nav-item">
-                    <a class="nav-link active" href="#home" role="tab" data-toggle="tab" aria-controls="home">Sport</a>
+                      <!--to add or change a category need to change href= and aria controls as well -->
+                    <a class="nav-link tabLarge active" href="#sport" role="tab" data-toggle="tab" aria-controls="sport">Sport</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#profile" role="tab" data-toggle="tab" aria-controls="profile">Arts</a>
+                    <a class="nav-link tabLarge" href="#arts" role="tab" data-toggle="tab" aria-controls="arts">Arts</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#messages" role="tab" data-toggle="tab" aria-controls="messages">Education</a>
+                    <a class="nav-link tabLarge" href="#education" role="tab" data-toggle="tab" aria-controls="education">Education</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#settings" role="tab" data-toggle="tab" aria-controls="settings">Government</a>
+                    <a class="nav-link tabLarge" href="#government" role="tab" data-toggle="tab" aria-controls="government">Government</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#settings" role="tab" data-toggle="tab" aria-controls="settings">Business</a>
+                    <a class="nav-link tabLarge" href="#business" role="tab" data-toggle="tab" aria-controls="business">Business</a>
                   </li>
                 </ul>
 
                 <div class="tab-content" ng-controller="WebsiteController">
-                  <div role="tabpanel" class="tab-pane active" id="home">
-                      <!--<img src="http://www.fillmurray.com/g/900/200"/>-->
+                  <div role="tabpanel" class="tab-pane active" id="sport">
                       <img src="http://www.placecage.com/900/300"/>
-                    <ul class="categoryItems">
-				    <li ng-repeat="website in websiteSport">
-					    <figure class="cap-bot">
-                            <h4>{{ website.title }}</h4>
-                            <img ng-src="{{ website.coverImg }}" class="img-responsive" alt=""/></a>      
-                            <figcaption>
-                                <a class="ghost-button" href="#">Easy mode</a>
-                                <a class="ghost-button" href="#" >Hard mode</a>
-                            </figcaption>
-                        </figure>
-				    </li>
-                    </ul>
+                        <ul class="categoryItems">
+                        <li ng-repeat="sport in websiteSport">
+                            <figure class="cap-bot">
+                                <h4>{{ sport.title }}</h4>
+                                <img ng-src="{{ sport.coverImg }}" class="img-responsive" alt=""/></a>      
+                                <figcaption>
+                                    <a class="ghost-button" href="#">Easy mode</a>
+                                    <a class="ghost-button" href="#" >Hard mode</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        </ul>
                   </div>
-                  <div role="tabpanel" class="tab-pane" id="profile">other</div>
-                  <div role="tabpanel" class="tab-pane" id="messages">stuffs</div>
-                  <div role="tabpanel" class="tab-pane" id="settings">here</div>
-                  <div role="tabpanel" class="tab-pane" id="settings">meows</div>
+                  <div role="tabpanel" class="tab-pane" id="arts">
+                      <img src="http://www.fillmurray.com/g/900/300"/>
+                      <ul class="categoryItems">
+                        <li ng-repeat="art in websiteArts">
+                            <figure class="cap-bot">
+                                <h4>{{ art.title }}</h4>
+                                <img ng-src="{{ art.coverImg }}" class="img-responsive" alt=""/></a>      
+                                <figcaption>
+                                    <a class="ghost-button" href="#">Easy mode</a>
+                                    <a class="ghost-button" href="#" >Hard mode</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        </ul>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="education">
+                      <img src="http://www.fillmurray.com/900/300"/>
+                      <ul class="categoryItems">
+                        <li ng-repeat="edu in websiteEdu">
+                            <figure class="cap-bot">
+                                <h4>{{ edu.title }}</h4>
+                                <img ng-src="{{ edu.coverImg }}" class="img-responsive" alt=""/></a>      
+                                <figcaption>
+                                    <a class="ghost-button" href="#">Easy mode</a>
+                                    <a class="ghost-button" href="#" >Hard mode</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        </ul>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="government">
+                      <img src="https://placekitten.com/g/900/300"/>
+                      <ul class="categoryItems">
+                        <li ng-repeat="gov in websiteGov">
+                            <figure class="cap-bot">
+                                <h4>{{ gov.title }}</h4>
+                                <img ng-src="{{ gov.coverImg }}" class="img-responsive" alt=""/></a>      
+                                <figcaption>
+                                    <a class="ghost-button" href="#">Easy mode</a>
+                                    <a class="ghost-button" href="#" >Hard mode</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        </ul>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="business">
+                      <img src="https://placekitten.com/900/300"/>
+                      <ul class="categoryItems">
+                        <li ng-repeat="business in websiteBusiness">
+                            <figure class="cap-bot">
+                                <h4>{{ business.title }}</h4>
+                                <img ng-src="{{ business.coverImg }}" class="img-responsive" alt=""/></a>      
+                                <figcaption>
+                                    <a class="ghost-button" href="#">Easy mode</a>
+                                    <a class="ghost-button" href="#" >Hard mode</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        </ul>
+                  </div>
                 </div>
 
                 
