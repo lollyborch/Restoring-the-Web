@@ -13,6 +13,21 @@
   }
 }
 
+//border added RTW for containers
+
+.border {
+  border: 1px solid $gray-light;
+  padding: $jumbotron-padding ($jumbotron-padding / 2);
+  margin-bottom: $jumbotron-padding;
+  background-color: $jumbotron-bg;
+  @include border-radius($border-radius-lg);
+}
+
+@include media-breakpoint-up(sm) {
+  .border {
+    padding: ($jumbotron-padding * 1.2) $jumbotron-padding;
+  }
+}
 
 // Fluid container
 //

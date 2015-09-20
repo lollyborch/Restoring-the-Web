@@ -786,6 +786,19 @@ pre code {
   }
 }
 
+.border {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid #818a91;
+  border-radius: 1px;
+}
+
+@media (min-width: 34em) {
+  .border {
+    padding: 2.4rem 2rem;
+  }
+}
+
 .container-fluid {
   padding-right: .9375rem;
   padding-left: .9375rem;
