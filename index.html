@@ -87,12 +87,25 @@
       </div>
 
     </div> <!-- /container -->
-      <!-- categories -->
-      <div class="container-fluid" ng-controller="MainController">
-          <h2 id="categorieslink">Categories go here</h2>          
+      <!-- categories ANGULAR-->
+      <!--<div class="container-fluid" ng-controller="MainController">
+          <h2 id="categorieslink">Choose a category</h2>          
           <div class="otherrow activerow" >
               <a ng-repeat="category in categories" class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="{{ category.coverImg }}"/><br />{{ category.name }}</a>
             <div ng-init="fireEvent()"></div>
+          </div>
+      </div>-->
+      
+      <!-- categories -->
+      <div class="container-fluid" >
+          <h2 id="categorieslink">Choose a category</h2>          
+          <div class="otherrow activerow" >
+              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="http://www.fillmurray.com/g/180/150"/><br />Sport</a>
+              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="http://www.fillmurray.com/g/180/150"/><br />Arts</a>
+              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="http://www.fillmurray.com/g/180/150"/><br />Education</a>
+              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="http://www.fillmurray.com/g/180/150"/><br />Government</a>
+              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="http://www.fillmurray.com/g/180/150"/><br />Business</a>
+            
           </div>
       </div>
       
@@ -129,12 +142,12 @@
         }
     </script>
       
-     <!--change solid or outline button class for categories on click
+     <!--change solid or outline button class for categories on click-->
       <script type="text/javascript">
         $(".btnactive:nth-child(1)").addClass('active');
           console.log('active');
       
-    </script>-->
+    </script>
       
   </body>
 </html>
