@@ -9,12 +9,21 @@
   list-style: none;
 }
 
+//RTW new active class for top nav
+.nav-active{
+    border-bottom: 3px solid $brand-primary;
+}
+
 .nav-link {
   display: inline-block;
 
   @include hover-focus {
     text-decoration: none;
+    
   }
+    &:hover{
+        border-bottom: 3px solid $brand-indigo-700;
+    }
 
   // Disabled state lightens text and removes hover/tab effects
   &.disabled {
