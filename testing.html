@@ -62,7 +62,14 @@
 			//document.getElementById("test").innerHTML = errorList[i].valueOf();		
 		}
 	}
-	
+
+	$.ajax ({
+		type: "GET",
+		url: "cricket.html",
+		success: function() {
+			console.log("test");
+		}
+	});
 </script>
 </head>
 <body>
@@ -70,5 +77,14 @@
 	<button type="button" onclick="validatehtml()">Send Test Data to w3Schools validator</button>
 	<button type="button" onclick="printErrors()">Print errors</button>
 	<p><a href="index.html">Take me home</a></p>
+		<div id="formContainer">
+		<fieldset>
+		<legend>Login Form</legend>
+		<form method="post" action="https://validator.w3.org/nu/" enctype="multipart/form-data">
+			<input id="file" type="text" value="cricket.html"></input>
+			<input type="submit"></input>
+		</fieldset>
+		</form>
+	</div>
 </body>
 </html>
