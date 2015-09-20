@@ -28,32 +28,36 @@
     </script>
 <head>
 <script>
-	$(document).ready(function() {
-		$("button").click(function() {
-			$.get("http://api.trove.nla.gov.au/result?key=jsk1qqntnrj7qbvf&encoding=json&callback=?&zone=picture&sortby=relevance&q=basketball", testing())
-			});
+	var imageArray = new Array;
+	console.log(imageArray);
+	
+	$(document).ready(function cricket() {
+		var url = "http://api.trove.nla.gov.au/result?key=jsk1qqntnrj7qbvf&zone=picture&l-availability=y&q=cricket&encoding=json&n=50"
+		$.ajax({
+			type: "GET",
+			url: url,
+			asynch: false,
+			contentType: "application/json",
+			dataType: "jsonp",
+			success: function(callData) {
+				var recordList = callData.response.zone[0].records.work;
+				for (i = 0; i < recordList.length; i++) {
+					if (recordList[i].id == 17226811) {
+						var cricketImgLink = recordList[i].identifier[0].value;
+						var cricketImg = cricketImgLink + "/representativeImage"
+						imageArray.push(cricketImg);
+						console.log(imageArray);
+						printImg();
+						break;
+					}	
+				}
+			}
 		});
-
-/*
-	function callImages() {
-		var imgUrl = new XMLHttpRequest();
-		console.log(imgUrl);
-		imgUrl.onreadystatechange = function getImg() {
-			if(imgUrl.readyState == 4 && imgUrl.status == 200);
-			console.log(imgUrl.responseText);
-			document.getElementById("results").innerHTML = imgUrl.responseText;
-		}
-		imgUrl.open("GET","http://api.trove.nla.gov.au/result?key=jsk1qqntnrj7qbvf&encoding=json&callback=?&zone=picture&sortby=relevance&q=basketball");
-		//imgUrl.setRequestHeader("Content-Type","application/javascript");	
-		//imgUrl.setRequestHeader("Accept", "application/javascript")
-		var test = imgUrl.responseText;
-		console.log(test);
-		imgUrl.send();
-	}
-*/
-	function testing() {
-		console.log("Callback Worked");
-	}
+	});
+	function printImg() {
+		$(testing).html("<img src="+imageArray+" height=500 width=500></img>");
+	};
+	
 </script>
 </head>
 <body>
