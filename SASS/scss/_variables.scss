@@ -183,6 +183,10 @@ $headings-color:             inherit !default;
 $lead-font-size:             1.25rem !default;
 $lead-font-weight:           300 !default;
 
+$para-font-size:             1rem !default;
+$para-font-weight:           300 !default;
+$para-font-family:           $font-family-sans-serif !default;
+
 $text-muted:                  $gray-light !default;
 
 $abbr-border-color:           $gray-light !default;
@@ -555,8 +559,9 @@ $alert-danger-border:         $state-danger-border !default;
 
 // Progress bars
 
-$progress-bg:                 #f5f5f5 !default;
-$progress-bar-color:          #fff !default;
+$progress-bg:                 $brand-indigo-300 !default;
+//$progress-bg:                 #f5f5f5 !default;
+$progress-bar-color:          $brand-indigo-900 !default;
 $progress-border-radius:      $border-radius !default;
 
 $progress-bar-bg:             $brand-primary !default;
@@ -640,3 +645,6 @@ $pre-bg:                      #f7f7f9 !default;
 $pre-color:                   $gray-dark !default;
 $pre-border-color:            #ccc !default;
 $pre-scrollable-max-height:   340px !default;
+
+//Category
+$category-font-colour:      #fff;

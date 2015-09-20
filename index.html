@@ -9,11 +9,11 @@
     <title>Web Historians</title>
 
 	<!--Stylesheet
-	<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css">
 <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">-->
-    
-    
+
       <link href="SASS/dist/css/bootstrap.min.css" rel="stylesheet">
+      
       
     <!--Google Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
@@ -88,6 +88,15 @@
       <div class="jumbotron">
         <h2>How do I start?</h2>
           <p>put infographic/illustrated explanation here</p>
+          <h3>Here is an example of a progress bar we can use from bootstrap</h3>
+          <progress class="progress" value="83" max="137">
+              <!--the div is for IE9 support-->
+          <div class="progress">
+            <span class="progress-bar" style="width: 25%;">25%</span>
+          </div>
+              
+        </progress>
+          <p class="text-right">83/137 Errors fixed</p>
         <p><a href="testing.html">Link to HTML API</a></p>
           <p><a href="mementoAPI.html">Link to the MementoAPI</a></p>
           <p><a href="troveapi.html">Link to the troveAPI</a></p>
@@ -114,13 +123,86 @@
       <div class="container-fluid" >
           <h2 id="categorieslink">Choose a category</h2>          
           <div class="otherrow activerow" >
-              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="http://www.fillmurray.com/g/180/150"/><br />Sport</a>
-              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="http://www.fillmurray.com/g/180/150"/><br />Arts</a>
-              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="http://www.fillmurray.com/g/180/150"/><br />Education</a>
-              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="http://www.fillmurray.com/g/180/150"/><br />Government</a>
-              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="http://www.fillmurray.com/g/180/150"/><br />Business</a>
+              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/150/120"/><br />Sport</a>
+              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/150/120"/><br />Arts</a>
+              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/150/120"/><br />Education</a>
+              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/150/120"/><br />Government</a>
+              <a class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img src="http://www.fillmurray.com/g/150/120"/><br />Business</a>
             
           </div>
+    	<!--regular html
+        <article class='row'> 
+        	<div class='col-md-12'>
+
+	               <ul class="categoryItems">
+				    <li>
+					    <figure class="cap-bot">
+                            <h4>Website 1</h4>
+                            <img src="http://www.fillmurray.com/g/250/150" class="img-responsive" alt=""/></a>      
+                            <figcaption>
+                                <a class="ghost-button" href="#">Easy mode</a>
+                                <a class="ghost-button" href="#" >Hard mode</a>
+                            </figcaption>
+                        </figure>
+				    </li><li>
+					    <figure class="cap-bot">
+                            <h4>Website 1</h4>
+                            <img src="http://www.fillmurray.com/g/250/150" class="img-responsive" alt=""/></a>      
+                            <figcaption>
+                                
+                                <a class="ghost-button" href="#">Easy mode</a>
+                                <a class="ghost-button" href="#" >Hard mode</a>
+                            </figcaption>
+                        </figure>
+				    </li><li>
+					    <figure class="cap-bot">
+                            <h4>Website 1</h4>
+                            <img src="http://www.fillmurray.com/g/250/150" class="img-responsive" alt=""/></a>      
+                            <figcaption>
+                                
+                                <a class="ghost-button" href="#">Easy mode</a>
+                                <a class="ghost-button" href="#" >Hard mode</a>
+                            </figcaption>
+                        </figure>
+				    </li><li>
+					    <figure class="cap-bot">
+                            <h4>Website 1</h4>
+                            <img src="http://www.fillmurray.com/g/250/150" class="img-responsive" alt=""/></a>      
+                            <figcaption>
+                                
+                                <a class="ghost-button" href="#">Easy mode</a>
+                                <a class="ghost-button" href="#" >Hard mode</a>
+                            </figcaption>
+                        </figure>
+				    </li>
+            
+          </article>-->
+          <!--ANGULAR-->
+          <!--<div class="container-fluid" ng-controller="MainController">
+          <h2 id="categorieslink">Choose a category</h2>          
+          <div class="otherrow activerow" >
+              <a ng-repeat="category in categories" class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="{{ category.coverImg }}"/><br />{{ category.name }}</a>
+            <div ng-init="fireEvent()"></div>
+          </div>
+      </div>-->
+            <article class='row' ng-controller="WebsiteController"> 
+        	   <div class='col-md-12'>
+
+	               <ul class="categoryItems">
+				    <li ng-repeat="website in websiteSport">
+					    <figure class="cap-bot">
+                            <h4>{{ website.title }}</h4>
+                            <img ng-src="{{ website.coverImg }}" class="img-responsive" alt=""/></a>      
+                            <figcaption>
+                                <a class="ghost-button" href="#">Easy mode</a>
+                                <a class="ghost-button" href="#" >Hard mode</a>
+                            </figcaption>
+                        </figure>
+				    </li>
+            
+          </article>
+            
+
       </div>
       
       <!-- footer -->
@@ -141,6 +223,7 @@
 
     <!-- Angular Controllers -->
     <script src="js/MainController.js"></script>
+    <script src="js/WebsiteController.js"></script>    
     
     <!-- adapted from http://stackoverflow.com/questions/15645626/change-class-onclick-using-jquery -->  
     <script type="text/javascript">
