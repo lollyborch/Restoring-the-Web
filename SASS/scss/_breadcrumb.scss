@@ -4,6 +4,7 @@
   list-style: none;
   background-color: $breadcrumb-bg;
   @include border-radius($border-radius);
+  font-size: 12px;    
 
   > li {
     display: inline-block;
