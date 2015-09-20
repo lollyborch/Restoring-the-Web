@@ -1,42 +1,74 @@
 <!DOCTYPE html>
 <html>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web Historians</title>
+
+	<!--Stylesheet-->
+	<link rel="stylesheet" href="css/style.css">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/roboto.min.css" rel="stylesheet">
+    <link href="css/material-fullpalette.min.css" rel="stylesheet">
+    <link href="css/ripples.min.css" rel="stylesheet">
+    <link href="css/snackbar.min.css" rel="stylesheet">
+    
+    <!-- HTML imports -->
+    <!--<link rel="import" href="header.html"> -->
+	
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- scripts from http://getbootstrap.com  document.body.appendChild(el.cloneNode(true));-->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- adds active class to particular child in nav.  CHANGE THIS FOR EACH PAGE -->
+    <script type="text/javascript">
+        $(".activate li:nth-child(1)").addClass('active');
+    </script>
 <head>
 <script>
-/* 
-This code takes heavy reference from both:
-http://www.w3schools.com/ajax/ajax_xmlhttprequest_send.asp
-https://github.com/validator/validator/wiki/Service:-Input:-POST-body
-*/
-	// This function will generate the HTTP request to the validator API
-	function validatehtml() {
-		// Initialize the request object and saves it in the variable html
-		var html = new XMLHttpRequest(); 
-			html.onreadystatechange = function showErrors() {
-			// Make sure that the page has loaded then put the response into the Div
-			if (html.readyState==4 && html.status==200) {
-				document.getElementById("test").innerHTML = html.responseText;
-				var errors = html.responseText;
-				console.log(errors);
-				var test = JSON.parse(errors);
-				printerrors(test);
-			} 
+	var errorList = new Array;
+
+	$(document).ready(function getErrors() {
+		var url = "https://validator.w3.org/nu/?doc=http://web.archive.org/web/20050105050831/http://www.cricket.com.au/&out=json";
+		$.ajax ({
+			type:"GET",
+			url: url,
+			crossDomain: true,
+			contentType: "application/json",
+			dataType: "json",
+			success: function(response) {
+				errorObjects = response.messages;
+				for (i = 0; i < errorObjects.length; i++) {
+					var error = errorObjects[i];
+					if (error.type == "error") {
+						var errorDetails = [error.message,error.lastLine,error.firstColumn/*,error.extract*/];
+						errorList.push(errorDetails);
+					}					
+					if (error.type == "info" && error.subType == "warning") {
+						var warning = [error.message,error.lastLine,error.firstColumn/*,error.extract*/];
+						errorList.push(warning);
+					}
+				}
+			//printErrors();
+			}
+		});
+	});
+	
+	function printErrors() {
+		for (i = 0; i < errorList.length; i++) {
+			$(test).append("<p>" + errorList[i][0] + " From line " +errorList[i][1] + " Column " +errorList[i][2] + "</p>");
+			//document.getElementById("test").innerHTML = errorList[i].valueOf();		
 		}
-		
-		// Send request to validator API using POST request JSON object response Async set to true
-		html.open("POST","https://validator.w3.org/nu/?out=json",true);
-		html.setRequestHeader("Content-Type","text/html; charset=utf-8");
-		html.send("<div><p><img><b>");
 	}
 	
-	function printerrors(test) {
-		console.log(test);
-	}
 </script>
 </head>
 <body>
 	<div id="test">"testspace"</div>
 	<button type="button" onclick="validatehtml()">Send Test Data to w3Schools validator</button>
-	<button type="button" onclick="printerrors()">Print errors</button>
+	<button type="button" onclick="printErrors()">Print errors</button>
 	<p><a href="index.html">Take me home</a></p>
 </body>
 </html>
