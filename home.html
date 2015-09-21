@@ -31,97 +31,93 @@
    <!-- <script src="js/active.js"></script>-->
       
   </head>
-  <body ng-app="myApp">
+<body ng-app="myApp">
       
-    <header class="container">
-            
-      <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
-      <nav class="navbar navbar-default navbar-static-top">
-      <a class="navbar-brand brand-heading" href="index.html">web historians</a>   
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-            <!--add nav-active to current page-->
-          <a class="nav-link nav-active" href="home.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="my_restorations.html">My Restorations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Gallery</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Getting started</a>
-            <a class="dropdown-item" href="#">Help</a>
-            <a class="dropdown-item" href="#">Who we are</a>
-            </div>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Login/Logout</a>
-            <a class="dropdown-item" href="#">Setting</a>
-            <a class="dropdown-item" href="#">Sign-up</a>
-            </div>
-        </li>
+        <!--header start-->
+        <header class="container">
 
-      </ul>
-          
-          
-    </nav>
-    </header>
-      <!--breadcrumbs for pages NOT HOMEPAGE index.html
-    <div class="container">
+            <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
+            <nav class="navbar navbar-default navbar-static-top">
+                <a class="navbar-brand brand-heading" href="home.html">web historians</a>   
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                    <!--add nav-active to current page-->
+                        <a class="nav-link nav-active" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="my_restorations.html">My Restorations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="gettingstarted.html" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="gettingstarted.html">Getting started</a>
+                            <a class="dropdown-item" href="help.html">Help</a>
+                            <a class="dropdown-item" href="whoweare.html">Who we are</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profile.html" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="profile.html">Profile</a>
+                            <a class="dropdown-item" href="index.html">Log out</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--header end-->
+      
+      
+        <!--breadcrumbs for pages NOT HOMEPAGE index.html
+        <div class="container">
         <ol class="breadcrumb">
-          <li class="active">Gallery</li>
+        <li class="active">Gallery</li>
+        </ol>-->
+
+        <ol class="breadcrumb">
+            <li><a href="#">About</a></li>
+            <li class="active">Who we are</li>
         </ol>
         
-        <ol class="breadcrumb">
-          <li><a href="#">About</a></li>
-          <li class="active">Getting started</li>
-        </ol>
-      
-      </div>-->
-
-
-    <div class="container">
-
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h2>How do I start?</h2>
-            <p><a title="Home Page Instruction" class="zoom" data-title="Website Title" data-type="image">
-                <img src="images/Home_Infographic.png" alt="Home Page Instruction" height="470" width="1062" />
-                <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a></p>
-          <h3>Here is an example of a progress bar we can use from bootstrap</h3>
-          <progress class="progress" value="83" max="137">
-              <!--the div is for IE9 support-->
-          <div class="progress">
-            <span class="progress-bar" style="width: 25%;">25%</span>
-          </div>
-              
-        </progress>
-          <p class="text-right">83/137 Errors fixed</p>
-          <div>
-          <a class="btn btn-primary-outline" href="testing.html" role="button">Link to HTML API</a>
-          <a class="btn btn-primary-outline" href="mementoAPI.html" role="button">Link to the MementoAPI</a>
-          <a class="btn btn-primary-outline" href="troveapi.html" role="button">Link to trove API</a>
-          <a class="btn btn-primary-outline" href="html_editor.html" role="button">Link to HTML editor</a>
-              </div>
-          <br />
-          <div>
-            <a class="btn btn-lg btn-primary" href="#" role="button">Log in &raquo;</a>
-          <a class="btn btn-lg btn-primary" href="#" role="button">Sign up &raquo;</a>
-          
-          </div>
-          <br />
-          <div>
-            <a class="btn btn-danger-outline " href="index.html" role="button">index.html - Landing page</a>
-            <a class="btn btn-danger-outline active" href="home.html" role="button">Home page</a>
-            <a class="btn btn-danger-outline " href="index-fullwidth-square.html" role="button">Full width/image categorie</a>
-          </div>
-      </div>
+        <!-- Getting started container -->
+        <div class="container">
+            <div class="jumbotron">
+                <h2>How do I start?</h2>
+                <p><a title="Home Page Instruction" class="zoom" data-title="Website Title" data-type="image">
+                    <img src="images/Home_Infographic.png" alt="Home Page Instruction" height="470" width="1062" />
+                    <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
+                    </a>
+                </p>
+                <h3>Here is an example of a progress bar we can use from bootstrap</h3>
+                <progress class="progress" value="83" max="137">
+                    <!--the div is for IE9 support-->
+                    <div class="progress">
+                    <span class="progress-bar" style="width: 25%;">25%</span>
+                    </div>
+                </progress>
+                <p class="text-right">83/137 Errors fixed</p>
+                <div>
+                    <a class="btn btn-primary-outline" href="testing.html" role="button">Link to HTML API</a>
+                    <a class="btn btn-primary-outline" href="mementoAPI.html" role="button">Link to the MementoAPI</a>
+                    <a class="btn btn-primary-outline" href="troveapi.html" role="button">Link to trove API</a>
+                    <a class="btn btn-primary-outline" href="html_editor.html" role="button">Link to HTML editor</a>
+                </div>
+                <br />
+                <div>
+                    <a class="btn btn-lg btn-primary" href="#" role="button">Log in &raquo;</a>
+                    <a class="btn btn-lg btn-primary" href="#" role="button">Sign up &raquo;</a>
+                </div>
+                <br />
+                <div>
+                    <a class="btn btn-danger-outline " href="index.html" role="button">index.html - Landing page</a>
+                    <a class="btn btn-danger-outline active" href="home.html" role="button">Home page</a>
+                    <a class="btn btn-danger-outline " href="index-fullwidth-square.html" role="button">Full width/image categorie</a>
+                </div>
+            </div>
+        </div> 
 
     </div> <!-- /container -->
       <!-- categories ANGULAR-->

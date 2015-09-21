@@ -146,3 +146,18 @@
     margin-top:10px;
   }   
 }
+
+.profilepic {
+    width: 100px;
+	height: 100px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+    margin:15px 20px 10px 0px;
+}
+
+.profiles {
+    display:inline;
+    margin-right: 50px;
+    
+}

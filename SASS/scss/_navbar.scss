@@ -76,6 +76,7 @@
   padding-top:    .25rem;
   padding-bottom: .25rem;
   font-size: $font-size-xl;
+  margin-left:-1rem;
 
   @include hover-focus {
     text-decoration: none;

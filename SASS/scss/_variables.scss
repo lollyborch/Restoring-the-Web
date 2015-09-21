@@ -155,11 +155,11 @@ $font-size-lg:               1.25rem !default;
 $font-size-sm:               .85rem !default;
 $font-size-xs:               .75rem !default;
 
-$font-size-h1:               5rem !default;
-$font-size-h2:               2rem !default;
-$font-size-h3:               1.75rem !default;
-$font-size-h4:               1.5rem !default;
-$font-size-h5:               1.25rem !default;
+$font-size-h1:               2.8rem !default;
+$font-size-h2:               1.9rem !default;
+$font-size-h3:               1.5rem !default;
+$font-size-h4:               1.3rem !default;
+$font-size-h5:               1.2rem !default;
 $font-size-h6:               1rem !default;
 
 $display1-size:               3.5rem !default;
@@ -174,7 +174,8 @@ $display4-weight:             300 !default;
 
 $line-height:                1.5 !default;
 
-$headings-margin-bottom:     ($spacer / 2) !default;
+$headings-margin-bottom:     ($spacer / 4) !default;
+//$headings-margin-bottom:     0 !default;
 $headings-font-family:       inherit !default;
 $headings-font-weight:       500 !default;
 $headings-line-height:       1.1 !default;
@@ -605,7 +606,7 @@ $thumbnail-border-radius:     $border-radius !default;
 $breadcrumb-padding-vertical:   .25rem !default;
 $breadcrumb-padding-horizontal: .5rem !default;
 
-$breadcrumb-bg:                 $gray-lighter !default;
+$breadcrumb-bg:                 $gray-lightest !default;
 $breadcrumb-divider-color:      $gray-light !default;
 $breadcrumb-active-color:       $gray-light !default;
 $breadcrumb-divider:            "/" !default;
