@@ -382,18 +382,18 @@ $navbar-light-disabled-color:       rgba(0,0,0,.15);
 // Navs
 
 $nav-link-padding:                          .5em 1em !default;
-$nav-link-hover-bg:                         $gray-lighter !default;
+$nav-link-hover-bg:                         $brand-indigo-300 !default;
 
 $nav-disabled-link-color:                   $gray-light !default;
 $nav-disabled-link-hover-color:             $gray-light !default;
 
-$nav-tabs-border-color:                     #ddd !default;
+$nav-tabs-border-color:                     $brand-primary !default;
 
-$nav-tabs-link-hover-border-color:          $gray-lighter !default;
+$nav-tabs-link-hover-border-color:          $brand-indigo-300 !default;
 
-$nav-tabs-active-link-hover-bg:             $body-bg !default;
-$nav-tabs-active-link-hover-color:          $gray !default;
-$nav-tabs-active-link-hover-border-color:   #ddd !default;
+$nav-tabs-active-link-hover-bg:             $brand-primary !default;
+$nav-tabs-active-link-hover-color:          $body-bg !default;
+$nav-tabs-active-link-hover-border-color:   $brand-primary !default;
 
 $nav-tabs-justified-link-border-color:            #ddd !default;
 $nav-tabs-justified-active-link-border-color:     $body-bg !default;

@@ -78,40 +78,15 @@
         <!-- Getting started container -->
         <div class="container">
             <div class="jumbotron">
-                <h2>How do I start?</h2>
-                <p>
-                    <img src="images/Home_Infographic.png" alt="Home Page Instruction" height="470" width="1062" />
-                    </a>
-                </p>
-                <h3>Here is an example of a progress bar we can use from bootstrap</h3>
-                <progress class="progress" value="83" max="137">
-                    <!--the div is for IE9 support-->
-                    <div class="progress">
-                    <span class="progress-bar" style="width: 25%;">25%</span>
-                    </div>
-                </progress>
-                <p class="text-right">83/137 Errors fixed</p>
-                <div>
-                    <a class="btn btn-primary-outline" href="testing.html" role="button">Link to HTML API</a>
-                    <a class="btn btn-primary-outline" href="mementoAPI.html" role="button">Link to the MementoAPI</a>
-                    <a class="btn btn-primary-outline" href="troveapi.html" role="button">Link to trove API</a>
-                    <a class="btn btn-primary-outline" href="html_editor.html" role="button">Link to HTML editor</a>
-                </div>
+                <h1>How do I start?</h1>
                 <br />
-                <div>
-                    <a class="btn btn-lg btn-primary" href="#" role="button">Log in &raquo;</a>
-                    <a class="btn btn-lg btn-primary" href="#" role="button">Sign up &raquo;</a>
-                </div>
+                <img class="img-responsive" src="images/Home_Infographic.png" alt="Home Page Instruction" width="100%" />
                 <br />
-                <div>
-                    <a class="btn btn-danger-outline " href="index.html" role="button">index.html - Landing page</a>
-                    <a class="btn btn-danger-outline active" href="home.html" role="button">Home page</a>
-                    <a class="btn btn-danger-outline " href="index-fullwidth-square.html" role="button">Full width/image categorie</a>
-                </div>
+                <p>To find out more about Web Historians, view <a href="gettingstarted.html">Getting started</a></p>   
             </div>
         </div> 
 
-    </div> <!-- /container -->
+ <!-- /container -->
       <!-- categories ANGULAR-->
       <!--<div class="container" ng-controller="MainController">
           <h2 id="categorieslink">Choose a category</h2>          
@@ -123,7 +98,8 @@
       
       <!-- categories -->
       <div class="container" >
-          <h2 id="categorieslink">Choose a category</h2>          
+          <h2 id="categorieslink">Choose a category</h2>   
+          <br />
           <div class="otherrow activerow" >
               <ul class="nav nav-tabs" role="tablist" id="myTab">
                   <li class="nav-item">
@@ -139,104 +115,93 @@
                   <li class="nav-item">
                     <a class="nav-link tabLarge" href="#government" role="tab" data-toggle="tab" aria-controls="government">Government</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link tabLarge" href="#business" role="tab" data-toggle="tab" aria-controls="business">Business</a>
-                  </li>
                 </ul>
 
                 <div class="tab-content" ng-controller="WebsiteController">
                   <div role="tabpanel" class="tab-pane active" id="sport">
-                      <img src="http://www.placecage.com/900/300"/>
-                        <ul class="categoryItems">
-                        <li ng-repeat="sport in websiteSport">
-                            <figure class="cap-bot">
-                                <h4>{{ sport.title }}</h4>
-                                <img ng-src="{{ sport.coverImg }}" class="img-responsive" alt=""/></a>      
+                      <img src="http://www.placecage.com/900/200" width="100%" class="img-responsive"/>
+                      <br />
+                      <div class="row">
+                          <div class="col-md-4" ng-repeat="sport in websiteSport">
+                            
+                            <h4 class="text-center">{{ sport.title }}</h4>
+                             <figure class="cap-bot">   
+                                <img ng-src="{{ sport.coverImg }}" class="img-responsive" alt="" width="100%" class="img-responsive"/></a>      
                                 <figcaption>
-                                    <a class="ghost-button" href="#">Easy mode</a>
-                                    <a class="ghost-button" href="#" >Hard mode</a>
+                                    <a class="ghost-button" href="working_panel.html">Easy mode</a>
+                                    <a class="ghost-button" href="working_panel.html" >Hard mode</a>
                                 </figcaption>
                             </figure>
-                        </li>
-                        </ul>
+                          </div>
+                      </div>
+                    
                   </div>
                   <div role="tabpanel" class="tab-pane" id="arts">
-                      <img src="http://www.fillmurray.com/g/900/300"/>
-                      <ul class="categoryItems">
-                        <li ng-repeat="art in websiteArts">
-                            <figure class="cap-bot">
-                                <h4>{{ art.title }}</h4>
-                                <img ng-src="{{ art.coverImg }}" class="img-responsive" alt=""/></a>      
+                      <img src="http://www.fillmurray.com/g/900/200" width="100%" class="img-responsive"/>
+                      <br />
+                      <div class="row">
+                          <div class="col-md-4" ng-repeat="art in websiteArts">
+                            
+                            <h4 class="text-center">{{ art.title }}</h4>
+                             <figure class="cap-bot">   
+                                <img ng-src="{{ art.coverImg }}" class="img-responsive" alt="" width="100%" class="img-responsive"/></a>      
                                 <figcaption>
-                                    <a class="ghost-button" href="#">Easy mode</a>
-                                    <a class="ghost-button" href="#" >Hard mode</a>
+                                    <a class="ghost-button" href="working_panel.html">Easy mode</a>
+                                    <a class="ghost-button" href="working_panel.html" >Hard mode</a>
                                 </figcaption>
                             </figure>
-                        </li>
-                        </ul>
+                          </div>
+                      </div>
+          
                   </div>
                   <div role="tabpanel" class="tab-pane" id="education">
-                      <img src="http://www.fillmurray.com/900/300"/>
-                      <ul class="categoryItems">
-                        <li ng-repeat="edu in websiteEdu">
-                            <figure class="cap-bot">
-                                <h4>{{ edu.title }}</h4>
-                                <img ng-src="{{ edu.coverImg }}" class="img-responsive" alt=""/></a>      
+                      <img src="http://www.fillmurray.com/900/200" width="100%" class="img-responsive"/>
+                      <br />
+                      <div class="row">
+                          <div class="col-md-4" ng-repeat="edu in websiteEdu">
+                            
+                            <h4 class="text-center">{{ edu.title }}</h4>
+                            <figure class="cap-bot">    
+                                <img ng-src="{{ edu.coverImg }}" class="img-responsive" alt="" width="100%" class="img-responsive"/></a>      
                                 <figcaption>
-                                    <a class="ghost-button" href="#">Easy mode</a>
-                                    <a class="ghost-button" href="#" >Hard mode</a>
+                                    <a class="ghost-button" href="working_panel.html">Easy mode</a>
+                                    <a class="ghost-button" href="working_panel.html" >Hard mode</a>
                                 </figcaption>
                             </figure>
-                        </li>
-                        </ul>
+                          </div>
+                      </div>
+                      
                   </div>
                   <div role="tabpanel" class="tab-pane" id="government">
-                      <img src="https://placekitten.com/g/900/300"/>
-                      <ul class="categoryItems">
-                        <li ng-repeat="gov in websiteGov">
+                      <img src="https://placekitten.com/g/900/200" width="100%" class="img-responsive"/>
+                      <br />
+                      <div class="row">
+                          <div class="col-md-4" ng-repeat="gov in websiteGov">
+                            
+                            <h4 class="text-center">{{ gov.title }}</h4>
                             <figure class="cap-bot">
-                                <h4>{{ gov.title }}</h4>
-                                <img ng-src="{{ gov.coverImg }}" class="img-responsive" alt=""/></a>      
+                                
+                                <img ng-src="{{ gov.coverImg }}" class="img-responsive" alt="" width="100%" class="img-responsive"/></a>      
                                 <figcaption>
-                                    <a class="ghost-button" href="#">Easy mode</a>
-                                    <a class="ghost-button" href="#" >Hard mode</a>
+                                    <a class="ghost-button" href="working_panel.html">Easy mode</a>
+                                    <a class="ghost-button" href="working_panel.html" >Hard mode</a>
                                 </figcaption>
                             </figure>
-                        </li>
-                        </ul>
-                  </div>
-                  <div role="tabpanel" class="tab-pane" id="business">
-                      <img src="https://placekitten.com/900/300"/>
-                      <ul class="categoryItems">
-                        <li ng-repeat="business in websiteBusiness">
-                            <figure class="cap-bot">
-                                <h4>{{ business.title }}</h4>
-                                <img ng-src="{{ business.coverImg }}" class="img-responsive" alt=""/></a>      
-                                <figcaption>
-                                    <a class="ghost-button" href="#">Easy mode</a>
-                                    <a class="ghost-button" href="#" >Hard mode</a>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        </ul>
+                          </div>
+                      </div>
                   </div>
                 </div>
-
-                
-              
             
           </div>
-          
-            
 
       </div>
       
       <!-- footer -->
-      <div class="container">
-          <div class="jumbotron">
-            <h2>Footer</h2>
+        <div class="container">
+          <div class="otherrow">
+            <a href="whoweare.html" class="small">&copy; Restoring the web</a>
           </div>
-      </div>
+        </div>
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

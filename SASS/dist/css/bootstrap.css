@@ -3645,7 +3645,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #3f51b5;
 }
 
 .nav-tabs:before,
@@ -3676,7 +3676,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
-  border-color: #eceeef #eceeef #ddd;
+  border-color: #7986cb #7986cb #3f51b5;
 }
 
 .nav-tabs .nav-link.disabled,
@@ -3693,9 +3693,9 @@ input[type="button"].btn-block {
 .nav-tabs .nav-item.open .nav-link,
 .nav-tabs .nav-item.open .nav-link:focus,
 .nav-tabs .nav-item.open .nav-link:hover {
-  color: #55595c;
-  background-color: #fafafa;
-  border-color: #ddd #ddd transparent;
+  color: #fafafa;
+  background-color: #3f51b5;
+  border-color: #3f51b5 #3f51b5 transparent;
 }
 
 .nav-pills .nav-item {
@@ -4185,7 +4185,6 @@ input[type="button"].btn-block {
   margin-bottom: 1rem;
   font-size: 12px;
   list-style: none;
-  background-color: #f7f7f9;
   border-radius: 1px;
 }
 
@@ -5164,12 +5163,15 @@ figure {
 
 figcaption {
   position: absolute;
+  right: 0;
   bottom: 0;
-  left: -30%;
-  width: 100%;
-  height: 150px;
+  bottom: 0;
+  left: 0;
+  height: 100%;
   padding: 10px 20px;
+  margin: 0;
   color: white;
+  text-align: center;
   background: #3f51b5;
   opacity: 0;
   -webkit-transition: all .4s ease;
@@ -5178,14 +5180,12 @@ figcaption {
 }
 
 figure:hover figcaption {
-  left: 0;
   background: #3f51b5;
   opacity: 1;
 }
 
 .cap-bot figcaption {
   bottom: -20%;
-  left: 0;
 }
 
 .cap-bot:hover figcaption {
@@ -5201,7 +5201,7 @@ figure:hover:before {
   display: inline-block;
   width: 100px;
   padding: 8px;
-  margin-top: 25px;
+  margin-top: 20%;
   color: #fff;
   text-align: center;
   text-decoration: none;
