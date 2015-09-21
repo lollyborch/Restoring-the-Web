@@ -45,36 +45,25 @@
   <body>
 
     <div class="headers clearfix">
-      <div class="header pull-left">Html Editor</div>
+      <div class="header pull-left">Validator</div>
       <div class="header pull-right">Preview</div>
+      </div>
     </div>
+    <div class="item-container">
+      <div id="validator" class="validator-section"><textarea rows="9" cols="82"></textarea><button>Validate</button></div>
 
+      <iframe id="preview" class="preview-section"></iframe>
+    </div>  
 
-
+    <div class="headers clearfix">
+      <div class="header pull-left">Html Editor</div>
+    </div>
 
     <div class="news-item-container">
-      <div class="editor-section-wrapper">
-        <div class="editor-controls">
-          <div class="editor-controls-toggle">
-            <i class="fa fa-chevron-down"></i>
-          </div>
-          <div class="btn-group control-buttons">
-            <div class="btn btn-default bolded" data-action="bold">B</div>
-            <div class="btn btn-default underlined" data-action="underline">U</div>
-            <div class="btn btn-default italic" data-action="italic">I</div>
-          </div>
-        </div>
-        <div id="editor" class="editor-section"></div>
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h3>validator</h3>
-            <button class="header">Validate</button>
-          </div>
-        </div>
-      </div>
-      <iframe id="preview" class="editor-section"></iframe>
+        <div id="editor" class="preview-section"></div>
     </div>
-    <div class="bottom-controls"></div>
+
+      
 
 
 
