@@ -73,7 +73,7 @@ $enable-hover-media-query:  false !default;
 // Control the default styling of most Bootstrap elements by modifying these
 // variables. Mostly focused on spacing.
 
-$spacer:                     1rem !default;
+$spacer:                     1.5rem !default;
 $spacer-x:                   $spacer !default;
 $spacer-y:                   $spacer !default;
 $border-width:               .0625rem !default;
@@ -174,7 +174,7 @@ $display4-weight:             300 !default;
 
 $line-height:                1.5 !default;
 
-$headings-margin-bottom:     ($spacer / 4) !default;
+$headings-margin-bottom:     ($spacer / 2) !default;
 //$headings-margin-bottom:     0 !default;
 $headings-font-family:       inherit !default;
 $headings-font-weight:       500 !default;
