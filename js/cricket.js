@@ -3,8 +3,15 @@ var cricketHTML = document.getElementById("preview")
 var errorList = new Array();
 var test = $(validator).find("textarea");
 var postData = cricketHTML.contentDocument.body.innerHTML;
+var validate;
+var i = 0;
 
-$.ajax ({
+$(document).ready(function(){
+	validate();
+});
+
+function validate() {
+	$.ajax ({
 	type: "POST",
 	url: "https://validator.w3.org/nu/?out=json",
 	data: postData,
@@ -24,18 +31,19 @@ $.ajax ({
 			}
 		console.log(errorList);
 		console.log(errorList.length);
+		console.log(i);
 		for (i = 0; i < errorList.length; i++) {
-			console.log(test[0]);
-			test.innerHTML = "Spoons";
 			$(test).append(errorList[i][0] + " From line " +errorList[i][1] + " Column " +errorList[i][2] + "\n");
 			//document.getElementById("test").innerHTML = errorList[i].valueOf();		
 			}
 		}
-});
+	})
+};
 
-/*	function printErrors(response) {
-		console.log(response);
+function printErrors() {
 		console.log("test");
-		var test = $(validator).find("textarea");
-		test.html(response);
-	}*/
+		i = 0;
+		errorList = new Array();
+		$(test).detach();
+		validate();
+	}
