@@ -59,6 +59,5 @@ testMarkup += "<\/tbody><\/table>\n";
   setupEvents();
 
 
-
   $(window).trigger('resize');
 }());
