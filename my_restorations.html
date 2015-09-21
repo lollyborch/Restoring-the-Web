@@ -37,44 +37,46 @@
   </head>
   <body ng-app="myApp">
       
-    <header class="container">
-            
-      <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
-      <nav class="navbar navbar-default navbar-static-top">
-      <a class="navbar-brand brand-heading" href="index.html">web historians</a>   
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-            <!--add nav-active to current page-->
-          <a class="nav-link " href="home.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-active" href="my_restorations.html">My Restorations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Gallery</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Getting started</a>
-            <a class="dropdown-item" href="#">Help</a>
-            <a class="dropdown-item" href="#">Who we are</a>
-            </div>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Login/Logout</a>
-            <a class="dropdown-item" href="#">Setting</a>
-            <a class="dropdown-item" href="#">Sign-up</a>
-            </div>
-        </li>
+    <!--header start-->
+        <header class="container">
 
-      </ul>
-          
-          
-    </nav>
-    </header>
+            <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
+            <nav class="navbar navbar-default navbar-static-top">
+                <a class="navbar-brand brand-heading" href="home.html">web historians</a>   
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                    <!--add nav-active to current page-->
+                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-active" href="my_restorations.html">My Restorations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="gettingstarted.html" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="gettingstarted.html">Getting started</a>
+                            <a class="dropdown-item" href="help.html">Help</a>
+                            <a class="dropdown-item" href="whoweare.html">Who we are</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+                <img class="nav-profilepic" src="profile/profilepic.jpg"/>
+                <ul class="nav nav-pills pull-right">
+                    <li class="nav-item dropdown"> 
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profile.html" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="profile.html">Profile</a>
+                            <a class="dropdown-item" href="index.html">Log out</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--header end-->
       <!--breadcrumbs for pages NOT HOMEPAGE index.html
     <div class="container">
         <ol class="breadcrumb">
