@@ -5184,6 +5184,7 @@ figcaption {
        -o-transition: all .4s ease;
 }
 
+/*Change this to change the background colour of hovering effect*/
 figure:hover figcaption {
   background: #3f51b5;
   opacity: 1;
