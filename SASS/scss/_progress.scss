@@ -7,7 +7,9 @@
   to    { background-position: 0 0; }
 }
 
-
+.progress-text {
+    font-size:0.8rem;
+}
 //
 // Basic progress bar
 //
@@ -15,8 +17,8 @@
 .progress {
   display: block;
   width: 100%;
-  height: $spacer-y; // todo: make a new var for this
-  margin-bottom: $spacer-y;
+  height: $progress-bar-height; // todo: make a new var for this
+  margin-bottom: ($progress-bar-height/2);
 }
 .progress[value] {
   // IE10 uses `color` to set the bar background-color
