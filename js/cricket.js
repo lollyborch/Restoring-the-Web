@@ -1,7 +1,7 @@
 //var cricketHTML = $("#preview").contents();
 var cricketHTML = document.getElementById("preview")
 var errorList = new Array();
-var test = $(validator).find("textarea");
+var errorListContainer = $(validator).find("textarea");
 var postData = cricketHTML.contentDocument.body.innerHTML;
 var validate;
 var i = 0;
@@ -33,7 +33,7 @@ function validate() {
 		console.log(errorList.length);
 		console.log(i);
 		for (i = 0; i < errorList.length; i++) {
-			$(test).append(errorList[i][0] + " From line " +errorList[i][1] + " Column " +errorList[i][2] + "\n");
+			$(errorListContainer).append(errorList[i][0] + " From line " +errorList[i][1] + " Column " +errorList[i][2] + "\n");
 			//document.getElementById("test").innerHTML = errorList[i].valueOf();		
 			}
 		}
@@ -44,6 +44,7 @@ function printErrors() {
 		console.log("test");
 		i = 0;
 		errorList = new Array();
-		$(test).detach();
+		$(errorListContainer).html("");
+		postData = cricketHTML.contentDocument.body.innerHTML; 
 		validate();
 	}
