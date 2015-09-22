@@ -17,7 +17,7 @@
 .progress {
   display: block;
   width: 100%;
-  height: $progress-bar-height; // todo: make a new var for this
+  height: $progress-bar-height; 
   margin-bottom: ($progress-bar-height/2);
 }
 .progress[value] {
