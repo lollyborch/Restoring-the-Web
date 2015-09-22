@@ -29,11 +29,17 @@
 .preview-section {
   position: absolute;
   width: 49.5%;
-  height: 788px;
+  height: 1108px;
   border: 2px solid #336699;
 }
 
+.css-section {
+  position:absolute;
+  top:0;
+  width:49.5%;
+  border: 2px solid #336699;
 
+}
 
 .validator-section {
   position: absolute;
@@ -46,7 +52,7 @@
   position: relative;
   left: 0;
   border-right: 1px solid #336699;
-  height: 95%;
+  height: 100%;
   
 }
 
@@ -65,6 +71,10 @@
 }
 
 #html-editor {
+  margin-top: 10px;
+}
+
+#css-editor {
   margin-top: 10px;
 }
 
