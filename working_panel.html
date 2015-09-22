@@ -87,29 +87,25 @@
       
       
     <div class="container">  
-    <div class="headers clearfix">
-      <div class="header pull-left">Errors</div>
-      <div class="header pull-right">Preview</div>
-      </div>
-    <div class="item-container">
-      <div id="validator" class="validator-section"><textarea rows="9" cols="82" class="col-md-12"></textarea><button onclick="printErrors()">Validate</button></div>
+      
+        <div class="headers clearfix">
+            <div class="header pull-left">Errors</div>
+            <div class="header pull-right">Preview</div>
+        </div>
+        <div class="item-container">
+            <div id="validator" class="validator-section"><textarea rows="9" cols="82" class="col-md-12"></textarea><button onclick="printErrors()">Validate</button></div>
+            <iframe id="preview" class="preview-section"></iframe>
+        </div>  
+        <div class="headers clearfix">
+            <div class="header pull-left" id="html-editor">Html Editor</div>
+        </div>
 
-      <iframe id="preview" class="preview-section"></iframe>
-    </div>  
-
-    <div class="headers clearfix">
-      <div class="header pull-left">Html Editor</div>
-        <a class="btn btn-lg btn-primary " href="#" role="button">Save</a>
-    <a class="btn btn-lg btn-primary text-center" href="my_restorations.html" role="button">Publish</a>
-    <a class="btn btn-lg btn-primary text-center" href="help.html" role="button" target="_blank">Help</a>    
-    </div>
-
-    <div class="news-item-container">
-        <div id="editor" class="preview-section"></div>
-    </div>
-    <a class="btn btn-lg btn-primary " href="#" role="button">Save</a>
-    <a class="btn btn-lg btn-primary text-center" href="my_restorations.html" role="button">Publish</a>
-    <a class="btn btn-lg btn-primary text-center" href="help.html" role="button" target="_blank">Help</a>    
+        <div class="news-item-container">
+            <div id="editor" class="preview-section"></div>
+        </div>
+            <a class="btn btn-lg btn-primary " href="#" role="button">Save</a>
+            <a class="btn btn-lg btn-primary text-center" href="my_restorations.html" role="button">Publish</a>
+            <a class="btn btn-lg btn-primary text-center" href="help.html" role="button" target="_blank">Help</a>    
       </div>  
 
 <!-- footer -->
