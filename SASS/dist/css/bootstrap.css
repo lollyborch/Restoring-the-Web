@@ -5189,7 +5189,7 @@ figcaption {
 }
 
 figure:hover figcaption {
-  background: #3f51b5;
+  background-color: rgba(64, 81, 181, .5);
   opacity: 1;
 }
 
@@ -5214,7 +5214,6 @@ figure:hover:before {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  border: 3px solid #fff;
   outline: none;
   -webkit-transition: background-color .2s ease-out, color .2s ease-out;
        -o-transition: background-color .2s ease-out, color .2s ease-out;
@@ -5224,7 +5223,7 @@ figure:hover:before {
 .ghost-button:hover,
 .ghost-button:active {
   color: #000;
-  background-color: #fff;
+  border-bottom: 1px solid #fff;
   -webkit-transition: background-color .3s ease-in, color .3s ease-in;
        -o-transition: background-color .3s ease-in, color .3s ease-in;
           transition: background-color .3s ease-in, color .3s ease-in;

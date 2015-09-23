@@ -54,7 +54,7 @@
 
 	figure:hover figcaption {
 	  opacity: 1;
-	  background: $brand-indigo-500;
+	  background-color: rgba(64, 81, 181, 0.5);
 	}
 
 
@@ -76,7 +76,7 @@
 	  padding: 8px;
       margin-top: 20%;
 	  color: $category-font-colour;
-	  border: 3px solid #fff;
+	  //border: 3px solid #fff;
 	  text-align: center;
 	  outline: none;
 	  text-decoration: none;
@@ -84,7 +84,8 @@
   	transition: background-color 0.2s ease-out, color 0.2s ease-out;
 	&:hover,
 	&:active {
-	  background-color: #fff;
+	 // background-color: #fff;
+      border-bottom: 1px solid #fff;
 	  color: #000;
 	  -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
   	transition: background-color 0.3s ease-in, color 0.3s ease-in;
