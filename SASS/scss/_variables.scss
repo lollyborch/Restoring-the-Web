@@ -140,8 +140,10 @@ $grid-gutter-width:          1.875rem !default; // 30px
 //
 // Font, line-height, and color for body text, headings, and more.
 
-//RTW imported Roboto
+//RTW header font
 
+//RTW imported Roboto
+$font-family-logo:          "cabinsketchbold", "Inconsolata", Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-sans-serif:     "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-serif:          Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:      "Inconsolata", Menlo, Monaco, Consolas, "Courier New", monospace !default;
