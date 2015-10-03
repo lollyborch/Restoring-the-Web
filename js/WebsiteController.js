@@ -3,57 +3,61 @@
 app.controller('WebsiteController', ['$scope', function ($scope) {
   $scope.websiteSport = [
         {
-            title: 'Sport1',
+            title: 'Cricket Australia',
             coverImg: 'http://www.placecage.com/250/150'
         },
         {
-            title: 'Sport2',
+            title: 'Sydney Olympics',
             coverImg: 'http://www.placecage.com/250/150'
         },
         {
-            title: 'Sport3',
+            title: 'AFL',
             coverImg: 'http://www.fillmurray.com/g/250/150'
         }
     ];
     $scope.websiteArts = [
         {
-            title: 'Arts1',
+            title: 'Brisbane Writers Festival',
             coverImg: 'http://www.fillmurray.com/g/250/150'
         },
         {
-            title: 'Arts2',
+            title: 'Australian Music Scrapbook',
             coverImg: 'http://www.fillmurray.com/g/250/150'
         },
         {
-            title: 'Arts3',
+            title: 'Queensland Ballet',
             coverImg: 'http://www.fillmurray.com/g/250/150'
         }
     ];
     $scope.websiteEdu = [
         {
-            title: 'Edu1',
+            title: 'UQ',
             coverImg: 'http://www.fillmurray.com/250/150'
         },
         {
-            title: 'Edu2',
+            title: 'QTAC',
             coverImg: 'http://www.fillmurray.com/250/150'
         },
         {
-            title: 'Edu3',
+            title: 'TAFE',
             coverImg: 'http://www.fillmurray.com/250/150'
         }
     ];
     $scope.websiteGov = [
         {
-            title: 'Gov1',
+            title: 'Brisbane City Council',
             coverImg: 'http://www.placekitten.com/g/250/150'
         },
         {
-            title: 'Gov2',
+            title: 'Qld Art Gallery',
             coverImg: 'http://www.placekitten.com/g/250/150'
         },
         {
-            title: 'Gov3',
+            title: 'Qld Museum',
+            coverImg: 'http://www.placekitten.com/g/250/150'
+        },
+        {
+            title: 'ABC',
             coverImg: 'http://www.placekitten.com/g/250/150'
         }
     ];

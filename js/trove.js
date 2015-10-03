@@ -29,7 +29,7 @@ function printImg() {
 	var thumbArray =($(sport).find("figure"));
 	var firstThumb = thumbArray[0].children[0];
 	($(firstThumb).attr("src",imageArray));
-	($(firstThumb).attr("style","height:211px"));
-	($(sport).find("h4").html("Cricket Australia"))
+	//($(firstThumb).attr("style","height:211px"));
+	//($(sport).find("h4").html("Cricket Australia"))
 	//$(sport).html("<img src="+imageArray+"  height=300px width=100% class=img-responsive></img>");
 };

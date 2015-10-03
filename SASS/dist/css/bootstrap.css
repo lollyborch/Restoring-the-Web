@@ -5278,6 +5278,7 @@ figure {
   position: relative;
   display: block;
   overflow: hidden;
+  background-color: #1d7058;
 }
 
 figcaption {
