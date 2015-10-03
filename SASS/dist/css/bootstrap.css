@@ -3765,7 +3765,7 @@ input[type="button"].btn-block {
 .nav-tabs .nav-link {
   display: block;
   padding: .5em 1em;
-  border: 1px solid #1d7058;
+  border: 1px solid #0d4941;
   border-radius: 1px 1px 0 0;
 }
 
@@ -3773,7 +3773,7 @@ input[type="button"].btn-block {
 .nav-tabs .nav-link:hover {
   color: #eceeef;
   background-color: #0d4941;
-  border-color: #0d4941 #0d4941 #1d7058;
+  border-color: #0d4941;
 }
 
 .nav-tabs .nav-link.disabled,
