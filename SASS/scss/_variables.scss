@@ -32,23 +32,8 @@ $gray-light:                #818a91 !default;
 $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
-//RTW colours from https://www.google.com/design/spec/style/color.html#color-color-palette
-
-//Amber
-$brand-amber-500:           #FFC107 !default;
-$brand-amber-300:           #FFD54F !default;
-$brand-amber-700:           #FFA000 !default;
-$brand-amber-900:           #FF6F00 !default;
-$brand-amber-50:            #FFF8E1 !default;
-
-//Indigo
-$brand-indigo-500:           #3F51B5 !default;
-$brand-indigo-300:           #7986CB !default;
-//$brand-indigo-700:           #303F9F !default;
-$brand-indigo-900:           #1A237E !default;
-$brand-indigo-50:           #E8EAF6  !default;
-
-$brand-primary:             #157468;
+$brand-primary:             #1d7058;
+    //#157468;
 $brand-primary-dark:        #0d4941;
 $brand-success:             #5cb85c !default;
 $brand-info:                #5bc0de !default;
@@ -84,7 +69,7 @@ $border-width:               .0625rem !default;
 //
 // Settings for the `<body>` element.
 
-$body-bg:                    #fafafa !default;
+$body-bg:                    $gray-lighter !default;
 $body-color:                 $gray-dark !default;
 $body-weight:                300;
 
@@ -159,11 +144,11 @@ $font-size-lg:               1.25rem !default;
 $font-size-sm:               .85rem !default;
 $font-size-xs:               .75rem !default;
 
-$font-size-h1:               2.8rem !default;
-$font-size-h2:               1.9rem !default;
-$font-size-h3:               1.5rem !default;
-$font-size-h4:               1.3rem !default;
-$font-size-h5:               1.2rem !default;
+$font-size-h1:               2.2rem !default;
+$font-size-h2:               1.7rem !default;
+$font-size-h3:               1.4rem !default;
+$font-size-h4:               1.2rem !default;
+$font-size-h5:               1rem !default;
 $font-size-h6:               1rem !default;
 
 $display1-size:               3.5rem !default;
@@ -178,7 +163,7 @@ $display4-weight:             300 !default;
 
 $line-height:                1.5 !default;
 
-$headings-margin-bottom:     ($spacer / 2) !default;
+$headings-margin-bottom:     .1em;
 //$headings-margin-bottom:     0 !default;
 $headings-font-family:       inherit !default;
 $headings-font-weight:       500 !default;
@@ -386,18 +371,18 @@ $navbar-light-disabled-color:       rgba(0,0,0,.15);
 // Navs
 
 $nav-link-padding:                          .5em 1em !default;
-$nav-link-hover-bg:                         $brand-primary-dark;
+$nav-link-hover-bg:                         $gray-lighter !default;
 
 $nav-disabled-link-color:                   $gray-light !default;
 $nav-disabled-link-hover-color:             $gray-light !default;
 
-$nav-tabs-border-color:                     $brand-primary !default;
+$nav-tabs-border-color:                     $brand-primary;
 
-$nav-tabs-link-hover-border-color:          $brand-primary-dark;
+$nav-tabs-link-hover-border-color:          $brand-primary-dark !default;
 
-$nav-tabs-active-link-hover-bg:             $brand-primary !default;
-$nav-tabs-active-link-hover-color:          $body-bg !default;
-$nav-tabs-active-link-hover-border-color:   $brand-primary !default;
+$nav-tabs-active-link-hover-bg:             $brand-primary;
+$nav-tabs-active-link-hover-color:          $gray-lighter ;
+$nav-tabs-active-link-hover-border-color:   $brand-primary-dark;
 
 $nav-tabs-justified-link-border-color:            #ddd !default;
 $nav-tabs-justified-active-link-border-color:     $body-bg !default;

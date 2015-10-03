@@ -11,7 +11,7 @@
 
 //RTW new active class for top nav
 .nav-active{
-    border-bottom: 3px solid $brand-primary;
+    border-bottom: 3px solid #ffffff;
 }
 
 .nav-link {
@@ -22,7 +22,7 @@
     
   }
     &:hover{
-        border-bottom: 3px solid $brand-primary-dark;
+        border-bottom: 3px solid $gray-lighter;
     }
 
   // Disabled state lightens text and removes hover/tab effects
@@ -68,11 +68,13 @@
   .nav-link {
     display: block;
     padding: $nav-link-padding;
-    border: 1px solid transparent;
+    border: 1px solid $nav-tabs-border-color;
     @include border-radius($border-radius $border-radius 0 0);
 
     @include hover-focus {
       border-color: $nav-tabs-link-hover-border-color $nav-tabs-link-hover-border-color $nav-tabs-border-color;
+      color: $nav-tabs-active-link-hover-color;
+      background-color: $nav-tabs-link-hover-border-color;
     }
 
     &.disabled {
@@ -86,10 +88,14 @@
 
   .nav-link.active,
   .nav-item.open .nav-link {
-    @include plain-hover-focus {
       color: $nav-tabs-active-link-hover-color;
       background-color: $nav-tabs-active-link-hover-bg;
       border-color: $nav-tabs-active-link-hover-border-color $nav-tabs-active-link-hover-border-color transparent;
+      
+    @include hover-focus {
+      color: $nav-tabs-active-link-hover-color;
+      background-color: $nav-tabs-link-hover-border-color;
+
     }
   }
 }

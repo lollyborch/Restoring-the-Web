@@ -36,21 +36,22 @@
   <body ng-app="myApp">
       
     <!--header start-->
-        <header class="container">
+        <header class="header">
+            <div class="header-container">
 
             <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
-            <nav class="navbar navbar-default navbar-static-top">
+            <nav class="navbar navbar-dark navbar-static-top">
                 <a class="navbar-brand brand-heading" href="home.html">web historians</a>   
-                <ul class="nav nav-pills">
+                <ul class="nav navbar-nav">
                     <li class="nav-item">
                     <!--add nav-active to current page-->
-                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link " href="home.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="my_restorations.html">My Restorations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-active" href="gallery.html">Gallery</a>
+                        <a class="nav-link nav-active active" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="gettingstarted.html" role="button" aria-haspopup="true" aria-expanded="false">About</a>
@@ -63,7 +64,7 @@
                     
                 </ul>
                 <img class="nav-profilepic" src="profile/profilepic.jpg"/>
-                <ul class="nav nav-pills pull-right">
+                <ul class="nav navbar-nav pull-right">
                     <li class="nav-item dropdown"> 
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profile.html" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
                         <div class="dropdown-menu">
@@ -73,6 +74,7 @@
                     </li>
                 </ul>
             </nav>
+            </div>
         </header>
         <!--header end-->
       

@@ -36,24 +36,25 @@
   </head>
   <body>
       <!--header start-->
-        <header class="container">
+        <header class="header">
+            <div class="header-container">
 
             <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
-            <nav class="navbar navbar-default navbar-static-top">
+            <nav class="navbar navbar-dark navbar-static-top">
                 <a class="navbar-brand brand-heading" href="home.html">web historians</a>   
-                <ul class="nav nav-pills">
+                <ul class="nav navbar-nav">
                     <li class="nav-item">
                     <!--add nav-active to current page-->
-                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link " href="home.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="my_restorations.html">My Restorations</a>
+                        <a class="nav-link nav-active active" href="my_restorations.html">My Restorations</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="gettingstarted.html" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="gettingstarted.html" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="gettingstarted.html">Getting started</a>
                             <a class="dropdown-item" href="help.html">Help</a>
@@ -63,7 +64,7 @@
                     
                 </ul>
                 <img class="nav-profilepic" src="profile/profilepic.jpg"/>
-                <ul class="nav nav-pills pull-right">
+                <ul class="nav navbar-nav pull-right">
                     <li class="nav-item dropdown"> 
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profile.html" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
                         <div class="dropdown-menu">
@@ -73,6 +74,7 @@
                     </li>
                 </ul>
             </nav>
+            </div>
         </header>
         <!--header end-->
       
@@ -81,7 +83,7 @@
         <ol class="breadcrumb">
         <li class="active">Gallery</li>
         </ol>-->
-        <div class="container">
+        <div class="breadcrumb-container">
             <ol class="breadcrumb">
                 <li><a href="my_restorations.html">My Restorations</a></li>
                 <li class="active">Working panel</li>
@@ -91,23 +93,23 @@
       
     <div class="container">  
       
-        <div class="headers clearfix">
-            <div class="header pull-left">Errors</div>
-            <div class="header pull-right">Preview</div>
+        <div class="clearfix">
+            <div class="working-header pull-left">Errors</div>
+            <div class="working-header pull-right">Preview</div>
         </div>
         <div class="item-container">
             <div id="validator" class="validator-section"><textarea style="font-weight:300" rows="9" cols="82" class="col-md-12"></textarea><button onclick="printErrors()">Validate</button></div>
             <iframe id="preview" class="preview-section"></iframe>
         </div>  
-        <div class="headers clearfix">
-            <div class="header pull-left" id="html-editor">Html Editor</div>
+        <div class="clearfix">
+            <div class="working-header pull-left" id="html-editor">Html Editor</div>
         </div>
         <div class="news-item-container">
             <div id="editor" class="preview-section"></div>
         </div>
 
-        <div id="css-editor" class="headers clearfix">
-            <div class="header pull-left"> CSS Editor</div>
+        <div id="css-editor" class="clearfix">
+            <div class="working-header pull-left"> CSS Editor</div>
         </div>
         <div class="item-container">
             <div class="css-section">
