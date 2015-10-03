@@ -728,6 +728,14 @@ mark,
   margin-right: 50px;
 }
 
+.full-width-crop-200 {
+  width: 100%;
+  height: 200px;
+
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 code,
 kbd,
 pre,
