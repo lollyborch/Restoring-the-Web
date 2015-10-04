@@ -1,5 +1,5 @@
 //temporary array while working out how to load js in order
-var imageArray = ["http://nla.gov.au/nla.obj-150937117/representativeImage", "http://nla.gov.au/nla.obj-148694544/representativeImage", "http://nla.gov.au/nla.obj-136587996/representativeImage"];
+var imageArray = ["http://nla.gov.au/nla.obj-148694544/representativeImage", "http://nla.gov.au/nla.obj-136587996/representativeImage", "http://nla.gov.au/nla.obj-150937117/representativeImage"];
 
 //once all 3 API calls to Trove for sport are below and added to array, change array name to imageArraySport (replaces array above)
 //var imageArray = new Array;
