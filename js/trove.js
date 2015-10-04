@@ -1,3 +1,7 @@
+//checking to see if WebsiteController.js can access the varible imageArraySport defined below
+var imageArraySport = ['http://www.placecage.com/250/150', 'http://www.fillmurray.com/g/250/150', 'https://placekitten.com/250/150' ];
+
+//once all 3 API calls to Trove for sport are below and added to array, change array name to imageArraySport (replaces array above)
 var imageArray = new Array;
 	
 $(document).ready(function cricket() {
@@ -23,7 +27,7 @@ $(document).ready(function cricket() {
 		}
 	});
 });
-	
+/*	
 function printImg() {
 	($(sport).children("img").attr("src",imageArray));
 	var thumbArray =($(sport).find("figure"));
@@ -32,4 +36,4 @@ function printImg() {
 	//($(firstThumb).attr("style","height:211px"));
 	//($(sport).find("h4").html("Cricket Australia"))
 	//$(sport).html("<img src="+imageArray+"  height=300px width=100% class=img-responsive></img>");
-};
+};*/

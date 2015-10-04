@@ -1,4 +1,5 @@
-//Angular JS for content based on https://www.codecademy.com/en/courses/learn-angularjs
+//var app = angular.module("myApp", []);
+//var imageArraySport = ['http://www.placecage.com/250/150', 'http://www.fillmurray.com/g/250/150', 'https://placekitten.com/250/150' ];
 
 app.controller('WebsiteController', ['$scope', function ($scope) {
   $scope.websiteSport = [
@@ -15,6 +16,12 @@ app.controller('WebsiteController', ['$scope', function ($scope) {
             coverImg: 'http://www.fillmurray.com/g/250/150'
         }
     ];
+    //adds images from the Trove API call array 'imageArraySport' to the above $scope.websiteSport
+    var sportIndex = 0
+    $scope.websiteSport.forEach(function (newImage, sportIndex) {
+    newImage.coverImg = imageArraySport[sportIndex];
+    });
+    
     $scope.websiteArts = [
         {
             title: 'Brisbane Writers Festival',
