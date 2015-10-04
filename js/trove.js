@@ -1,11 +1,9 @@
-//checking to see if WebsiteController.js can access the varible imageArraySport defined below
-//var imageArraySport = ['http://www.placecage.com/250/150', 'http://www.fillmurray.com/g/250/150', 'https://placekitten.com/250/150' ];
-
+//temporary array while working out how to load js in order
 var imageArray = ["http://nla.gov.au/nla.obj-150937117/representativeImage", "http://nla.gov.au/nla.obj-148694544/representativeImage", "http://nla.gov.au/nla.obj-136587996/representativeImage"];
 
 //once all 3 API calls to Trove for sport are below and added to array, change array name to imageArraySport (replaces array above)
 //var imageArray = new Array;
-var imageArraySport = new Array;
+var imageArraySport = [];
 
 //cricket image
 $(document).ready(function cricket() {

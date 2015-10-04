@@ -13,7 +13,7 @@ app.controller('WebsiteController', ['$scope', function ($scope) {
             title: 'Cycling Queensland'
         }
     ];
-    //adds images from the Trove API call array 'imageArraySport' to the above $scope.websiteSport
+    //adds images from the Trove API call array 'imageArraySport' to the above $scope.websiteSport - change imageArray name when sort out js load
     var sportIndex = 0
     $scope.websiteSport.forEach(function (newImage, sportIndex) {
     newImage.coverImg = imageArray[sportIndex];
