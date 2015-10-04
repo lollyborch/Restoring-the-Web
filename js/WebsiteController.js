@@ -4,22 +4,19 @@
 app.controller('WebsiteController', ['$scope', function ($scope) {
   $scope.websiteSport = [
         {
-            title: 'Cricket Australia',
-            coverImg: 'http://www.placecage.com/250/150'
+            title: 'Cricket Australia'
         },
         {
-            title: 'Sydney Olympics',
-            coverImg: 'http://www.placecage.com/250/150'
+            title: 'Sydney Olympics'
         },
         {
-            title: 'AFL',
-            coverImg: 'http://www.fillmurray.com/g/250/150'
+            title: 'Cycling Queensland'
         }
     ];
     //adds images from the Trove API call array 'imageArraySport' to the above $scope.websiteSport
     var sportIndex = 0
     $scope.websiteSport.forEach(function (newImage, sportIndex) {
-    newImage.coverImg = imageArraySport[sportIndex];
+    newImage.coverImg = imageArray[sportIndex];
     });
     
     $scope.websiteArts = [
