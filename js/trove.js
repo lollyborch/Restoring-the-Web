@@ -20,7 +20,8 @@ $(document).ready(function cricket() {
 				if (recordList[i].id == 17226811) {
 					var cricketImgLink = recordList[i].identifier[0].value;
 					var cricketImg = cricketImgLink + "/representativeImage"
-					imageArraySport.push(cricketImg);
+                    imageArraySport[0]=cricketImg;
+					//imageArraySport.push(cricketImg);
 					console.log(imageArraySport);
 					//printImg();
 					break;
@@ -28,6 +29,7 @@ $(document).ready(function cricket() {
 			}
 		}
 	});
+    
 });
 //sydney olympics image
 $(document).ready(function olympics() {
@@ -44,7 +46,8 @@ $(document).ready(function olympics() {
 				if (recordList[i].id == 33767677) {
 					var olympicsImgLink = recordList[i].identifier[0].value;
 					var olympicsImg = olympicsImgLink + "/representativeImage"
-					imageArraySport.push(olympicsImg);
+                    imageArraySport[1]=olympicsImg;
+					//imageArraySport.push(olympicsImg);
 					console.log(imageArraySport);
 					//printImg();
 					break;
@@ -68,7 +71,8 @@ $(document).ready(function cycling() {
 				if (recordList[i].id == 25031406) {
 					var cyclingImgLink = recordList[i].identifier[0].value;
 					var cyclingImg = cyclingImgLink + "/representativeImage"
-					imageArraySport.push(cyclingImg);
+                    imageArraySport[2]=cyclingImg;
+					//imageArraySport.push(cyclingImg);
 					console.log(imageArraySport);
 					//printImg();
 					break;

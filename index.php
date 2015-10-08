@@ -21,6 +21,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 
+      <!-- web fonts for header -->
+    <link href="css/webfont-stylesheet.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -76,13 +78,15 @@ elseif(!empty($_POST["username"]) && !empty($_POST["password"]))
 else {
 	?>
 	      <!--header start-->
-        <header class="container">
+        <header class="header">
+            <div class="header-container">
 
             <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
-            <nav class="navbar navbar-default navbar-static-top">
+            <nav class="navbar navbar-dark navbar-static-top">
                 <a class="navbar-brand brand-heading" href="home.html">web historians</a>   
                 
             </nav>
+            </div>
         </header>
         <!--header end-->
       <!--breadcrumbs for pages NOT HOMEPAGE index.html
@@ -101,15 +105,14 @@ else {
 
     <!-- Getting started container -->
 <div class="container">
-    <div class="jumbotron">
-        <h1>How do I start?</h1>
-        <br />
-        <img class="img-responsive" src="images/Home_Infographic.png" alt="Home Page Instruction" width="100%" />
-        <br />
-        <p>Register or log in below to find out more.</p>   
+    <h1>
+    <img class="img-responsive" src="images/Home_Infographic.png" alt="Home Page Instruction" width="100%"/>
+    </h1>
+    <br />
+        <p id="login">Register or log in below to find out more.</p>   
       
         <div class="omb_login row">
-			<div class="col-md-6 col-md-offset-3" style="background-color: #C3C3C3;padding-bottom: 24px;border: solid #9C9C9C;border-radius: 5%;">
+			<div class="col-md-6 col-md-offset-3 login-container" >
 			<h3 class="omb_authTitle row">Log in or <a href="register.php">Sign up</a></h3>
 				<div class="row"> 
 					<form name="loginform" method="POST" action="index.php" id="loginform" class="omb_loginForm col-xs-12">
@@ -173,7 +176,7 @@ else {
 			</div>
 		</div>
     </div>
-	</div>     
+</div>     
       <!-- footer -->
         <div class="container">
           <div class="otherrow">

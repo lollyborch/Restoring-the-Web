@@ -63,6 +63,13 @@
     color: red;
 }
 
+.login-container {
+    background-color: #C3C3C3;
+    padding-bottom: 24px;
+    border: 1pxsolid #9C9C9C;
+    border-radius: 2px;
+}
+
   
 @media (min-width: 768px) {
     .omb_login .omb_forgotPwd {
