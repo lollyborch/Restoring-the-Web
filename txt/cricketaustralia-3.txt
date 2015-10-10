@@ -1,0 +1,137 @@
+<table id="container" cellspacing="0" border="1">
+   <tbody><tr>
+       
+       
+    <td id="content" valign="top">    
+        <table cellspacing="0" id="contentBody">
+        <tbody><tr>
+            <td rowspan="2"><img src="/web/20050105050831im_/http://www.cricket.com.au/cricket_images_www/images/img_spacer.gif" width="1" height="462"></td>
+            <td height="400" valign="top">
+
+<table border="0" cellspacing="0" cellpadding="8" width="100%" height="240">
+
+    
+  <tbody><tr>
+   
+
+    <td width="85%" valign="top" align="left">
+  
+
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tbody><tr>
+          <td>
+
+
+<!-- Chrome (Lt Green Namable) portlet chrome for ICC ACC feature portlet - start -->
+
+<table cellspacing="0" cellpadding="1" class="tableHome1" width="100%">
+    <thead>
+        <tr>
+            <th>Tsunami Relief Match</th>            
+        </tr>
+    </thead>                
+</table>
+
+		<table style="HEIGHT: 63px" bordercolor="#000000" width="514"> <tbody> <tr> <td>&nbsp;<a href="/web/20050105050831/http://www.worldvision.com.au/" target="_blank"><img alt="" src="/web/20050105050831im_/http://wic042cx.server-web.com/Static%20Files/Logos/Series/ICC%20World%20XI%20v%20ACC%20XI.gif" border="0"></a></td> <td></td> <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4e3cc5119ab4f1bcb33873ac25d62dbc/"><strong><font color="#606420">Click here for the latest news</font></strong></a> on the tsunami relief cricket match between the ICC World XI and the ACC XI on January 10 in Melbourne.</td> </tr> </tbody> </table><br xmlns:util="com.vignette.ri.common.util" xmlns:commonutil="com.epicentric.contentmanagement.connectors.cda" xmlns:java="http://xml.apache.org/xslt/java"><ul></ul>
+
+<!-- Chrome (Lt Green Namable) portlet chrome for ICC ACC feature portlet - end -->
+                <br>
+   
+ 
+<!-- Chrome (Live Scores) portlet chrome for Live Scores portlet - start -->
+
+
+<table cellspacing="0" class="tableHome1" width="100%">
+            <thead>
+                <tr>
+                    <th>Live Scores</th>
+                    <th style="text-align:right"><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.c96a3b94865dec4f08d6718b4420a2a0/">View Live Score Summary</a></th>
+                </tr>
+            </thead>
+</table>            
+
+ 
+   
+<!-- Live Scores Created ( $created.ts ) -->
+
+   
+                <table cellspacing="3" class="tableHomeScore" border="0">        
+            <tbody><tr>
+                <td width="35" valign="top" rowspan="10">
+                                    <img src="/web/20050105050831im_/http://www.cricket.com.au/cricket_images_www/images/img_spacer.gif" height="40" width="30">
+                                </td>
+                <td valign="top" height="18" colspan="2"><strong>3 mobile Test Series Aus v Pak</strong></td>
+            </tr>
+                        <tr>
+                <td valign="top" nowrap="true">
+                AUS 568 <strong>v</strong> PAK 9/324  <span style="font-weight:normal;">    (88.4 overs) </span>  and  304
+                </td>
+                <td valign="top" style="padding-left:10px" nowrap="true"><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/template.MAXIMIZE/menuitem.4a871880c089f6ed371ae9104420a2a0/?javax.portlet.tpst=cc55f0f1f810f0993d3afb1025d62dbc_ws_MX&amp;javax.portlet.prp_cc55f0f1f810f0993d3afb1025d62dbc_matchId=e9ef1120-fdd4-470e-a59c-10f7fd9544a8&amp;javax.portlet.begCacheTok=token&amp;javax.portlet.endCacheTok=token"><img alt="Report and Scorecard" height="18" src="/web/20050105050831im_/http://www.cricket.com.au/cricket_images_www/images/img_report.gif" width="23" align="absmiddle" border="0">Report&nbsp;&amp;&nbsp;Scorecard</a></td>            
+            </tr>
+                    <tr>
+                <td><img src="/web/20050105050831im_/http://www.cricket.com.au/cricket_www_images/static/images/spacer.gif" height="1" width="300"></td>
+                <td><img src="/web/20050105050831im_/http://www.cricket.com.au/cricket_www_images/static/images/spacer.gif" height="1" width="1"></td>            
+            </tr>
+        </tbody></table> 
+        <hr>
+    
+    
+                <table cellspacing="3" class="tableHomeScore" border="0">        
+            <tbody><tr>
+                <td width="35" valign="top" rowspan="10">
+                                    <img src="/web/20050105050831im_/http://www.cricket.com.au/cricket_images_www/images/img_spacer.gif" height="40" width="30">
+                                </td>
+                <td valign="top" height="18" colspan="2"><strong>Cricket Australia Cup</strong></td>
+            </tr>
+                        <tr>
+                <td valign="top" nowrap="true">
+                SA 2ND XI 3/231 <span style="font-weight:normal;">(80 overs)</span> and  203 <strong>v</strong> TAS 2ND XI 384
+                </td>
+                <td valign="top" style="padding-left:10px" nowrap="true"><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/template.MAXIMIZE/menuitem.4a871880c089f6ed371ae9104420a2a0/?javax.portlet.tpst=cc55f0f1f810f0993d3afb1025d62dbc_ws_MX&amp;javax.portlet.prp_cc55f0f1f810f0993d3afb1025d62dbc_matchId=80727e7d-af67-4c91-836b-1e5ff4a1ee9d&amp;javax.portlet.begCacheTok=token&amp;javax.portlet.endCacheTok=token"><img alt="Report and Scorecard" height="18" src="/web/20050105050831im_/http://www.cricket.com.au/cricket_images_www/images/img_report.gif" width="23" align="absmiddle" border="0">Report&nbsp;&amp;&nbsp;Scorecard</a></td>            
+            </tr>
+                    <tr>
+                <td><img src="/web/20050105050831im_/http://www.cricket.com.au/cricket_www_images/static/images/spacer.gif" height="1" width="300"></td>
+                <td><img src="/web/20050105050831im_/http://www.cricket.com.au/cricket_www_images/static/images/spacer.gif" height="1" width="1"></td>            
+            </tr>
+        </tbody></table> 
+        <hr>
+    
+    
+                <table cellspacing="3" class="tableHomeScore" border="0">        
+            <tbody><tr>
+                <td width="35" valign="top" rowspan="10">
+                                    <img src="/web/20050105050831im_/http://www.cricket.com.au/cricket_images_www/images/img_spacer.gif" height="40" width="30">
+                                </td>
+                <td valign="top" height="18" colspan="2"><strong>Tour Match (Limited Overs)</strong></td>
+            </tr>
+                        <tr>
+                <td valign="top" nowrap="true">
+                VIC <strong>v</strong> W.I. 4/106<span style="font-weight:normal;"> (21.3 overs)</span>
+                </td>
+                <td valign="top" style="padding-left:10px" nowrap="true"><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/template.MAXIMIZE/menuitem.4a871880c089f6ed371ae9104420a2a0/?javax.portlet.tpst=cc55f0f1f810f0993d3afb1025d62dbc_ws_MX&amp;javax.portlet.prp_cc55f0f1f810f0993d3afb1025d62dbc_matchId=8cb75c74-396a-43c5-8fe0-120f05b8e748&amp;javax.portlet.begCacheTok=token&amp;javax.portlet.endCacheTok=token"><img alt="Report and Scorecard" height="18" src="/web/20050105050831im_/http://www.cricket.com.au/cricket_images_www/images/img_report.gif" width="23" align="absmiddle" border="0">Report&nbsp;&amp;&nbsp;Scorecard</a></td>            
+            </tr>
+    
+            <tr>
+                <td><img src="/web/20050105050831im_/http://www.cricket.com.au/cricket_images_www/images/img_spacer.gif" height="1" width="300"></td>
+                <td><img src="/web/20050105050831im_/http://www.cricket.com.au/cricket_images_www/images/img_spacer.gif" height="1" width="1"></td>            
+            </tr>
+        </tbody></table> 
+
+<br>
+
+            </td></tr>
+   
+   </tbody></table>
+
+      </td></tr>
+   
+   </tbody></table>
+
+            </td></tr>
+   
+   </tbody></table>
+
+       </td></tr>
+   
+   </tbody></table>
+<!-- Chrome (Live Scores) portlet chrome for Live Scores portlet - end -->

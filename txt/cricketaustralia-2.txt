@@ -1,0 +1,76 @@
+<table id="container" cellspacing="0" border="1">
+   <tbody><tr>
+    <td id="navigation" valign="top">
+    
+
+   <!-- Begin Nav-Vert Area -->
+   
+      
+   <img src="/web/20050105050831im_/http://www.cricket.com.au/portal/templates/template0003/RSUSZZcVWVTXTXXeWZRYdWRQUUSQaSaQ/img_EAE766.gif" alt="" height="6" width="152"><br>
+   <table cellspacing="0" id="priNav">
+
+   <tbody><tr>
+    <td width="100%" class="linkLVL1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.c96a3b94865dec4f08d6718b4420a2a0/">Live Scores</a>
+    </td>
+   </tr>
+
+   <tr>
+    <td width="100%" class="linkLVL1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.5641ea044f0fbf1f08d6718b4420a2a0/">News</a>
+    </td>
+   </tr>
+
+   <tr>
+    <td width="100%" class="linkLVL1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.99ed81758ec1272f08d6718b4420a2a0/">Series</a>
+    </td>
+   </tr>
+
+   <tr>
+    <td width="100%" class="linkLVL1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.ad989ff275cf76be6918d6104420a2a0/">Fixtures</a>
+    </td>
+   </tr>
+
+   <tr>
+    <td width="100%" class="linkLVL1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.aeacd1a4770386be6918d6104420a2a0/">Profiles</a>
+    </td>
+   </tr>
+
+   <tr>
+    <td width="100%" class="linkLVL1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.0bee513ec3ce256e6918d6104420a2a0/">Inside Cricket Australia</a>
+    </td>
+   </tr>
+
+   <tr>
+    <td width="100%" class="linkLVL1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.61c4769eb446687e6918d6104420a2a0/">Spirit of Cricket</a>
+    </td>
+   </tr>
+
+   <tr>
+    <td width="100%" class="linkLVL1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.26d58ed38fdc797e6918d6104420a2a0/">Media Centre</a>
+    </td>
+   </tr>
+
+   <tr>
+    <td width="100%" class="linkLVL1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.b724402e943956be6918d6104420a2a0/">Getting Involved</a>
+    </td>
+   </tr>
+
+   <tr>
+    <td width="100%" class="linkLVL1">
+        <a href="/web/20050105050831/http://www.cricketstore.com.au/" target="ae6be0cb3fe596be6918d6104420a2a0">Cricket Store</a>
+    </td>
+   </tr>
+   
+   </tbody></table>
+    </td>
+    </tr>
+   
+   </tbody></table>
