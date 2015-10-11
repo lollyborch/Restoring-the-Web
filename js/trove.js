@@ -23,7 +23,7 @@ $(document).ready(function cricket() {
                     imageArraySport[0]=cricketImg;
 					//imageArraySport.push(cricketImg);
 					console.log(imageArraySport);
-					printSportImg();
+					//printSportImg();
 					break;
 				}	
 			}
@@ -84,24 +84,23 @@ $(document).ready(function cycling() {
 	
 function printSportImg() {
     
+    $(".sportimage").each(function(index) {
+        $(this).attr('src', imageArray[index]);
+    });
+
+
     
-    $sportimage.each(function(index) {
-    $(this).attr('src', imageArraySport[index]);
-});
+//	($(sport).children("img").attr("src",imageArraySport));
     
-    
-	($(sport).children("img").attr("src",imageArraySport));
-    
-	var thumbArray =($(sport).find("figure"));
-	var firstThumb = thumbArray[0].children[0];
-	($(firstThumb).attr("src",imageArraySport[0]));
+//	var thumbArray =($(sport).find("figure"));
+//	var firstThumb = thumbArray[0].children[0];
+//	($(firstThumb).attr("src",imageArraySport[0]));
  //   console.log(thumbArray);
     //console.log(firstThumb);
-    var secondThumb = thumbArray[0].children[1];
-    console.log(secondThumb);
-	//($(secondThumb).attr("src",imageArraySport[1]));
     
 	//($(firstThumb).attr("style","height:211px"));
 	//($(sport).find("h4").html("Cricket Australia"))
 	//$(sport).html("<img src="+imageArray+"  height=300px width=100% class=img-responsive></img>");
 };
+
+//printSportImg();
