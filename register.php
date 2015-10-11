@@ -129,36 +129,6 @@
 					<button class="btn btn-lg btn-primary btn-block" name="register" id="register" type="submit">Register</button>
 					</form>
 				</div>
-                
-                <!-- OR + Social -->
-			<div class="omb_row omb_loginOr">
-			  <div class="col-xs-12">
-				<hr class="omb_hrOr" style="background-color:#FAFAFA;">
-				<span class="omb_spanOr">or</span>
-			  </div>
-			</div>
-    
-			<div class="row omb_socialButtons">
-				  <div class="col-xs-4">
-					<a href="#" class="btn btn-lg btn-block omb_btn-facebook">
-					  <i class="fa fa-facebook visible-xs"></i>
-					  <span class="hidden-xs">Facebook</span>
-					</a>
-				  </div>
-				  <div class="col-xs-4">
-					<a href="#" class="btn btn-lg btn-block omb_btn-twitter">
-					  <i class="fa fa-twitter visible-xs"></i>
-					  <span class="hidden-xs">Twitter</span>
-					</a>
-				  </div>  
-				  <div class="col-xs-4">
-					<a href="#" class="btn btn-lg btn-block omb_btn-google">
-					  <i class="fa fa-google-plus visible-xs"></i>
-					  <span class="hidden-xs">Google+</span>
-					</a>
-				  </div>  
-			</div>
-<!-- END OR + Social -->
 			';
 		}
 	?>

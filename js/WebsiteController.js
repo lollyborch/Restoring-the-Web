@@ -20,16 +20,13 @@ app.controller('WebsiteController', ['$scope', function ($scope) {
     });
     
     $scope.websiteArts = [
-        {
-            title: 'Brisbane Writers Festival',
-            coverImg: 'http://www.fillmurray.com/g/250/150'
-        },
-        {
-            title: 'Australian Music Scrapbook',
-            coverImg: 'http://www.fillmurray.com/g/250/150'
-        },
+        
         {
             title: 'Queensland Ballet',
+            coverImg: 'http://www.fillmurray.com/g/250/150'
+        },
+        {
+            title: 'Brisbane Writers Festival',
             coverImg: 'http://www.fillmurray.com/g/250/150'
         }
     ];
@@ -40,10 +37,6 @@ app.controller('WebsiteController', ['$scope', function ($scope) {
         },
         {
             title: 'QTAC',
-            coverImg: 'http://www.fillmurray.com/250/150'
-        },
-        {
-            title: 'TAFE',
             coverImg: 'http://www.fillmurray.com/250/150'
         }
     ];
@@ -58,10 +51,6 @@ app.controller('WebsiteController', ['$scope', function ($scope) {
         },
         {
             title: 'Qld Museum',
-            coverImg: 'http://www.placekitten.com/g/250/150'
-        },
-        {
-            title: 'ABC',
             coverImg: 'http://www.placekitten.com/g/250/150'
         }
     ];
