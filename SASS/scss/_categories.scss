@@ -75,7 +75,7 @@
 	  display: inline-block;
 	  width: 100px;
 	  padding: 8px;
-      margin-top: 20%;
+      margin-top: -5%;
 	  color: $category-font-colour;
 	  //border: 3px solid #fff;
 	  text-align: center;
@@ -92,3 +92,20 @@
   	transition: background-color 0.3s ease-in, color 0.3s ease-in;
 	}
     }
+
+.categoryhover {
+    color: $category-font-colour;
+    margin-top: 15%;
+    margin-bottom: 8%;
+}
+
+
+.categoryhover a{
+    color: $category-font-colour;
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+}
+
+.categoryhover a:hover{
+    color: $category-font-colour;
+}

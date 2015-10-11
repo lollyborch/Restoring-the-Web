@@ -120,11 +120,12 @@
                             
                             <h4 class="text-center">{{ sport.title }}</h4>
                              <figure class="cap-bot sportimage">   
-                                <img ng-src="{{ sport.coverImg }}" alt="" width="100%" class="img-responsive full-width-crop-200"/>   
+                                <img ng-src="{{ sport.coverImg }}" alt="{{ sport.imgalt }}" width="100%" class="img-responsive full-width-crop-200"/>   
                                  <!--<img src=" " alt="" width="100%" class="img-responsive full-width-crop-200"/>-->
                                 <figcaption>
-                                    <a class="ghost-button" href="working_panel.html"><img src="images/Easy.png" alt="Easy level" class="img-responsive" /></a>
-                                    <a class="ghost-button" href="working_panel.html"><img src="images/Hard.png"  alt="Hard level" class="img-responsive" /></a>
+                                    <p class="categoryhover"><a ng-href="{{ sport.url }}">Begin restoration</a></p>
+                                    <a class="ghost-button" ng-href="{{ sport.url }}"><img ng-src="{{ sport.level }}" alt="{{ sport.levelalt }}" class="img-responsive" /></a>
+                                    
                                 </figcaption>
                             </figure>
                           </div>

@@ -4,13 +4,25 @@ var imageArray = ["http://nla.gov.au/nla.obj-148694544/representativeImage", "ht
 app.controller('WebsiteController', ['$scope', function ($scope) {
   $scope.websiteSport = [
         {
-            title: 'Cricket Australia'
+            title: 'Cricket Australia',
+            imgalt: 'Cricket Australia',
+            url: 'cricketaustralia.html',
+            level: 'images/Easy.png',
+            levelalt: 'easy level'
         },
         {
-            title: 'Sydney Olympics'
+            title: 'Sydney Olympics',
+            imgalt: 'Sydney Olympics',
+            url: 'sydneyolympics.html',
+            level: 'images/Hard.png',
+            levelalt: 'hard level'
         },
         {
-            title: 'Cycling Queensland'
+            title: 'Cycling Queensland',
+            imgalt: 'Cycling Queensland',
+            url: 'cyclingqueensland.html',
+            level: 'images/Hard.png',
+            levelalt: 'hard level'
         }
     ];
     

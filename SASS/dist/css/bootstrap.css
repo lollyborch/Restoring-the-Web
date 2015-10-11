@@ -5321,7 +5321,7 @@ figure:hover:before {
   display: inline-block;
   width: 100px;
   padding: 8px;
-  margin-top: 20%;
+  margin-top: -5%;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -5338,6 +5338,22 @@ figure:hover:before {
   -webkit-transition: background-color .3s ease-in, color .3s ease-in;
        -o-transition: background-color .3s ease-in, color .3s ease-in;
           transition: background-color .3s ease-in, color .3s ease-in;
+}
+
+.categoryhover {
+  margin-top: 15%;
+  margin-bottom: 8%;
+  color: #fff;
+}
+
+.categoryhover a {
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  color: #fff;
+}
+
+.categoryhover a:hover {
+  color: #fff;
 }
 
 .item-container {
