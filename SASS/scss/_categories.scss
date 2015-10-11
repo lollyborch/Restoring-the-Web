@@ -109,3 +109,22 @@
 .categoryhover a:hover{
     color: $category-font-colour;
 }
+
+.modules {
+    margin-right: 0px;
+    padding: 0px 10px 10px 0px;
+}
+
+.modules section {
+    border: 1px solid #000;
+    padding: 15px 10px 0px 10px;
+}
+
+.modules section:hover {
+    background: rgba(29,112,88, .2);
+ 
+}
+
+.modules a:hover {
+    text-decoration: none;
+}

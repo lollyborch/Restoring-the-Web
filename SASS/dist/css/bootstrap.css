@@ -5356,6 +5356,24 @@ figure:hover:before {
   color: #fff;
 }
 
+.modules {
+  padding: 0 10px 10px 0;
+  margin-right: 0;
+}
+
+.modules section {
+  padding: 15px 10px 0 10px;
+  border: 1px solid #000;
+}
+
+.modules section:hover {
+  background: rgba(29, 112, 88, .2);
+}
+
+.modules a:hover {
+  text-decoration: none;
+}
+
 .item-container {
   position: relative;
   height: 270px;
