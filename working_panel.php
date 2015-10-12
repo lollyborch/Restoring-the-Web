@@ -41,7 +41,17 @@
 	$connection = mysql_connect("localhost", "Felixlinh", "155764") or die("MySQL Error: " . mysql_error());
 	$database = mysql_select_db("users",$connection) or die("MySQL Error: " . mysql_error());
 	
-	echo "this is a test";
+	$getvalues = $_GET['WebsiteID'];
+	$componentID = substr($getvalues,-1,1);
+	$webIDvalue = substr($getvalues,0,1);
+	
+	echo "get value equals " . $getvalues;
+	echo "Web ID Value equals " . $webIDvalue;
+	echo "Component ID equals " . $componentID;
+	
+	$currentUser = $_SESSION["username"];
+	echo "Current User value is " . $currentUser;
+	//$currentUser = mysql_query('select from users where username)
 	?>
       <!--header start-->
         <header class="header">
