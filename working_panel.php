@@ -1,4 +1,4 @@
-<? php require "http://deco1800-g49.uqcloud.net/base.php"; ?>
+<?php require("base.php"); ?>
 <!DOCTYPE html>
 <html >
   <head>
@@ -45,11 +45,17 @@
 	$componentID = substr($getvalues,-1,1);
 	$webIDvalue = substr($getvalues,0,1);
 	
-	echo "get value equals " . $getvalues;
-	echo "Web ID Value equals " . $webIDvalue;
-	echo "Component ID equals " . $componentID;
+	//echo "get value equals " . $getvalues;
+	//echo "Web ID Value equals " . $webIDvalue;
+	//echo "Component ID equals " . $componentID;
 	
 	$currentUser = $_SESSION["username"];
+	if (isset($_SESSION['username'])) {
+		echo "I think its all ok :O";
+	}
+	else {
+		echo "Username is not set";
+	}
 	echo "Current User value is " . $currentUser;
 	//$currentUser = mysql_query('select from users where username)
 	?>

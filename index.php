@@ -1,6 +1,5 @@
 <!-- PHP code snippets taken from http://code.tutsplus.com/tutorials/user-membership-with-php--net-1523 -->
-<? php require "http://deco1800-g49.uqcloud.net/base.php"; ?>
-<? session_start(); ?>
+<?php require("base.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
