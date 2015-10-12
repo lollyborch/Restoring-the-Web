@@ -36,28 +36,23 @@
 
   </head>
   <body>
-  <!-- Connecting to the Database -->
+  <!-- Fetching the Users Restoration HTML and CSS -->
 	<?php
-	$connection = mysql_connect("localhost", "Felixlinh", "155764") or die("MySQL Error: " . mysql_error());
-	$database = mysql_select_db("users",$connection) or die("MySQL Error: " . mysql_error());
-	
+	// Grab the Website ID which is posted on the cricketaustralia.html module when pressed
 	$getvalues = $_GET['WebsiteID'];
 	$componentID = substr($getvalues,-1,1);
 	$webIDvalue = substr($getvalues,0,1);
-	
-	//echo "get value equals " . $getvalues;
-	//echo "Web ID Value equals " . $webIDvalue;
-	//echo "Component ID equals " . $componentID;
-	
+	// Grab the current users name
 	$currentUser = $_SESSION["username"];
-	if (isset($_SESSION['username'])) {
-		echo "I think its all ok :O";
-	}
-	else {
-		echo "Username is not set";
-	}
-	echo "Current User value is " . $currentUser;
-	//$currentUser = mysql_query('select from users where username)
+	
+	// Find the userID from their name and email (email must be unique so this is ok)
+	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="tester" and emailAddress="tester@test.com";');
+	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
+	$currentUserID = $currentUserIDTable[0];
+	echo "this is the current usersID " . $currentUserID;
+	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="1" and UserID="19" and CompID="1";');
+	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
+	echo "This is the current Users HTML" . $UsersRestorationsTable[0];
 	?>
       <!--header start-->
         <header class="header">
@@ -93,7 +88,7 @@
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profile.html" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="profile.html">Profile</a>
-                            <a class="dropdown-item" href="index.html">Log out</a>
+                            <a class="dropdown-item" href="index.php" onclick='<?php unset($_SESSION["username"],$_SESSION["emailAddress"]);?>'>Log out</a>
                         </div>
                     </li>
                 </ul>

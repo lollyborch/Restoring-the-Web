@@ -15,5 +15,4 @@ $database = mysql_select_db("users",$connection) or die("MySQL Error: " . mysql_
 $checklogin = mysql_query("SELECT * FROM users WHERE username = 'j' AND password = 'j';");
 $test = mysql_num_rows($checklogin);
 $test2 = mysql_fetch_array($checklogin);
-echo $test2[0];
 ?>
