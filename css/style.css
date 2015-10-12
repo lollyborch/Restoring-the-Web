@@ -77,3 +77,11 @@
     margin-top:10px;
   }   
 }
+
+
+.css-section {
+  position: absolute;
+  width: 49.5%;
+  height: 251px;
+  border: 2px solid #1d7058;
+}

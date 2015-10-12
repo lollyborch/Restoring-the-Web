@@ -1,12 +1,12 @@
 (function (){
   var $editorContainer = $('.news-item-container'),
-      $editor = $('#editor'),
+      $html_editor = $('#editor'),
+      $css_editor = $('#csseditor'),
       $preview = $('#preview'),
-      $editorControls = $('.editor-controls'),
-      $editorControlsToggle = $('.editor-controls-toggle'),
-      $editorControlButtons = $('.control-buttons'),
       aceEditor,
+      aceEditorCss,
       resizable = true,
+      testMarkupCss="";
 	  testMarkup="";
 testMarkup += "<table id=\"header\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n";
 testMarkup += "   <tbody><tr>\n";
@@ -776,30 +776,30 @@ testMarkup += "<\/tbody><\/table>\n";
     aceEditor.setValue(testMarkup);
   }
   
-  function setupEvents () {
-    $editorControlsToggle.on('click', toggleEditorControls);
-    $editorControlButtons.find('.btn').on('click', controlButtonClicked);
+  function setupCssEditor () {
+  	aceEditor = ace.edit("csseditor");
+    aceEditor.setShowPrintMargin(false);
+    aceEditor.getSession().setUseWorker(false);
+    aceEditor.getSession().setMode("ace/mode/css");
+    aceEditor.getSession().on('change', updateCssPreview);
+    aceEditor.setValue(testMarkup);
   }
-  
-  function toggleEditorControls (evt) {
-    //$(this).find('i').toggleClass('fa-chevron-down');
-    //$(this).find('i').toggleClass('fa-chevron-up');
-    $editorControls.toggleClass('open');
-    $editor.toggleClass('controls-open');
-  }
-  
-  function controlButtonClicked (evt) {
-    var action = $(this).data('action');
-    console.log("action: ", action);
-  }
-  
+
+
   function updatePreview () {
     var editorContent = aceEditor.getSession().getValue();
     $preview.contents().find('body').html(editorContent);
   }
 
+  function updateCssPreview () {
+  	var editorContent = aceEditor.getSession().getValue();
+  	$preview.contents().find('body').css(editorContent);
+  }
+
+
   setupEditor();
-  setupEvents();
+  setupCssEditor();
+
 
 
   $(window).trigger('resize');
