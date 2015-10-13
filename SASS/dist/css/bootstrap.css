@@ -5376,6 +5376,10 @@ figure:hover:before {
   text-decoration: none;
 }
 
+.alttext {
+  color: #fff;
+}
+
 .item-container {
   position: relative;
   height: 270px;
