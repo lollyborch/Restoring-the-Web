@@ -53,8 +53,8 @@
 	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
 	$_SESSION['userHTML'] = $UsersRestorationsTable[0];
 	$uHTML = $_SESSION['userHTML'];
-	echo "This is the session Users html" . $_SESSION['userHTML'];
 	?>
+	<div id="hiddenHTML" style="display:none"><?php echo $uHTML; ?></div>
       <!--header start-->
         <header class="header">
             <div class="header-container">
@@ -125,7 +125,7 @@
             <div class="working-header pull-left" id="html-editor">Html Editor</div>
         </div>
         <div class="news-item-container">
-            <div id="editor" class="preview-section"></div>
+            <div id="editor" class="preview-section" <!--value="//<?php// echo $uHTML; ?>">--></div>
         </div>
 
         <div id="css-editor" class="clearfix">
@@ -160,7 +160,9 @@
 
         <script src="SASS/dist/js/bootstrap.min.js"></script>
 		<!-- This script sets up the Editor -->
-        <script src="js/index.php"></script>
+        <script src="js/index.js">
+			getHTML();
+		</script>
 
 		<!-- This script adds content to the ditor -->
 		<script src="js/cricket.js">
