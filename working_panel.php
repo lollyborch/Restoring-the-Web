@@ -46,10 +46,12 @@
 	$currentUser = $_SESSION["username"];
 	
 	// Find the userID from their name and email (email must be unique so this is ok)
-	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="tester" and emailAddress="tester@test.com";');
+	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="' . $_SESSION['username'] . '" and emailAddress="' . $_SESSION['emailAddress'] .'";');
 	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
 	$currentUserID = $currentUserIDTable[0];
-	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="1" and UserID="19" and CompID="1";');
+	echo $currentUserID;
+	echo $_SESSION['username'];
+	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="1" and UserID="' .$currentUserID .'" and CompID="1";');
 	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
 	$_SESSION['userHTML'] = $UsersRestorationsTable[0];
 	$uHTML = $_SESSION['userHTML'];
