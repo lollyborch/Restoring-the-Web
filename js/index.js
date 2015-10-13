@@ -9,7 +9,7 @@ console.log(hiddenDivValue);
       $css_editor = $('#csseditor'),
       $preview = $('#preview'),
       aceEditor,
-	    aceEditorCss,
+	  aceEditorCss,
       resizable = true,
       testMarkupCss="";
 	  testMarkup= hiddenDivValue;
@@ -45,16 +45,22 @@ console.log(hiddenDivValue);
   	$preview.contents().find('head').html(editorContent);
   }
   
-  // A function to save the current content into the hidden div
-  function saveHTML() {
-	  console.log("This is saveHTML function");
-	  var updatedHTML = aceEditor.getSession().getValue();
-	  hiddenDivValue.innerHTML = updatedHTML;
+  // A function to add an event listener to the save button
+  function saveListener() {
+	  var saveButton = document.getElementById("saveButton");
+	  saveButton.addEventListener("click",saveHTML);
   }
-
+  
+  // A function to save the current content into the hidden div
+	function saveHTML() {
+		updatedHTML = aceEditor.getValue();
+		console.log(updatedHTML);
+	}
+  
   //run both function as the editor
   setupEditor();
   setupCssEditor();
+  saveListener();
 
   /* preset this into the css editor
     <style>

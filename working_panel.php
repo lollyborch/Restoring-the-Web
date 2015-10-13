@@ -141,7 +141,7 @@ require("php/save.php");
             </div>
         </div>
 
-            <a class="btn btn-lg btn-primary " role="button">Save</a>
+            <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
             <a class="btn btn-lg btn-primary text-center" href="my_restorations.html" role="button">Publish</a>
             <a class="btn btn-lg btn-primary text-center" href="help.html" role="button" target="_blank">Help</a>    
     </div>  
