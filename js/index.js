@@ -1,6 +1,8 @@
+/*
 var hiddenDiv = document.getElementById('hiddenHTML');
 var hiddenDivValue = hiddenDiv.innerHTML;
 console.log(hiddenDivValue);
+*/
 
 (function (){
   var $editorContainer = $('.news-item-container'),
@@ -12,7 +14,13 @@ console.log(hiddenDivValue);
 	  aceEditorCss,
       resizable = true,
       testMarkupCss="";
-	  testMarkup= hiddenDivValue;
+      testMarkupCss += "<style>\n";
+      testMarkupCss += "\n";
+      testMarkupCss += "\n";
+      testMarkupCss += "\n";
+      testMarkupCss += "\n";
+      testMarkupCss += "</style>";
+	  testMarkup= "";
 	  
   function setupEditor () {
     aceEditor = ace.edit("editor");
@@ -44,7 +52,7 @@ console.log(hiddenDivValue);
   	var editorContent = aceEditorCss.getSession().getValue();
   	$preview.contents().find('head').html(editorContent);
   }
-  
+  /*
   // A function to add an event listener to the save button
   function saveListener() {
 	  var saveButton = document.getElementById("saveButton");
@@ -56,11 +64,12 @@ console.log(hiddenDivValue);
 		updatedHTML = aceEditor.getValue();
 		console.log(updatedHTML);
 	}
-  
+  */
+
   //run both function as the editor
   setupEditor();
   setupCssEditor();
-  saveListener();
+  //saveListener();
 
   /* preset this into the css editor
     <style>
