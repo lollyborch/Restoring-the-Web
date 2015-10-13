@@ -5,11 +5,20 @@
       $css_editor = $('#csseditor'),
       $preview = $('#preview'),
       aceEditor,
-	  //aceEditorCss,
+	    aceEditorCss,
       resizable = true,
       //added a new hardcode that is supposed to have css code inside
       testMarkupCss="";
-	  testMarkup="";
+testMarkupCss += "<style>\n";
+testMarkupCss += "\n"
+testMarkupCss += "\n"
+testMarkupCss += "\n"
+testMarkupCss += "p {color:red;}";
+testMarkupCss += "\n"
+testMarkupCss += "\n"
+testMarkupCss += "\n"
+testMarkupCss += "</style>\n"
+	    testMarkup="";
 testMarkup += "<table id=\"header\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n";
 testMarkup += "   <tbody><tr>\n";
 testMarkup += "    <td colspan=\"2\" background=\"\/web\/20050105050831im_\/http:\/\/www.cricket.com.au\/portal\/templates\/template0008\/acdYVYVYfYZVYUbeWZRYdWRQUUSQaSaQ\/img_header1.jpg\" height=\"20\" valign=\"bottom\">    \n";
@@ -780,12 +789,12 @@ testMarkup += "<\/tbody><\/table>\n";
   
   //same function as the html editor, but make the inputs as css syntax
   function setupCssEditor () {
-  	aceEditor = ace.edit("csseditor");
-    aceEditor.setShowPrintMargin(false);
-    aceEditor.getSession().setUseWorker(false);
-    aceEditor.getSession().setMode("ace/mode/css");
-    aceEditor.getSession().on('change', updateCssPreview);
-    aceEditor.setValue(testMarkup);
+  	aceEditorCss = ace.edit("csseditor");
+    aceEditorCss.setShowPrintMargin(false);
+    aceEditorCss.getSession().setUseWorker(false);
+    aceEditorCss.getSession().setMode("ace/mode/css");
+    aceEditorCss.getSession().on('change', updateCssPreview);
+    aceEditorCss.setValue(testMarkupCss);
   }
 
 
@@ -796,15 +805,21 @@ testMarkup += "<\/tbody><\/table>\n";
 
   //a new update prevew function that is supposed to update the style changing into the webpage
   function updateCssPreview () {
-  	var editorContent = aceEditor.getSession().getValue();
-  	$preview.contents().find('body').css(editorContent);
+  	var editorContent = aceEditorCss.getSession().getValue();
+  	$preview.contents().find('head').html(editorContent);
   }
 
   //run both function as the editor
   setupEditor();
   setupCssEditor();
 
-
+  /* preset this into the css editor
+    <style>
+    p {
+        color:red;
+    }
+    </style>
+  */
 
   $(window).trigger('resize');
 }());
