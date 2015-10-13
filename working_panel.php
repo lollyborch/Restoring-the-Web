@@ -1,6 +1,5 @@
 <?php 
 require("base.php"); 
-require("php/save.php");
 ?>
 <!DOCTYPE html>
 <html >

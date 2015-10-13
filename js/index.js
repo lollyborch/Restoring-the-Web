@@ -62,7 +62,15 @@ console.log(hiddenDivValue);
 	function saveHTML() {
 		updatedHTML = aceEditor.getValue();
 		console.log(updatedHTML);
-	}
+		$.ajax({
+			type: "GET",
+			data: updatedHTML,
+			url: "php/save.php",
+			success: function(){
+				console.log("Sucuess function triggered");
+			}
+		});
+	};
   
 
   //run both function as the editor
