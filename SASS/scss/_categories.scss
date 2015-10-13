@@ -71,7 +71,7 @@
 	}
 
 /*http://cdn.sixrevisions.com/0468-01-css-ghost-buttons/index.html*/
-	.ghost-button {
+	.easy-hard {
 	  display: inline-block;
 	  width: 100px;
 	  padding: 8px;
@@ -86,7 +86,6 @@
 	&:hover,
 	&:active {
 	 // background-color: #fff;
-      border-bottom: 1px solid #fff;
 	  color: #000;
 	  -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
   	transition: background-color 0.3s ease-in, color 0.3s ease-in;
@@ -104,10 +103,14 @@
     color: $category-font-colour;
     font-size: 1.7rem;
     line-height: 1.7rem;
+    padding-bottom: 3px;
+    
 }
 
 .categoryhover a:hover{
     color: $category-font-colour;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
 }
 
 .modules {

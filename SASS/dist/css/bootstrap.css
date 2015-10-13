@@ -5317,7 +5317,7 @@ figure:hover:before {
 }
 
 /*http://cdn.sixrevisions.com/0468-01-css-ghost-buttons/index.html*/
-.ghost-button {
+.easy-hard {
   display: inline-block;
   width: 100px;
   padding: 8px;
@@ -5331,10 +5331,9 @@ figure:hover:before {
           transition: background-color .2s ease-out, color .2s ease-out;
 }
 
-.ghost-button:hover,
-.ghost-button:active {
+.easy-hard:hover,
+.easy-hard:active {
   color: #000;
-  border-bottom: 1px solid #fff;
   -webkit-transition: background-color .3s ease-in, color .3s ease-in;
        -o-transition: background-color .3s ease-in, color .3s ease-in;
           transition: background-color .3s ease-in, color .3s ease-in;
@@ -5347,6 +5346,7 @@ figure:hover:before {
 }
 
 .categoryhover a {
+  padding-bottom: 3px;
   font-size: 1.7rem;
   line-height: 1.7rem;
   color: #fff;
@@ -5354,6 +5354,8 @@ figure:hover:before {
 
 .categoryhover a:hover {
   color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
 }
 
 .modules {
