@@ -1,7 +1,3 @@
-/*var editorDiv = document.getElementById('editor');
-var htmlValue = editorDiv.getAttribute('value');
-console.log("test");
-console.log(htmlValue);	*/
 var hiddenDiv = document.getElementById('hiddenHTML');
 var hiddenDivValue = hiddenDiv.innerHTML;
 console.log(hiddenDivValue);
@@ -47,6 +43,13 @@ console.log(hiddenDivValue);
   function updateCssPreview () {
   	var editorContent = aceEditorCss.getSession().getValue();
   	$preview.contents().find('head').html(editorContent);
+  }
+  
+  // A function to save the current content into the hidden div
+  function saveHTML() {
+	  console.log("This is saveHTML function");
+	  var updatedHTML = aceEditor.getSession().getValue();
+	  hiddenDivValue.innerHTML = updatedHTML;
   }
 
   //run both function as the editor

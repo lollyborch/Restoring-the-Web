@@ -40,8 +40,7 @@
   </head>
 <body>
 <?php
-echo $_SESSION['username'];
-echo "test";
+
 if(!empty($_SESSION["loggedIn"]) && !empty($_SESSION["username"])){
 	?>
 	<h1>Member Area</h1>

@@ -1,4 +1,7 @@
-<?php require("base.php"); ?>
+<?php 
+require("base.php"); 
+require("php/save.php");
+?>
 <!DOCTYPE html>
 <html >
   <head>
@@ -127,7 +130,7 @@
             <div class="working-header pull-left" id="html-editor">Html Editor</div>
         </div>
         <div class="news-item-container">
-            <div id="editor" class="preview-section" <!--value="//<?php// echo $uHTML; ?>">--></div>
+            <div id="editor" class="preview-section"</div>
         </div>
 
         <div id="css-editor" class="clearfix">
@@ -138,7 +141,7 @@
             </div>
         </div>
 
-            <a class="btn btn-lg btn-primary " href="#" role="button">Save</a>
+            <a class="btn btn-lg btn-primary " role="button">Save</a>
             <a class="btn btn-lg btn-primary text-center" href="my_restorations.html" role="button">Publish</a>
             <a class="btn btn-lg btn-primary text-center" href="help.html" role="button" target="_blank">Help</a>    
     </div>  
@@ -163,7 +166,6 @@
         <script src="SASS/dist/js/bootstrap.min.js"></script>
 		<!-- This script sets up the Editor -->
         <script src="js/index.js">
-			getHTML();
 		</script>
 
 		<!-- This script adds content to the ditor -->
