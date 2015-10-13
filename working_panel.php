@@ -49,10 +49,11 @@
 	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="tester" and emailAddress="tester@test.com";');
 	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
 	$currentUserID = $currentUserIDTable[0];
-	echo "this is the current usersID " . $currentUserID;
 	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="1" and UserID="19" and CompID="1";');
 	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
-	echo "This is the current Users HTML" . $UsersRestorationsTable[0];
+	$_SESSION['userHTML'] = $UsersRestorationsTable[0];
+	$uHTML = $_SESSION['userHTML'];
+	echo "This is the session Users html" . $_SESSION['userHTML'];
 	?>
       <!--header start-->
         <header class="header">
@@ -159,7 +160,8 @@
 
         <script src="SASS/dist/js/bootstrap.min.js"></script>
 		<!-- This script sets up the Editor -->
-        <script src="js/index.js"></script>
+        <script src="js/index.php"></script>
+
 		<!-- This script adds content to the ditor -->
 		<script src="js/cricket.js">
 			printErrors();
