@@ -8,7 +8,7 @@
     <td rowspan="2" bgcolor="#669933" width="100%">&nbsp;</td>
    </tr>
    <tr>
-    <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/"><img alt="Cricket Australia" height="85" src="/web/20050105050831im_/http://www.cricket.com.au/portal/templates/template0008/acdYVYVYfYZVYUbeWZRYdWRQUUSQaSaQ/img_header2-1.jpg" width="301" border="0"></a></td>
+    <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/"><img alt="Cricket Australia" height="85" src="/images/cricketaustralia/img_header2-1.jpg" width="301" border="0"></a></td>
     <td><img alt="" height="85" src="/web/20050105050831im_/http://www.cricket.com.au/portal/templates/template0008/acdYVYVYfYZVYUbeWZRYdWRQUUSQaSaQ/img_header2-2.jpg" width="466"></td>
    </tr>
 </tbody></table>
