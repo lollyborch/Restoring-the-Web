@@ -121,7 +121,6 @@
                             <h4 class="text-center">{{ sport.title }}</h4>
                              <figure class="cap-bot ">   
                                 <img ng-src="{{ sport.coverImg }}" alt="{{ sport.imgalt }}" width="100%" class="img-responsive full-width-crop-200 sportimage alttext"/>   
-                                 <!--<img src=" " alt="" width="100%" class="img-responsive full-width-crop-200"/>-->
                                 <figcaption>
                                     <p class="categoryhover"><a ng-href="{{ sport.url }}">Begin restoration</a></p>
                                     <a class="easy-hard" ng-href="{{ sport.url }}"><img ng-src="{{ sport.level }}" alt="{{ sport.levelalt }}" class="img-responsive" /></a>
@@ -133,18 +132,17 @@
                     
                   </div>
                   <div role="tabpanel" class="tab-pane" id="arts">
-                      <!--<img src="http://www.fillmurray.com/g/900/200" class="img-responsive full-width-crop-200"/>-->
                       <br />
                       <div class="row">
                           <div class="col-md-4" ng-repeat="art in websiteArts">
                             
                             <h4 class="text-center">{{ art.title }}</h4>
-                             <figure class="cap-bot">   
-                               <!-- <img ng-src="{{ art.coverImg }}" alt="" width="100%" class="img-responsive full-width-crop-200"/></a> -->
-                              <img ng-src="" alt="" width="100%" class="img-responsive full-width-crop-200"/></a> 
+                             <figure class="cap-bot ">   
+                                <img ng-src="{{ art.coverImg }}" alt="{{ art.imgalt }}" width="100%" class="img-responsive full-width-crop-200 artimage alttext"/>   
                                 <figcaption>
-                                    <a class="easy-hard" href="working_panel.html"><img src="images/Easy.png" alt="Easy level" class="img-responsive" /></a>
-                                    <a class="easy-hard" href="working_panel.html"><img src="images/Hard.png"  alt="Hard level" class="img-responsive" /></a>
+                                    <p class="categoryhover"><a ng-href="{{ art.url }}">Begin restoration</a></p>
+                                    <a class="easy-hard" ng-href="{{ art.url }}"><img ng-src="{{ art.level }}" alt="{{ art.levelalt }}" class="img-responsive" /></a>
+                                    
                                 </figcaption>
                             </figure>
                           </div>
@@ -158,11 +156,12 @@
                           <div class="col-md-4" ng-repeat="edu in websiteEdu">
                             
                             <h4 class="text-center">{{ edu.title }}</h4>
-                            <figure class="cap-bot">    
-                                <img ng-src="" alt="" width="100%" class="img-responsive full-width-crop-200"/></a>      
+                            <figure class="cap-bot ">   
+                                <img ng-src="{{ edu.coverImg }}" alt="{{ edu.imgalt }}" width="100%" class="img-responsive full-width-crop-200 educationimage alttext"/>   
                                 <figcaption>
-                                    <a class="easy-hard" href="working_panel.html"><img src="images/Easy.png" alt="Easy level" class="img-responsive" /></a>
-                                    <a class="easy-hard" href="working_panel.html"><img src="images/Hard.png"  alt="Hard level" class="img-responsive" /></a>
+                                    <p class="categoryhover"><a ng-href="{{ edu.url }}">Begin restoration</a></p>
+                                    <a class="easy-hard" ng-href="{{ edu.url }}"><img ng-src="{{ edu.level }}" alt="{{ edu.levelalt }}" class="img-responsive" /></a>
+                                    
                                 </figcaption>
                             </figure>
                           </div>
@@ -176,12 +175,12 @@
                           <div class="col-md-4" ng-repeat="gov in websiteGov">
                             
                             <h4 class="text-center">{{ gov.title }}</h4>
-                            <figure class="cap-bot">
-                                
-                                <img ng-src="" class="img-responsive full-width-crop-200" alt="" width="100%" /></a>      
+                            <figure class="cap-bot ">   
+                                <img ng-src="{{ gov.coverImg }}" alt="{{ gov.imgalt }}" width="100%" class="img-responsive full-width-crop-200 governmentimage alttext"/>   
                                 <figcaption>
-                                    <a class="easy-hard" href="working_panel.html"><img src="images/Easy.png" alt="Easy level" class="img-responsive" /></a>
-                                    <a class="easy-hard" href="working_panel.html"><img src="images/Hard.png"  alt="Hard level" class="img-responsive" /></a>
+                                    <p class="categoryhover"><a ng-href="{{ gov.url }}">Begin restoration</a></p>
+                                    <a class="easy-hard" ng-href="{{ gov.url }}"><img ng-src="{{ gov.level }}" alt="{{ gov.levelalt }}" class="img-responsive" /></a>
+                                    
                                 </figcaption>
                             </figure>
                           </div>
@@ -210,8 +209,8 @@
     <!-- SASS Bootstrap -->
     <script src="SASS/dist/js/bootstrap.min.js"></script>
 
-    <!-- temp js for wk11 test session -->
-    <script src="js/sport.js"></script>
+    <!-- temp js for wk11 test session 
+    <script src="js/sport.js"></script>-->
     
    
      
@@ -223,9 +222,9 @@
 
     <!-- Angular Modules 
     <script src="js/app.js"></script>
+ <script src="js/MainController.js"></script>
 
-    <!-- Angular Controllers
-    <script src="js/MainController.js"></script>
+    <!-- Angular Controller-->
     <script src="js/WebsiteController.js"></script>  -->
 
     
