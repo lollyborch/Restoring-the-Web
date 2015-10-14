@@ -5380,6 +5380,12 @@ figure:hover:before {
   color: #fff;
 }
 
+.grey {
+          filter: grayscale(100%);
+
+  -webkit-filter: grayscale(100%);
+}
+
 .item-container {
   position: relative;
   height: 270px;
