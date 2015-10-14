@@ -10,6 +10,10 @@ $dbuser = "Felixlinh";
 $dbpass = "155764";
  
 $connection = mysql_connect("localhost", "Felixlinh", "155764") or die("MySQL Error: " . mysql_error());
+/*$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
+if (mysqli_connect_errno()) {
+	echo "we did not manage to connect to the database" . mysqli_connect_error();
+};*/
 $database = mysql_select_db("users",$connection) or die("MySQL Error: " . mysql_error());
 
 $checklogin = mysql_query("SELECT * FROM users WHERE username = 'j' AND password = 'j';");

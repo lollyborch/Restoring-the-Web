@@ -63,11 +63,11 @@ console.log(hiddenDivValue);
 		updatedHTML = aceEditor.getValue();
 		console.log(updatedHTML);
 		$.ajax({
-			type: "GET",
-			data: updatedHTML,
+			type: "POST",
+			data: {"data": updatedHTML},
 			url: "php/save.php",
 			success: function(){
-				console.log("Sucuess function triggered");
+				console.log("Success function triggered");
 			}
 		});
 	};

@@ -47,8 +47,8 @@ if(!empty($_SESSION["loggedIn"]) && !empty($_SESSION["username"])){
 	<p>Thanks for loggin in! You are <code><?=$_SESSION["username"]?></code> and your email address is <code><?=$_SESSION["emailAddress"]?></code>.</p>
 
 <?php
-$connection = mysql_connect("localhost", "Felixlinh", "155764") or die("MySQL Error: " . mysql_error());
-$database = mysql_select_db("users",$connection) or die("MySQL Error: " . mysql_error());
+//$connection = mysql_connect("localhost", "Felixlinh", "155764") or die("MySQL Error: " . mysql_error());
+//$database = mysql_select_db("users",$connection) or die("MySQL Error: " . mysql_error());
 }
 elseif(!empty($_POST["username"]) && !empty($_POST["password"]))
 {
@@ -56,7 +56,8 @@ elseif(!empty($_POST["username"]) && !empty($_POST["password"]))
 	$password = mysql_real_escape_string($_POST["password"]);
 	
 	$checklogin = mysql_query('SELECT * FROM users WHERE username ="'.$username.'" AND password ="'.$password.'";');
-	
+	//$checklogin = mysqli_query($con,'SELECT * FROM users WHERE username ="'.$username.'" AND password ="'.$password.'";');
+
 	if(mysql_num_rows($checklogin) == '1'){
 		$row = mysql_fetch_array($checklogin);
 		$email = $row["emailAddress"];
