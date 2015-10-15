@@ -1,0 +1,100 @@
+<table data="body module" width="580" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr valign="top">
+    <td data="feature and links" width="329">
+      <table data="line over feature photo" border="0" width="329" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td align="left"><img src="images/home/home-l-top.gif" width="148" height="16" alt=""></td>
+        </tr>
+      </tbody></table>
+      <table data="photo and links" width="329" border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr valign="top">
+          <td width="11"><img src="images/home/home-stripes-left.gif" width="11" height="211" alt=""></td>
+          <td width="134"><img src="images/home/home-feature.jpg" width="134" height="211" alt="UQ students in the Great Court"></td>
+          <td width="3" align="right"><img src="images/d-gold.gif" width="1" height="211" alt=""></td>
+          <td width="181">
+            <table data="links" border="0" width="181" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                <td><a href="/web/19990224091633/http://www2.uq.edu.au/about/" onmouseover="return over('about_uq', 'About UQ',1)" onmouseout="return out('about_uq',1)"><img src="images/home/home-m-about-uq.gif" width="181" height="20" alt="About UQ" border="0" name="i_about_uq"></a></td>
+              </tr>
+              <tr>
+                <td><a href="/web/19990224091633/http://www2.uq.edu.au/news/" onmouseover="return over('news', 'News',1)" onmouseout="return out('news',1)"><img src="images/home/home-m-news.gif" width="181" height="28" alt="News and Events" border="0" name="i_news"></a></td>
+              </tr>
+              <tr>
+                <td><a href="/web/19990224091633/http://www2.uq.edu.au/student/" onmouseover="return over('student_information', 'Student information',1)" onmouseout="return out('student_information',1)"><img src="images/home/home-m-student-information.gif" width="181" height="28" alt="Student information" border="0" name="i_student_information"></a></td>
+              </tr>
+              <tr>
+                <td><a href="/web/19990224091633/http://www2.uq.edu.au/staff/" onmouseover="return over('staff_information', 'Staff information',1)" onmouseout="return out('staff_information',1)"><img src="images/home/home-m-staff-information.gif" width="181" height="28" alt="Staff information" border="0" name="i_staff_information"></a></td>
+              </tr>
+              <tr>
+                <td><a href="/web/19990224091633/http://www2.uq.edu.au/research/" onmouseover="return over('research', 'Research',1)" onmouseout="return out('research',1)"><img src="images/home/home-m-research.gif" width="181" height="28" alt="Research" border="0" name="i_research"></a></td>
+              </tr>
+              <tr>
+                <td><a href="/web/19990224091633/http://www2.uq.edu.au/services/" onmouseover="return over('services', 'Services',1)" onmouseout="return out('services',1)"><img src="images/home/home-m-services.gif" width="181" height="28" alt="Services" border="0" name="i_services"></a></td>
+              </tr>
+              <tr>
+                <td><a href="/web/19990224091633/http://www2.uq.edu.au/departments/" onmouseover="return over('departments', 'Departments, Faculties and Centres',1)" onmouseout="return out('departments',1)"><img src="images/home/home-m-departments.gif" width="181" height="45" alt="Departments, Faculties and Centres" border="0" name="i_departments"></a></td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+      </tbody></table>
+      <table data="uni of the year" border="0" width="329" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><a href="/web/19990224091633/http://www.uq.edu.au/uni-of-year/"><img src="images/home/home-uni-of-year.gif" width="329" height="62" border="0" alt="Australian 1998 University of the Year"></a></td>
+        </tr>
+      </tbody></table>
+    </td>
+    <td data="pointer line" width="24"><img src="images/d-clear.gif" width="24" height="227" alt="" name="l_highlight"></td>
+    <td data="explanatary text and updates module" width="213">
+      <table data="explanatary text" border="0" cellspacing="0" cellpadding="0" width="213">
+        <tbody><tr> 
+          <td><img src="/web/19990224091633im_/http://www2.uq.edu.au/images/d-clear.gif" alt="" width="213" height="37" name="t_highlight" data-pin-nopin="true"></td>
+        </tr>
+        <tr>
+          <td><img src="/web/19990224091633im_/http://www2.uq.edu.au/images/d-clear.gif" alt="" width="213" height="7" name=""></td>
+        </tr>
+      </tbody></table>
+      <table data="updates" border="0" width="213" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td valign="top" width="191"> 
+            <table border="0" width="191" height="244" cellspacing="0" cellpadding="0">
+              <tbody><tr valign="top"> 
+                <td><img src="/web/19990224091633im_/http://www2.uq.edu.au/images/home/home-updates.gif" width="191" height="17" alt="updates" data-pin-nopin="true"></td>
+              </tr>
+              <tr> 
+                <td><a href="/web/19990224091633/http://www2.uq.edu.au/newsreleases/view.asp?n_id=1164"><img src="/web/19990224091633im_/http://www2.uq.edu.au/images/home/updates/99-02-22.jpg" width="156" height="107" alt="UQ Ipswich open" border="0"></a><br>
+                  <font size="-2" face="Verdana, Arial, Helvetica, sans-serif"><br>
+                  &nbsp;&nbsp;UQ Ipswich opens doors<br>
+                  &nbsp;&nbsp;to students. <a href="/web/19990224091633/http://www2.uq.edu.au/newsreleases/view.asp?n_id=1164">more...</a>
+						</font></td>
+              </tr>
+              <tr> 
+                <td height="3" valign="bottom"><img src="/web/19990224091633im_/http://www2.uq.edu.au/images/lines/updates/h-gold-170.gif" width="170" height="1" alt=""></td>
+              </tr>
+              <tr> 
+                <td><font size="-2" face="Verdana, Arial, Helvetica, sans-serif"> 
+                  <p>&nbsp;&nbsp;Bioscience Institute to lead<br>
+                    &nbsp;&nbsp;Queensland into a new era. &nbsp;&nbsp;<a href="/web/19990224091633/http://www2.uq.edu.au/newsreleases/view.asp?n_id=1155">more...</a></p>
+                  </font></td>
+              </tr>
+              <tr> 
+                <td height="3"><img src="/web/19990224091633im_/http://www2.uq.edu.au/images/lines/updates/h-gold-170.gif" width="170" height="1" alt=""></td>
+              </tr>
+              <tr> 
+                <td><font size="-2" face="Verdana, Arial, Helvetica, sans-serif"> 
+                  <p>&nbsp;&nbsp;Use <a href="/web/19990224091633/http://www.studentinfo.uq.edu.au/">SI-net</a> 
+                    to enrol for 1999<br>
+                    &nbsp;&nbsp;and confirm your timetable.</p>
+                  </font></td>
+              </tr>
+              <tr valign="bottom"> 
+                <td><img src="/web/19990224091633im_/http://www2.uq.edu.au/images/lines/updates/h-gold-191.gif" width="191" height="1" alt=""></td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td data="update stripes" width="22" valign="bottom"><img src="/web/19990224091633im_/http://www2.uq.edu.au/images/home/home-stripes-updates.gif" width="22" height="244" alt="" data-pin-nopin="true"></td>
+        </tr>
+      </tbody></table>
+    </td>
+    <td data="recent updates" width="14" valign="bottom"><!--<a href="/news/updates/"><img src="/images/common/b-recent-updates.gif" width="14" height="89" alt="Recent updates" border="0"></a>--></td>
+  </tr></tbody></table>

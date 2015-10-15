@@ -1,0 +1,85 @@
+<tbody><tr> 
+    <td><img src="images/fp_header.gif" width="600" height="66" alt="queensland museum explorer" border="0" usemap="#topnav"></td>
+  </tr>
+  <tr> 
+    <td> 
+      <table width="600" border="0" cellspacing="0" cellpadding="0">
+        <tbody><tr> 
+          <td width="195"> 
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr> 
+                <td><a href="stepinside/stepwelcome.html"><img src="images/fp_nav_stepinside.gif" width="195" height="62" alt="step inside" border="0"></a></td>
+              </tr>
+              <tr> 
+                <td><a href="culture/culturewelcome.html"><img src="images/fp_nav_culture.gif" width="195" height="48" alt="culture" border="0"></a></td>
+              </tr>
+              <tr> 
+                <td><a href="nature/naturewelcome.html"><img src="images/fp_nav_nature.gif" width="195" height="49" alt="nature" border="0"></a></td>
+              </tr>
+              <tr> 
+                <td><a href="resources/resourcewelcome.html"><img src="images/fp_nav_resources.gif" width="195" height="48" alt="resources" border="0" data-pin-nopin="true"></a></td>
+              </tr>
+              <tr> 
+                <td><a href="branches/brancheswelcome.html"><img src="images/fp_nav_branches.gif" width="195" height="48" alt="branches" border="0"></a></td>
+              </tr>
+              <tr> 
+                <td><a href="curators/staffwelcome.html"><img src="images/fp_nav_staff.gif" width="195" height="48" alt="staff" border="0"></a></td>
+              </tr>
+              <tr> 
+                <td><a href="stepinside/museumshop/shopwelcome.html"><img src="images/fp_nav_shop.gif" width="195" height="46" alt="shop" border="0"></a></td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td width="324" valign="top"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr> 
+                <td><img src="images/fp_banner_features.gif" width="317" height="62" alt="features"></td>
+              </tr>
+              <tr valign="top" align="right"> 
+                <td><img src="images/fp_feature.gif" width="260" height="287" border="0" usemap="#feature"></td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td width="81" valign="top"> 
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr> 
+                <td><a href="/web/20010308174133/http://amol.qm.qld.gov.au/events"><img src="/web/20010308174133im_/http://www.qmuseum.qld.gov.au/images/fp_banner_whatson.gif" width="88" height="62" alt="Calendar" border="0"></a></td>
+              </tr>
+              <tr> 
+                <td><img src="images/fp_banner_stripe_top.gif" width="88" height="86" border="0" usemap="#venues"></td>
+              </tr>
+              <tr> 
+                <td><img src="images/fp_banner_stripe_pand.gif" width="88" height="140" border="0" usemap="#stepinside" alt="step inside" name="sidenav" data-pin-nopin="true"></td>
+              </tr>
+              <tr> 
+                <td><img src="images/fp_banner_stripe_bottom.gif" width="88" height="15" border="0"></td>
+              </tr>
+              <tr> 
+                <td><a href="/web/20010308174133/http://www.qmuseum.qld.gov.au/stepinside/ref_frameset.html"><img src="images/fp_banner_oddspot.gif" width="88" height="46" alt="the odd spot" border="0"></a></td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr align="right" valign="top"> 
+    <td><font face="Arial, Helvetica, sans-serif" size="-2"><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      built and maintained by <a href="/web/20010308174133/http://www.logicworld.com.au/">LogicWorld</a> 
+      and the Queensland Museum © 1999</font><img src="images/fp_banner_footer1.gif" width="228" height="81" usemap="#governments" alt="QMuseum-QLDGov" name="QMuseum-QLDGov" border="0"></td>
+  </tr>
+  <tr align="right" valign="top">
+    <td><a href="/web/20010308174133/http://www.qld.gov.au/"><br>
+      <br><img src="qldgovlogo.gif" width="289" height="39" border="0" alt="queensland government"></a></td>
+  </tr>
+</tbody>

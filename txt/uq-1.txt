@@ -1,0 +1,37 @@
+<table data="header module" cellpadding="0" cellspacing="0" border="0" width="580">
+  <tbody><tr valign="top">
+    <td>
+		<table border="0" cellpadding="0" cellspacing="0" width="195">
+        <tbody><tr>
+          <td data="uq logo" valign="top"><img src="images/uq-logo.gif" width="195" height="51" alt="The University of Queensland"></td>
+        </tr>
+    </tbody></table></td>
+    <td>
+    <table border="0" cellpadding="0" cellspacing="0" width="385">
+        <tbody><tr>
+          <td data="spacer cell (above header buttons)" width="378" height="10"><img src="/web/19990224091633im_/http://www2.uq.edu.au/images/d-clear.gif" width="5" height="5"></td>
+        </tr>
+        <tr>
+          <td data="header buttons module" align="right" valign="top" width="378">
+            <table data="header buttons" cellpadding="0" cellspacing="0" border="0" width="378">
+              <tbody><tr>
+                <td><img src="/web/19990224091633im_/http://www2.uq.edu.au/images/d-clear.gif" width="50" height="5"></td>
+                <td><a href="/web/19990224091633/http://www2.uq.edu.au/search" onmouseover="return over('search', 'Search the UQ Web site')" onmouseout="return out('search')"><img name="i_search" src="images/b-search.gif" width="44" height="15" alt="Search" border="0"></a></td>
+                <td data="spacer cell" width="20"></td>
+                <td><a href="/web/19990224091633/http://www2.uq.edu.au/site-index/" onmouseover="return over('site_index', 'Site index and site details')" onmouseout="return out('site_index')"><img name="i_site_index" src="images/b-site-index.gif" width="63" height="15" alt="Site index" border="0"></a></td>
+                <td data="spacer cell" width="20"></td>
+                <td><a href="/web/19990224091633/http://www2.uq.edu.au/contacts/" onmouseover="return over('contacts', 'Contacts')" onmouseout="return out('contacts')"><img name="i_contacts" src="images/b-contacts.gif" width="55" height="15" alt="Contacts" border="0"></a></td>
+                <td data="spacer cell" width="20"></td>
+                <td><a href="/web/19990224091633/http://www2.uq.edu.au/faqs" onmouseover="return over('faqs', 'Frequently asked questions')" onmouseout="return out('faqs')"><img name="i_faqs" src="images/b-faqs.gif" width="33" height="15" alt="FAQs" border="0"></a></td>
+                <td data="spacer cell" width="20"></td>
+                <td><a href="/web/19990224091633/http://www.library.uq.edu.au/" onmouseover="return over('library', 'Library')" onmouseout="return out('library')"><img name="i_library" src="images/b-library.gif" width="44" height="15" alt="Library" border="0"></a></td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+        <tr>
+           <td data="black line (below header buttons)" width="378" valign="top"><img src="images/d-black.gif" width="378" height="1"></td>
+        </tr>
+    </tbody></table></td>
+  </tr>
+</tbody></table>

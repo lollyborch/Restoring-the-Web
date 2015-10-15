@@ -1,0 +1,18 @@
+<center><p><img src="images/qag1.jpg">
+</p></center>
+
+<center><p><img src="images/blueline.gif" height="5" width="640" align="BOTTOM"> <br>
+</p></center>
+
+<h3 align="CENTER">Queensland Art Gallery</h3>
+<h5 align="CENTER">Queensland Cultural Centre<br>
+South Bank<br>
+Brisbane<br>
+Queensland<br>
+<b>Australia</b><br>
+</h5>
+<h3 align="CENTER">Welcome to the Queensland Art Gallery's World Wide Web Site!</h3>
+<center><p><br>
+<img src="images/blueline.gif" height="5" width="640" align="BOTTOM" data-pin-nopin="true"> </p></center>
+<i>Last updated: 21 October 1997</i>
+

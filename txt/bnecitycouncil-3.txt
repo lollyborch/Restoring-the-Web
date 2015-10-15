@@ -1,0 +1,18 @@
+<td valign="top" width="450"> 
+
+<div align="center">
+  <p><img src="images/welcome1.gif" width="342" height="42" alt="Welcome to Brisbane City Council" data-pin-nopin="true"><br>
+    <img src="images/collage.jpg" width="480" alt="Brisbane, Queensland's Capital City offers a vibrant lifestyle to residents and visitors alike..."><br>
+  <table width="444" border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+      <td><a href="yourcity_yourcouncil/how_council_works/council_elections/election_2000/index.shtml"><img src="images/hot_buttons/election2000.gif" width="100" height="100" alt="Election 2000" border="0"></a></td>
+      <td><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/business/ebrisbane/index.shtml"><img src="images/hot_buttons/ebris.gif" width="100" height="100" alt="eBrisbane" border="0"></a></td>
+      <td><a href="things_tosee_anddo/whats_on/index.shtml"><img src="images/hot_buttons/whats_on3.gif" width="100" height="100" alt="What's on" border="0"></a></td>
+      <td><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/council_at_work/improving_city/life_in_suburbs/urban_villages/index.shtml"><img src="images/hot_buttons/villages.gif" width="100" height="100" alt="Urban Villages" border="0"></a></td>
+    </tr>
+  </tbody></table>
+  <br>
+  </p><p><img src="images/position_statement.gif" width="453" height="51" alt="Our Business A Better Brisbane"><br>
+
+
+		</p></div></td>

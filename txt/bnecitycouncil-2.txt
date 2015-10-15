@@ -1,0 +1,16 @@
+<td width="120" valign="top">
+
+<center><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/index.shtml"><img src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/bcclogo.gif" width="100" height="145" alt="Brisbane City Council : Return to Home" border="0"></a></center>
+
+
+<center><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/sitehelp/whatsnew.shtml"><img src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/frog_blinking.gif" alt="What's New?" border="0" width="113" height="106"></a></center>
+
+
+<div align="center" class="absolute"><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/yourcity_yourcouncil/consultation/index.shtml"><img src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/ycys_logo.gif" width="110" height="97" alt="Your City Your Say" border="0"></a></div>
+
+
+ 
+<div align="center"><a href="index_text.shtml"><font size="1" face="Arial, Helvetica, sans-serif">Text 
+  Version</font></a></div>
+
+</td>

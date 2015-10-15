@@ -1,0 +1,55 @@
+<table border="0" cellpadding="0" cellspacing="0" width="580">
+<tbody><tr>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0" width="147" height="50">
+        <tbody><tr> 
+          <td width="6"><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/index_text.shtml"><img name="top_nav_text_only" src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/top_nav/top_nav_text_only.gif" width="6" height="6" border="0" alt="Click here to view the text-only version"></a></td>
+          <td width="95"><img name="top_nav_search_top_bar" src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/top_nav/top_nav_search_top_bar.gif" width="95" height="6" border="0" alt="Main site menu: click to select"></td>
+          <td width="46"><img name="top_nav_search_top2" src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/top_nav/top_nav_search_top2.gif" width="46" height="6" border="0" alt="Main site menu: click to select"></td>
+  </tr>
+  <tr> 
+          <td width="6"><img name="top_nav_search_left" src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/top_nav/top_nav_search_left.gif" width="6" height="38" border="0" alt="Main site menu: click to select"></td>
+          <td bgcolor="#000099" valign="middle"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tbody><tr>             
+                <td align="center" width="91" height="38">
+
+              
+                    <input type="text" size="7" maxlength="100" name="words" value="">
+                     </td>
+          </tr>
+        </tbody></table>
+
+    </td>
+          <td width="46" valign="middle"><input type="image" value="search" img="" src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/top_nav/top_nav_search_button.gif" width="46" height="38" border="0" alt="Search our site"></td>
+  </tr>
+  <tr> 
+          <td width="6"><img name="top_nav_search_bot_left" src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/top_nav/top_nav_search_bot_left.gif" width="6" height="6" border="0" alt="Main site menu: click to select"></td>
+          <td width="95"><img name="top_nav_search_bot" src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/top_nav/top_nav_search_bot.gif" width="95" height="6" border="0" alt="Main site menu: click to select"></td>
+          <td width="46"><img name="top_nav_search_bot2" src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/top_nav/top_nav_search_bot2.gif" width="46" height="6" border="0" alt="Main site menu: click to select"></td>
+  </tr>
+</tbody></table>
+</td>
+<td>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+            <td width="415"><img name="top_nav_blue_bar" src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/top_nav/top_nav_blue_bar.gif" width="415" height="23" border="0" alt="Site main menu: click to select" data-pin-nopin="true"></td>
+            <td width="24"><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/sitehelp/index.shtml" onmouseout="di20('top_nav_help','/images/top_nav/top_nav_help.gif');" onmouseover="di20('top_nav_help','/images/top_nav/top_nav_help_F2.gif'); dm('Help');return document.MM_returnValue"><img name="top_nav_help" src="/images/top_nav/top_nav_help.gif" width="24" height="23" border="0" alt="Need Help?" data-pin-nopin="true"></a></td>
+            <td width="24"><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/contactus/index.shtml" onmouseout="di20('top_nav_contact_us','/images/top_nav/top_nav_contact_us.gif');" onmouseover="di20('top_nav_contact_us','/images/top_nav/top_nav_contact_us_F2.gif'); dm('Contact Us');return document.MM_returnValue"><img name="top_nav_contact_us" src="/images/top_nav/top_nav_contact_us.gif" width="24" height="23" border="0" alt="Contact Us: feedback, enquiries or requests" data-pin-nopin="true"></a></td>
+            <td width="16"><img name="top_nav_right_end" src="/web/20000303112650im_/http://www.brisbane.qld.gov.au/images/top_nav/top_nav_right_end.gif" width="16" height="23" border="0" alt="Site main menu: click to select" data-pin-nopin="true"></td>
+  </tr>
+</tbody></table>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+        <td width="81"><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/yourcity_yourcouncil/index.shtml" onmouseout="di20('top_nav_yourcity_yourcouncil','/images/top_nav/top_nav_yourcity_yourcouncil.gif'); dm(' ');return document.MM_returnValue " onmouseover="di20('top_nav_yourcity_yourcouncil','/images/top_nav/top_nav_yourcity_yourcouncil_F2.gif'); dm('Your City, Your Council');return document.MM_returnValue"><img name="top_nav_yourcity_yourcouncil" src="/images/top_nav/top_nav_yourcity_yourcouncil.gif" width="81" height="27" border="0" alt="Click to select: Information about  Council and Brisbane" data-pin-nopin="true"></a></td>
+        <td width="65"><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/getting_around/index.shtml" onmouseout="di20('top_nav_getting_around','/images/top_nav/top_nav_getting_around.gif'); dm(' ');return document.MM_returnValue" onmouseover="di20('top_nav_getting_around','/images/top_nav/top_nav_getting_around_F2.gif'); dm('Getting Around');return document.MM_returnValue"><img name="top_nav_getting_around" src="/images/top_nav/top_nav_getting_around.gif" width="65" height="27" border="0" alt="Click to select: All you need to know about getting around Brisbane" data-pin-nopin="true"></a></td>
+        <td width="65"><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/things_tosee_anddo/index.shtml" onmouseout="di20('top_nav_seeanddo','/images/top_nav/top_nav_seeanddo.gif'); dm(' '); return document.MM_returnValue" onmouseover="di20('top_nav_seeanddo','/images/top_nav/top_nav_seeanddo_F2.gif'); dm('Things to See and Do');return document.MM_returnValue"><img name="top_nav_seeanddo" src="/images/top_nav/top_nav_seeanddo.gif" width="65" height="27" border="0" alt="Click to select: Things to do and see around Brisbane" data-pin-nopin="true"></a></td>
+        <td width="65"><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/home_garden/index.shtml" onmouseout="di20('top_nav_home_garden','/images/top_nav/top_nav_home_garden.gif'); dm(' ');return document.MM_returnValue" onmouseover="di20('top_nav_home_garden','/images/top_nav/top_nav_home_garden_F2.gif'); dm('Home and Garden');return document.MM_returnValue"><img name="top_nav_home_garden" src="/images/top_nav/top_nav_home_garden.gif" width="65" height="27" border="0" alt="Click to select: Council information about your home and garden" data-pin-nopin="true"></a></td>
+        <td width="65"><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/council_at_work/index.shtml" onmouseout="di20('top_nav_at_work','/images/top_nav/top_nav_at_work.gif');dm(' '); return document.MM_returnValue" onmouseover="di20('top_nav_at_work','/images/top_nav/top_nav_at_work_F2.gif'); dm('Your Council at Work');return document.MM_returnValue"><img name="top_nav_at_work" src="/images/top_nav/top_nav_at_work.gif" width="65" height="27" border="0" alt="Click to select: Your Council at work" data-pin-nopin="true"></a></td>
+        <td width="65"><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/community_facilities/index.shtml" onmouseout="di20('top_nav_facilities','/images/top_nav/top_nav_facilities.gif'); dm(' ');return document.MM_returnValue" onmouseover="di20('top_nav_facilities','/images/top_nav/top_nav_facilities_F2.gif'); dm('Community Facilites');return document.MM_returnValue"><img name="top_nav_facilities" src="/images/top_nav/top_nav_facilities.gif" width="65" height="27" border="0" alt="Click to select: Community facilities" data-pin-nopin="true"></a></td>
+        <td colspan="4" width="73"><a href="/web/20000303112650/http://www.brisbane.qld.gov.au/business/index.shtml" onmouseout="di20('top_nav_business','/images/top_nav/top_nav_business.gif'); dm(' ');return document.MM_returnValue" onmouseover="di20('top_nav_business','/images/top_nav/top_nav_business_F2.gif'); dm('Business');return document.MM_returnValue"><img name="top_nav_business" src="/images/top_nav/top_nav_business.gif" width="73" height="27" border="0" alt="Click to select: Doing business with Council" data-pin-nopin="true"></a></td>
+  </tr>
+</tbody></table>
+</td>
+</tr><tr>
+</tr></tbody></table>
