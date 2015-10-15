@@ -28,6 +28,9 @@ console.log(hiddenDivValue);
     aceEditor.getSession().setMode("ace/mode/html");
     aceEditor.getSession().on('change', updatePreview);
     aceEditor.setValue(testMarkup);
+      //setUseWrapMode disablesleft and right scroll and wraps text - yay!
+    aceEditor.getSession().setUseWrapMode(true);
+    
   }
   
   //same function as the html editor, but make the inputs as css syntax
@@ -38,6 +41,7 @@ console.log(hiddenDivValue);
     aceEditorCss.getSession().setMode("ace/mode/css");
     aceEditorCss.getSession().on('change', updateCssPreview);
     aceEditorCss.setValue(testMarkupCss);
+    aceEditorCss.getSession().setUseWrapMode(true);
   }
 
 
