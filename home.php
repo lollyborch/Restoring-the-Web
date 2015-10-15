@@ -209,20 +209,8 @@
     <!-- SASS Bootstrap -->
     <script src="SASS/dist/js/bootstrap.min.js"></script>
 
-    <!-- temp js for wk11 test session 
-    <script src="js/sport.js"></script>-->
-    
-   
-     
-
     <!-- Trove API image calls -->
     <script src="js/trove.js"></script> 
-    <!--<script src="js/printimages.js"></script>-->
-
-
-    <!-- Angular Modules 
-    <script src="js/app.js"></script>
- <script src="js/MainController.js"></script>
 
     <!-- Angular Controller-->
     <script src="js/WebsiteController.js"></script>  -->
