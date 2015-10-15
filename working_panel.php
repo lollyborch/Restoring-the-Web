@@ -115,7 +115,7 @@ require("base.php");
         </div>
       
       
-    <div class="container">  
+    <div class="container-fluid">  
       
         <div class="clearfix">
             <div class="working-header pull-left">Errors</div>
@@ -129,7 +129,7 @@ require("base.php");
             <div class="working-header pull-left" id="html-editor">Html Editor</div>
         </div>
         <div class="news-item-container">
-            <div id="editor" class="preview-section"</div>
+            <div id="editor" class="preview-section"></div>
         </div>
 
         <div id="css-editor" class="clearfix">
@@ -146,11 +146,13 @@ require("base.php");
     </div>  
 
 <!-- footer -->
-        <div class="container">
-          <div class="otherrow">
-            <a href="whoweare.html" class="small">&copy; Restoring the web</a>
+        <div class="container-fluid">
+            <div class="container">
+              <div class="otherrow">
+                <a href="whoweare.html" class="small">&copy; Restoring the web</a>
+              </div>
+            </div>
           </div>
-        </div>
       
 
 
