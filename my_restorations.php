@@ -1,3 +1,6 @@
+<?php 
+require("base.php"); 
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,13 +31,28 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
       
-    <!-- Angular JS -->
+    <!-- Angular JS + jQuery + divController -->
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
-   <!-- <script src="js/active.js"></script>-->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/divController.js"></script>
       
       
   </head>
   <body ng-app="myApp">
+      
+      <!-- Fetching the Users Restoration HTML and CSS -->
+	<?php
+	
+	$cricket_module_resource = mysql_query('SELECT modstarted FROM `restorations` WHERE WebsiteID="1" and UserID="19" and CompID="1";');
+    $cricket_started = mysql_fetch_array($cricket_module_resource);
+    //$cricket_module_started = mysql_query('SELECT modstarted FROM `restorations` WHERE WebsiteID="1" and UserID="' .$currentUserID .'" and CompID="1";');
+	
+      
+      $cricket_module_started = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1'");
+      $sydneyolympics_module_started = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2'");
+      
+
+	?>
       
     <!--header start-->
         <!--header start-->
@@ -92,113 +110,58 @@
       
       </div>-->
       
-            <!-- Gallery starts-->
+            <!-- main container starts-->
       
       <div class="container">
           <div class="otherrow">
                 <h1>My Restorations</h1>
                 <br />
-                <article class="col-xs-12 col-sm-6 col-md-4">
-                    <a href="working_panel.html" class="zoom">
-                        <!-- Sneaky in-line style for the demo -->
-                        <img src="images/cricket.png" alt="Cricket Australia" style="height:189px; width:100%;"/></a>
-                    <progress class="progress" value="83" max="137">
-                            <!--the div is for IE9 support-->
-                            <div class="progress">
-                            <span class="progress-bar" style="width: 25%;">25%</span>
-                            </div>
-                        </progress>
-                        <p class="progress-text text-right">83/137 Errors fixed</p>
-              </article>
-              <article class="col-xs-12 col-sm-6 col-md-4">
-                    <a href="images/my_res2.jpg" class="zoom" data-toggle="modal" data-target="#Gallerytwo">
-                                <img src="images/my_res2.jpg" alt="Gallery 1" />
-                            </a>
-                  <progress class="progress" value="100" max="100">
-                            <!--the div is for IE9 support-->
-                            <div class="progress">
-                            <span class="progress-bar" style="width: 25%;">25%</span>
-                            </div>
-                        </progress>
-                  <p class="progress-text text-right">All errors fixed</p>
-              </article>
-              <article class="col-xs-12 col-sm-6 col-md-4">
-                    <a href="images/my_res1.jpg" class="zoom" data-toggle="modal" data-target="#Gallerythree">
-                                <img src="images/my_res1.jpg" alt="Gallery 1" />
-                            </a>
-                  <progress class="progress" value="100" max="100">
-                            <!--the div is for IE9 support-->
-                            <div class="progress">
-                            <span class="progress-bar" style="width: 25%;">25%</span>
-                            </div>
-                        </progress>
-                  <p class="progress-text text-right">All errors fixed</p>
-              </article>
+              <p>Here is some text explaining what you will find on the page</p>
+              <p>
               
-<!-- Gallery modal content starts-->
-              <!-- Gallery Modal 1 
-            <div class="modal fade" id="cricketaus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Website title</h4>
-                  </div>
-                  <div class="modal-body">
-                    <img src="images/cricket.png" alt="Gallery 1" />
-                  </div>
-                  <div class="modal-footer">
-                    <h4>Editors Name</h4>
-                  </div>
-                </div>
-              </div>
-            </div>-->
-              <!-- End Modal1 -->
-              <!-- Gallery Modal 2 -->
-            <div class="modal fade" id="Gallerytwo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Website title</h4>
-                  </div>
-                  <div class="modal-body">
-                    <img src="images/my_res2.jpg" alt="Gallery 1" />
-                  </div>
-                  <div class="modal-footer">
-                    <h4>Editors Name</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-              <!-- End Modal2 -->
-              <!-- Gallery Modal 3 -->
-            <div class="modal fade" id="Gallerythree" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Website title</h4>
-                  </div>
-                  <div class="modal-body">
-                    <img src="images/my_res1.jpg" alt="Gallery 1" />
-                  </div>
-                  <div class="modal-footer">
-                    <h4>Editors Name</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-              <!-- End Modal3 -->
+               <?php
+             // echo $cricket_module_started;
+               //   echo $cricket_started;
+                  if(mysql_num_rows($cricket_module_started) == 1) {
+                      // module entry exists for a website, now do stuff 
+                      $cricket = TRUE;
+                      echo "This module exists";
+                      echo $cricket;
+                  } else {
+                      // do something else
+                      $cricket = FALSE;
+                      echo "This module does not exists";
+                      echo $cricket;
+                  }
+                  
+                  if(mysql_num_rows($sydneyolympics_module_started) == 1) {
+                      // module entry exists for a website, now do stuff 
+                      $olympics = TRUE;
+                      echo "This module exists";
+                      echo $olympics;
+                  } else {
+                      // do something else
+                      $olympics = FALSE;
+                      echo "This module does not exists";
+                      echo $olympics;
+                  }
+              ?>
+                  </p>
 
           </div>
       
       </div>    
+      <div ng-controller="divController">
+          <div ng-repeat="div in divID">
+              <div id="{{ div }}">
+                {{ div }}
+              </div>
+
+          </div>
+      </div>
+   <script src="js/modules.js"></script>
         
-      <!-- Gallery ends-->      
-      <!-- Gallery modal content ends-->
-
-
+      <!-- main container ends-->      
       
       <!-- footer -->
         <div class="container">
@@ -213,40 +176,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="SASS/dist/js/bootstrap.min.js"></script>
       
-    <!-- Angular Modules -->
-    <script src="js/app.js"></script>
-
-    <!-- Angular Controllers -->
-    <script src="js/MainController.js"></script>
-    <script src="js/WebsiteController.js"></script>    
-    
-    <!-- adapted from http://stackoverflow.com/questions/15645626/change-class-onclick-using-jquery -->  
-    <script type="text/javascript">
-        $('.btnactive').on('click', changeClass);
-        console.log('click');
-
-        function changeClass() {
-           // $('.btnactive').toggleClass('active');
-           $('.btnactive').removeClass('active');
-            console.log('Remove class');
-           $(this).addClass('active');
-            console.log('add class');
-        }
-    </script>
-      
-     <!--change solid or outline button class for categories on click-->
-      <script type="text/javascript">
-        $(".btnactive:nth-child(1)").addClass('active');
-          console.log('active');
-      
-    </script>
-      
-    <!--for tabs-->
-    <script>
-      $(function () {
-        $('#myTab a:first').tab('show')
-      })
-    </script>
       
   </body>
 </html>
