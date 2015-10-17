@@ -23,7 +23,6 @@ require("base.php");
       
       <!-- web fonts for header -->
     <link href="css/webfont-stylesheet.css" rel="stylesheet">
-      <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,7 +35,8 @@ require("base.php");
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="js/divController.js"></script>
-    
+      
+      
   </head>
   <body ng-app="myApp">
       
@@ -154,7 +154,7 @@ require("base.php");
       <div ng-controller="divController">
           <div ng-repeat="div in divID">
               <div id="{{ div }}">
-              <!--  {{ div }}-->
+                {{ div }}
               </div>
 
           </div>
