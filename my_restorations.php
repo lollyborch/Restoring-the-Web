@@ -3,11 +3,28 @@ require("base.php");
 ?>
 <?php
 	
-            //$cricket_start = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1'");
-            // $olympics_start = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2'");
+            $cricket_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1'");
+            $olympics_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2'");
+            $cycling_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '4'");
+            $ballet_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '5'");
+            $writers_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '6'");
+            $uq_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '7'");
+            $qtac_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '8'");
+            $council_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '9'");
+            $gallery_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '10'");
+            $museum_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '11'");
 
-            $cricket_start = 1;
-            $olympics_start = 1;
+            $cricket_start = mysql_num_rows($cricket_start_mysql);
+            $olympics_start = mysql_num_rows($olympics_start_mysql);
+            $cycling_start = mysql_num_rows($cycling_start_mysql);
+            $ballet_start = mysql_num_rows($ballet_start_mysql);
+            $writers_start = mysql_num_rows($writers_start_mysql);
+            $uq_start = mysql_num_rows($uq_start_mysql);
+            $qtac_start = mysql_num_rows($qtac_start_mysql);
+            $council_start = mysql_num_rows($council_start_mysql);
+            $gallery_start = mysql_num_rows($gallery_start_mysql);
+            $museum_start = mysql_num_rows($museum_start_mysql);
+
 
             ?>
 <!DOCTYPE html>
@@ -45,6 +62,22 @@ require("base.php");
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="js/divController.js"></script>
+      
+      <!-- converting php variables to js -->
+      <script>
+          //var cricket = <?php echo (json_encode($cricket_start_mysql)); ?>;
+          var cricket = <?php echo (json_encode($cricket_start)); ?>;
+          var olympics = <?php echo (json_encode($olympics_start)); ?>;
+          var cycling = <?php echo (json_encode($cycling_start)); ?>;
+          var ballet = <?php echo (json_encode($ballet_start)); ?>;
+          var writers = <?php echo (json_encode($writers_start)); ?>;
+          var uq = <?php echo (json_encode($uq_start)); ?>;
+          var qtac = <?php echo (json_encode($qtac_start)); ?>;
+          var council = <?php echo (json_encode($council_start)); ?>;
+          var gallery = <?php echo (json_encode($gallery_start)); ?>;
+          var museum = <?php echo (json_encode($museum_start)); ?>;
+          
+      </script>
     
   </head>
   <body ng-app="myApp">
@@ -112,17 +145,16 @@ require("base.php");
                 <h1>My Restorations</h1>
                 <br />
               <p>Here are the modules you have started and completed.  To start a new restorations, <a href="home.php#categories">choose a website from the categories.</a></p>
-              <h2><?php echo $cricket_start ?></h2>
-              <h2><?php echo $olympics_start ?></h2>
-              
-              
+             
+              <p>
                <?php
              // echo $cricket_module_started;
                //   echo $cricket_started;
-                  if(mysql_num_rows($cricket_start) == 1) {
+    /*
+                  if(mysql_num_rows($cricket_start_mysql) == 1) {
                       // module entry exists for a website, now do stuff 
                       $cricket = TRUE;
-                      //echo "This module exists";
+                      echo "This module exists";
                       echo $cricket;
                   } else {
                       // do something else
@@ -130,7 +162,7 @@ require("base.php");
                       echo "This module does not exists";
                   }
                   
-                  if(mysql_num_rows($olympics_start) == 1) {
+                  if(mysql_num_rows($olympics_start_mysql) == 1) {
                       // module entry exists for a website, now do stuff 
                       $olympics = TRUE;
                       echo "This module exists";
@@ -138,7 +170,7 @@ require("base.php");
                       // do something else
                       $olympics = FALSE;
                       echo "This module does not exists";
-                  }
+                  } */
               ?>
                   </p>
 
