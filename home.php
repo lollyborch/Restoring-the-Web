@@ -80,18 +80,9 @@
                 <p>To find out more about Web Historians, view <a href="gettingstarted.html">Getting started</a></p>   
         </div> 
 
- <!-- /container -->
-      <!-- categories ANGULAR-->
-      <!--<div class="container" ng-controller="MainController">
-          <h2 id="categorieslink">Choose a category</h2>          
-          <div class="otherrow activerow" >
-              <a ng-repeat="category in categories" class="btnactive btn btn-primary-outline my-post-repeat-directive" href="#categorieslink" role="button"><img ng-src="{{ category.coverImg }}"/><br />{{ category.name }}</a>
-            <div ng-init="fireEvent()"></div>
-          </div>
-      </div>-->
       
       <!-- categories -->
-      <div class="container" >
+      <div class="container" id="categories">
           <h2 id="categorieslink">Choose a category</h2>   
           <br />
           <div class="otherrow activerow" >

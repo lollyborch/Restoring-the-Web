@@ -65,7 +65,7 @@ elseif(!empty($_POST["username"]) && !empty($_POST["password"]))
 		$_SESSION['username'] = $username;
 		$_SESSION['emailAddress'] = $email;
 		$_SESSION['loggedIn'] = 1;
-		header('Location: http://deco1800-g49.uqcloud.net/home.html');
+		header('Location: http://deco1800-g49.uqcloud.net/home.php');
 	}
 	else {
 		echo "<h1>Error</h1>";
@@ -82,7 +82,7 @@ else {
 
             <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
             <nav class="navbar navbar-dark navbar-static-top">
-                <a class="navbar-brand brand-heading" href="home.html">web historians</a>   
+                <a class="navbar-brand brand-heading" href="home.php">web historians</a>   
                 
             </nav>
             </div>

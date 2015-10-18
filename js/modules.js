@@ -1,5 +1,5 @@
-var cricket = 1;
-var olympics = 1;
+//var cricket = 1;
+//var olympics = 1;
 var cycling = 1;
 var ballet = 1;
 var writers = 1;
@@ -10,15 +10,29 @@ var gallery = 1;
 var museum = 1;
 
 
+var cricket = <?php echo (json_encode($cricket_start)); ?>;
+var olympics = <?php echo (json_encode($olympics_start)) ?>;
+
+var cricket2 = <?php echo $cricket_start ?>;
+var olympics2 = <?php echo $olympics_start ?>;
+
+console.log(cricket);
+console.log(olympics);
+console.log(cricket2);
+console.log(olympics2);
+
+
+
 $(document).ready( function() {
-  console.log("i have started the js script")
   if(cricket==1){
+      console.log("cricket" + cricket)
   $("#cricket").load("../modules/cricketmodules.html");
   }else {
     console.log("I got nothing")
   }
 
   if(olympics==1) {
+      console.log("olympics" + olympics)
     $("#olympics").load("../modules/olympicmodules.html");
   }else {
     console.log("I got nothing")

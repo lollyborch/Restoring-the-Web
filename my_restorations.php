@@ -1,6 +1,15 @@
 <?php 
 require("base.php"); 
 ?>
+<?php
+	
+            //$cricket_start = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1'");
+            // $olympics_start = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2'");
+
+            $cricket_start = 1;
+            $olympics_start = 1;
+
+            ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -39,20 +48,6 @@ require("base.php");
     
   </head>
   <body ng-app="myApp">
-      
-      <!-- Fetching the Users Restoration HTML and CSS -->
-	<?php
-	
-	$cricket_module_resource = mysql_query('SELECT modstarted FROM `restorations` WHERE WebsiteID="1" and UserID="19" and CompID="1";');
-    $cricket_started = mysql_fetch_array($cricket_module_resource);
-    //$cricket_module_started = mysql_query('SELECT modstarted FROM `restorations` WHERE WebsiteID="1" and UserID="' .$currentUserID .'" and CompID="1";');
-	
-      
-      $cricket_module_started = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1'");
-      $sydneyolympics_module_started = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2'");
-      
-
-	?>
       
     <!--header start-->
         <!--header start-->
@@ -116,34 +111,33 @@ require("base.php");
           <div class="otherrow">
                 <h1>My Restorations</h1>
                 <br />
-              <p>Here is some text explaining what you will find on the page</p>
-              <p>
+              <p>Here are the modules you have started and completed.  To start a new restorations, <a href="home.php#categories">choose a website from the categories.</a></p>
+              <h2><?php echo $cricket_start ?></h2>
+              <h2><?php echo $olympics_start ?></h2>
+              
               
                <?php
              // echo $cricket_module_started;
                //   echo $cricket_started;
-                  if(mysql_num_rows($cricket_module_started) == 1) {
+                  if(mysql_num_rows($cricket_start) == 1) {
                       // module entry exists for a website, now do stuff 
                       $cricket = TRUE;
-                      echo "This module exists";
+                      //echo "This module exists";
                       echo $cricket;
                   } else {
                       // do something else
                       $cricket = FALSE;
                       echo "This module does not exists";
-                      echo $cricket;
                   }
                   
-                  if(mysql_num_rows($sydneyolympics_module_started) == 1) {
+                  if(mysql_num_rows($olympics_start) == 1) {
                       // module entry exists for a website, now do stuff 
                       $olympics = TRUE;
                       echo "This module exists";
-                      echo $olympics;
                   } else {
                       // do something else
                       $olympics = FALSE;
                       echo "This module does not exists";
-                      echo $olympics;
                   }
               ?>
                   </p>

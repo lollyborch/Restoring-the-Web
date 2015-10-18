@@ -6,44 +6,40 @@ app.controller('WebsiteController', ['$scope', function ($scope) {
         {
             title: 'Cricket Australia',
             imgalt: 'Cricket Australia',
-            url: 'cricketaustralia.html',
+            url: 'working_panel.php?WebsiteID=1?CompID=1',
             level: 'images/Easy.png',
             levelalt: 'easy level'
         },
         {
             title: 'Sydney Olympics',
             imgalt: 'Sydney Olympics',
-            url: 'sydneyolympics.html',
+            url: 'working_panel.php?WebsiteID=2?CompID=1',
             level: 'images/Hard.png',
             levelalt: 'hard level'
         },
         {
             title: 'Cycling Queensland',
             imgalt: 'Cycling Queensland',
-            url: 'cyclingqueensland.html',
+            url: 'working_panel.php?WebsiteID=4?CompID=1',
             level: 'images/Hard.png',
             levelalt: 'hard level'
         }
     ];
     
-   /* var sportIndex = 0
-    $scope.websiteSport.forEach(function (newImage, sportIndex) {
-    newImage.coverImg = imageArray[sportIndex];
-});*/
     
     $scope.websiteArts = [
         
         {
             title: 'Queensland Ballet',
             imgalt: 'Queensland Ballet',
-            url: 'queenslandballet.html',
+            url: 'working_panel.php?WebsiteID=5?CompID=1',
             level: 'images/Easy.png',
             levelalt: 'easy level'
         },
         {
             title: 'Brisbane Writers Festival',
             imgalt: 'Brisbane Writers Festival',
-            url: 'brisbanewritersfestival.html',
+            url: 'working_panel.php?WebsiteID=6?CompID=1',
             level: 'images/Easy.png',
             levelalt: 'easy level'
         }
@@ -52,14 +48,14 @@ app.controller('WebsiteController', ['$scope', function ($scope) {
         {
             title: 'UQ',
             imgalt: 'UQ',
-            url: 'uq.html',
+            url: 'working_panel.php?WebsiteID=7?CompID=1',
             level: 'images/Easy.png',
             levelalt: 'easy level'
         },
         {
             title: 'QTAC',
             imgalt: 'QTAC',
-            url: 'qtac.html',
+            url: 'working_panel.php?WebsiteID=8?CompID=1',
             level: 'images/Easy.png',
             levelalt: 'easy level'
         }
@@ -68,21 +64,21 @@ app.controller('WebsiteController', ['$scope', function ($scope) {
         {
             title: 'Brisbane City Council',
             imgalt: 'Brisbane City Council',
-            url: 'brisbanecitycouncil.html',
+            url: 'working_panel.php?WebsiteID=9?CompID=1',
             level: 'images/Easy.png',
             levelalt: 'easy level'
         },
         {
             title: 'Qld Art Gallery',
             imgalt: 'Qld Art Gallery',
-            url: 'qldartgallery.html',
+            url: 'working_panel.php?WebsiteID=10?CompID=1',
             level: 'images/Easy.png',
             levelalt: 'easy level'
         },
         {
             title: 'Qld Museum',
             imgalt: 'Qld Museum',
-            url: 'qldmuseum.html',
+            url: 'working_panel.php?WebsiteID=11?CompID=1',
             level: 'images/Easy.png',
             levelalt: 'easy level'
         }
