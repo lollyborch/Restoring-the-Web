@@ -1,0 +1,115 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		
+		<TITLE>Queensland Museum - HTTP 404 Error</TITLE>
+		<LINK REL="stylesheet" TYPE="text/css" HREF="/_css/qmstyles.css"> 
+		<meta HTTP-EQUIV="Reply-to" Content="InquiryCentre@qm.qld.gov.au">
+		<meta HTTP-EQUIV="keywords" Content="">
+		<meta name="keywords" Content="">
+		<meta name="author" Content="">
+		<meta name="description" Content="">
+		
+        <link href="/_css/qm_corp_styles.css" rel="stylesheet" type="text/css">
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<base target="_top">
+	</head>
+<body>
+
+<table class="content-table-2" cellpadding="0" cellspacing="0">
+	<colgroup><col width="150"><col width="5"><col width="*"><col width="5"><col width="150">
+	<tr>
+	<td bgcolor="#FFFFFF" colspan="5" valign="top" height="78">
+	
+	<div class="header-frame">
+        <div class="header-logo">
+            <a href="/"><img style="margin: 9px 0px 0px 5px;" src="/images/top-qm_logo.gif" alt="Queensland Museum"></a>
+        </div>        
+        <div class="header-menu">
+            <a href="/organisation/index.asp" class="headermenu-item">about us</a> | <a href="/inquiry/contact/" class="headermenu-item">contact</a> | <a href="/search/" class="headermenu-item">search</a>
+        </div>        
+        <div class="header-buildings">
+            <a href="/campuses"><img src="/images/top-buildings.jpg" alt="Queensland Museum" title="Queensland Museum" width="408" height="46"></a>
+        </div>
+    </div>    
+	<div class="topmenu-frame">    
+		<div class="topmenu-items">
+		<a href="/campuses/" class="topmenu-item" >museums</a> | 
+		<a href="/calendar/" class="topmenu-item" >calendar</a> | 
+		<a href="/features/" class="topmenu-item" >features</a> | 
+		<a href="/education/" class="topmenu-item" >education</a> | 
+		<a href="/research/" class="topmenu-item" >research</a> | 
+		<a href="/news/" class="topmenu-item" >news</a>
+		&nbsp;</div>
+		  <!-- &#112;&#114;&#115;&#55;&#56; -->
+        <div class="crumb-items">
+	<!-- Crumb  trail -->
+	<span class="topmenu-crumb">
+	<a href="/" class="topmenu-crumb">qm</a>
+	 &gt;<span class="topmenu-crumb">&nbsp;HTTP 404 Error</span></span>
+</div>
+	</div>
+    
+	</td>	
+	</tr>
+    <tr>    
+        <td class="content-cell-left" rowspan="2" width="150" style="{width:150px;}">
+
+	<!-- Left hand column -->	
+
+	
+			<p class=menu><span class=sectionhead>Error</span>
+			
+            
+            <form name="Search" method="post" action="/search/index.asp" style="margin-top: 40px;">
+                <div class="text-small" style="text-align: center">            
+                <input type="text" name="search" maxlength="128" style="width: 120px;"><br><br><input type="submit" value="search now">
+                </div>
+            </form>
+            
+            <div class="text-small" style="text-align: center; margin-bottom: 20px;"><a href="http://www.qld.gov.au/"><img src="/images/qld-gov.gif" alt="Queensland Government"></a></div>
+        </td>
+        <td width="5" rowspan="2"><img src="/images/dot.gif" alt=" "></td>
+        <td class="content-cell-main-2">
+                
+			<h1>Page Not Found</h1>
+			<p>The page you requested, http://www.qmuseum.qld.gov.au/images/fp_banner_whatson.gif,  could not be found on the Queensland Museum Site.</p>
+			<p>Please check your spelling and try again, or <a href=mailto:InquiryCentre@qm.qld.gov.au>email us</a> and let us know.
+            <p>&nbsp;</p>
+        </td>
+        <td width="5" rowspan="2"><img src="/images/dot.gif" alt=" "></td>
+        
+<td class="content-cell-right" rowspan="2" id="RightMenu">        
+	<div class="content-header" style="margin-bottom: 5px;">&nbsp;&nbsp;<a class="content-header" href="http://www.museum.qld.gov.au/"><span style="color: #FFFFFF;">Queensland Museum</span></a></div>
+	<div class="content-item-right" style="margin: 0px;"><a class="text-right" href="/inquiry/"><b>Inquiry Centre</b></a></div>
+	<div class="content-item-right" style="margin: 0px;"><a class="text-right" href="/calendar/calendar.asp"><b>Calendar</b></a></div>
+	<div class="content-item-right" style="margin: 0px;"><a class="text-right" href="/education/"><b>Education</b></a></div>
+	<div class="content-item-right" style="margin: 0px;"><a class="text-right" href="/education/loans/"><b>Loans</b></a></div>
+	<div class="content-item-right" style="margin: 0px;"><a class="text-right" href="/foundation/"><b>Foundation</b></a></div>
+	<div class="content-item-right" style="margin: 0px;"><a class="text-right" href="/organisation/media/"><b>Media Centre</b></a></div>
+	<div class="content-item-right" style="margin: 0px;"><a class="text-right" href="/organisation/"><b>About Us</b></a></div>
+	<!-- <div class="content-item-right" style="margin: 0px;"><a href="http://www.museum.qld.gov.au/" class="text-right"><b><span style="color: #dd0000;">qm online</span></b><br></a></div> -->
+	<div class="content-header" style="line-height: 25px; margin-top: 10px; margin-bottom: 5px;">&nbsp;&nbsp;Museums</div>
+	<div class="content-item-right"><a href="http://www.qmsouthbank.museum.qld.gov.au/" class="text-right"><b>Brisbane</b><br></a>
+	<a href="http://www.qmsouthbank.museum.qld.gov.au/" class="text-right" style="font-size: 10px; line-height: 1;">Queensland Museum<br>South Bank</a></div>
+	<div class="content-item-right"><a href="http://www.mtq.qld.gov.au/" class="text-right"><b>Townsville</b><br></a>
+	<a href="http://www.mtq.qld.gov.au/" class="text-right" style="font-size: 10px; line-height: 1;">Museum of<br>Tropical Queensland</a></div>
+	<div class="content-item-right"><a href="http://www.cobbandco.qm.qld.gov.au" class="text-right"><b>Toowoomba</b><br></a>
+	<a href="http://www.cobbandco.qm.qld.gov.au/" class="text-right" style="font-size: 10px; line-height: 1;">cobb+co museum</a></div>
+	<div class="content-item-right"><a href="http://www.theworkshops.qm.qld.gov.au/" class="text-right"><b>Ipswich</b><br></a>
+	<a href="http://www.theworkshops.qm.qld.gov.au/" class="text-right" style="font-size: 10px; line-height: 1;">The Workshops<br>Rail Museum</a></div>
+</td>
+
+    </tr>
+	<tr>
+	<td class="content-cell-main-2" style="vertical-align: bottom">
+		<div class="text-small" style="text-align: center">&copy; Queensland Museum &nbsp; <a href="/inquiry/contact/">Contact us</a> &nbsp; Copyright &amp; Privacy <a href="/organisation/policy/information.asp">Information</a> &nbsp;<a href="/organisation/policy/disclaimer.asp">Disclaimer</a></div>
+		<div style="height: 20px; width: 300px; min-width: 300px;"><img src="/images/dot.gif" alt=" "></div>
+		
+	</td>
+	</tr>
+</table>
+
+</body>
+</html>
