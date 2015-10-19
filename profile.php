@@ -109,10 +109,11 @@ require("base.php");
                     <p id="uName">Name: User Name</p>
                     <p id="uEmail">Email: user@email.com</p>
                 </div>
+                <!-- Profile pic change is we get time
                 <div class="col-lg-6">
                     <p>Profile picture:</p>
                     <img class="profilepic" src="profile/profilepic.jpg"/>
-                </div>
+                </div>-->
             </div>
 
             <p>

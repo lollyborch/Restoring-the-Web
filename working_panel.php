@@ -134,7 +134,8 @@ require("base.php");
             <div class="working-header pull-right">Preview</div>
         </div>
         <div class="item-container">
-            <div id="validator" class="validator-section"><textarea style="font-weight:300" rows="9" cols="82" class="col-md-12"></textarea><button onclick="printErrors()">Validate</button></div>
+            <div id="validator" class="validator-section"><textarea style="font-weight:300" rows="9" cols="82" class="col-md-12"></textarea><button class="working-button" onclick="printErrors()">Validate</button><a href="http://deco1800-g49.uqcloud.net/help.php" class="working-help" onclick="positionedPopup(this.href,'myWindow','1000','450','100','200','yes');return false">Help</a></div>
+            
             <iframe id="preview" class="preview-section"></iframe>
         </div>  
         <div class="clearfix">
@@ -154,7 +155,10 @@ require("base.php");
 
             <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
             <a class="btn btn-lg btn-primary text-center" href="my_restorations.html" role="button">Publish</a>
-            <a class="btn btn-lg btn-primary text-center" href="help.html" role="button" target="_blank">Help</a>    
+            <a class="btn btn-lg btn-primary text-center" href="help.html" role="button" target="_blank">Help</a>  
+    
+            <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#HelpModal" role="button">Help Button </a>
+        
     </div>  
 
 <!-- footer -->
@@ -167,7 +171,37 @@ require("base.php");
           </div>
       
 
+        <!-- Gallery Modal 1 -->
+            <div class="modal fade" id="HelpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Help</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                There are lots of places to get help with HTML and CSS on the web.  A good place to start is the <a class="help-links" href="http://www.w3schools.com/">w3schools</a>.  They helpful lists of <a class="help-links" href="http://www.w3schools.com/tags/">HTML tags</a> (including which ones are new) and <a class="help-links" href="http://www.w3schools.com/html/html_tables.asp">HTML Tables</a> (which is helpful as a lot of old websties use these a lot).  Sites like <a class="help-links" href="http://htmldog.com/reference/htmltags/">HTML Dog</a> and <a class="help-links" href="https://css-tricks.com/">CSS-Tricks</a> are also a great resource.
+            </p>
+            <p>
+                Have a specific question?  Try searching or asking on <a class="help-links" href="http://stackoverflow.com/tour">Stack Overflow</a>. Stack Overflow is a question and answer site that can help beginners like you.  
+            </p>
+                  </div>
+                  <div class="modal-footer">
 
+                  </div>
+                </div>
+              </div>
+            </div>
+<!--script for pop out help from   http://www.quackit.com/javascript/popup_windows.cfm -->
+        <script language="javascript">
+            var popupWindow = null;
+            function positionedPopup(url,winName,w,h,t,l,scroll){
+            settings =
+            'height='+h+',width='+w+',top='+t+',left='+l+',scrollbars='+scroll+',resizable'
+            popupWindow = window.open(url,winName,settings)
+            }
+        </script>
 
 
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

@@ -101,22 +101,13 @@
         <div class="container">
     
             <h1>Help</h1>
-            <p>If you need help, have a look at these resources...</p>
-            
-            <h2>What do you need help with?</h2>
-            <div>
-            <p>I need help with specific tags</p>
-            <!--need to add glossary-->
-            <a class="btn btn-primary-outline" href="#" role="button">View tag glossary</a>
-            </div>
             <br />
-            <div> 
-            <p>I need specific help with Web Historians content</p>
-            <a class="btn btn-primary-outline" href="https://groups.google.com/forum/#!forum/web-historiansl" role="button">Google Forum</a>&nbsp;<a class="btn btn-primary-outline" href="https://www.reddit.com/r/WebHistorians/" role="button">Reddit</a>
-            </div>
-            <br />
-            <p>I need help with HTML or CSS</p>
-            <a class="btn btn-primary-outline" href="http://stackoverflow.com/questions/tagged/html" role="button">Stack Overflow</a>
+            <p>
+                There are lots of places to get help with HTML and CSS on the web.  A good place to start is the <a class="help-links" href="http://www.w3schools.com/">w3schools</a>.  They helpful lists of <a class="help-links" href="http://www.w3schools.com/tags/">HTML tags</a> (including which ones are new) and <a class="help-links" href="http://www.w3schools.com/html/html_tables.asp">HTML Tables</a> (which is helpful as a lot of old websties use these a lot).  Sites like <a class="help-links" href="http://htmldog.com/reference/htmltags/">HTML Dog</a> and <a class="help-links" href="https://css-tricks.com/">CSS-Tricks</a> are also a great resource.
+            </p>
+            <p>
+                Have a specific question?  Try searching or asking on <a class="help-links" href="http://stackoverflow.com/tour">Stack Overflow</a>. Stack Overflow is a question and answer site that can help beginners like you.  
+            </p>
 
           
         </div> 
