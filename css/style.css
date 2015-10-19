@@ -91,3 +91,10 @@
     font-size: 1.8rem;
     text-align: center;
 }
+
+.fa-account {
+    color: #ffffff;
+    font-size: 1.5rem !important;
+    margin-top: 5px;
+    opacity: 0.6;
+}

@@ -36,8 +36,12 @@ require("base.php");
     
 
 
-  </head>
-  <body>
+ <!-- Font AWESOME -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <!-- End of Head -->
+    
+    <body ng-app="myApp">
   <!-- Fetching the Users Restoration HTML and CSS -->
 	<?php
 	// Grab the Website ID which is posted on the cricketaustralia.html module when pressed
@@ -59,48 +63,56 @@ require("base.php");
 	$uHTML = $_SESSION['userHTML'];
 	?>
 	<div id="hiddenHTML" style="display:none"><?php echo $uHTML; ?></div>
-      <!--header start-->
+      
+          
+      
+        <!--header start-->
         <header class="header">
             <div class="header-container">
 
             <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
             <nav class="navbar navbar-dark navbar-static-top">
-                <a class="navbar-brand brand-heading" href="home.html">web historians</a>   
+                <a class="navbar-brand brand-heading" href="home.php">web historians</a>   
                 <ul class="nav navbar-nav">
                     <li class="nav-item">
                     <!--add nav-active to current page-->
-                        <a class="nav-link " href="home.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link " href="home.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-active active" href="my_restorations.html">My Restorations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
+                        <a class="nav-link active" href="my_restorations.php">My Restorations</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="gettingstarted.html" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                        <a class="nav-link dropdown-toggle nav-active " data-toggle="dropdown" href="gettingstarted.php" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="gettingstarted.html">Getting started</a>
-                            <a class="dropdown-item" href="help.html">Help</a>
-                            <a class="dropdown-item" href="whoweare.html">Who we are</a>
+                            <a class="dropdown-item" href="gettingstarted.php">Getting started</a>
+                            <a class="dropdown-item" href="whoweare.php">Who we are</a>
                         </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="help.php">Help</a>
                     </li>
                     
                 </ul>
-                <img class="nav-profilepic" src="profile/profilepic.jpg"/>
+                
                 <ul class="nav navbar-nav pull-right">
                     <li class="nav-item dropdown"> 
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profile.html" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profile.php" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="profile.html">Profile</a>
+                            <a class="dropdown-item" href="profile.php">Profile</a>
                             <a class="dropdown-item" href="index.php" onclick='<?php unset($_SESSION["username"],$_SESSION["emailAddress"]);?>'>Log out</a>
                         </div>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa fa-user fa-account"></i>
+                    
                     </li>
                 </ul>
             </nav>
             </div>
         </header>
         <!--header end-->
+      
+      
       
       <!--breadcrumbs for pages NOT HOMEPAGE index.html
         <div class="container">
