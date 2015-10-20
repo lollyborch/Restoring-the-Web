@@ -139,7 +139,7 @@ require("base.php");
             <iframe id="preview" class="preview-section"></iframe>
         </div>  
         <div class="clearfix">
-            <div class="working-header pull-left" id="html-editor">Html Editor</div>
+            <div class="working-header pull-left" id="html-editor">HTML Editor</div>
         </div>
         <div class="news-item-container">
             <div id="editor" class="preview-section"></div>
@@ -154,10 +154,10 @@ require("base.php");
         </div>
 
             <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
-            <a class="btn btn-lg btn-primary text-center" href="my_restorations.html" role="button">Publish</a>
+            <!--<a class="btn btn-lg btn-primary text-center" href="my_restorations.html" role="button">Publish</a>
             <a class="btn btn-lg btn-primary text-center" href="help.html" role="button" target="_blank">Help</a>  
     
-            <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#HelpModal" role="button">Help Button </a>
+            <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#HelpModal" role="button">Help Button </a>-->
         
     </div>  
 

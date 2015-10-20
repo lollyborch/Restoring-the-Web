@@ -102,7 +102,32 @@
             <br />
             <img class="img-responsive" src="images/Home_Infographic.png" alt="Home Page Instruction" width="100%" />
             <br />
-            <p>Further instructions on how to use site...</p>   
+            <p>When you choose a website to restore, you will be directed to a working page.</p>   
+            <h2>Working Panel</h2>
+            <img class="img-responsive" src="images/working_panel.png" alt="Home Page Instruction" width="100%" />
+            <br />
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Errors</h2> 
+                    <p>The errors panel lists the errors returned by the HTML validator.  As you fix the errors, you can re-validate your code using the <strong>Validate</strong> button.  Need help understanding what errors mean?  Try our <strong>Help</strong> link. </p>  
+                    <h2>HTML Editor</h2> 
+                <p>Edit the HTML code for your module here. This box is responsive so you will see the <strong>Preview</strong> pane update as you type.</p>
+                </div>
+            </div>
+                    
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>CSS Editor</h2> 
+                    <p>Add your CSS styles in this box, it works in a similar way to the HTML Editor. When you start a new website, the CSS Editor box will be blank.  As you progress through the modules, the CSS you create will be saved between each one for you to build upon. Make sure you add the CSS between the style tags.</p>
+                    <h2>Saving and completing a module</h2> 
+                    <p>To save your progress, clickthe <strong>Save</strong> button at the bottom of the page.</p>
+                    <p>Fixed all your errors? Congratulations! You can choose to move to the next module or start a new website.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>CSS Editor Panel and Save</h2>
+                    <img class="img-responsive" src="images/css_panel.png" alt="Home Page Instruction" width="100%" />
+                </div>
+            </div>        
 
         </div> 
       
