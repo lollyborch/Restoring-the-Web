@@ -31,6 +31,9 @@ require("base.php");
       
     <!-- Joyride from http://zurb.com/playground/jquery-joyride-feature-tour-plugin -->
     <link rel="stylesheet" href="joyride/joyride-2.1.css">
+     <!-- <link rel="stylesheet" href="joyride/demo-style.css">
+       
+    <link rel="stylesheet" href="mobile.css">-->
 
   </head>
   <body ng-app="myApp">
@@ -188,34 +191,36 @@ require("base.php");
 
     <br><br>
 
-    
-
   </div>
       <!-- Tip Content -->
     <ol id="joyRideTipContent">
-      <li data-id="numero1" data-text="Next" class="custom">
-        <h2>Stop #1</h2>
-        <p>You can control all the details for you tour stop. Any valid HTML will work inside of Joyride.</p>
+      <li data-id="numero1" data-text="Next" >
+        <h2>Step #1</h2>
+        <p>View the errors returned by the HTML validator in the Errors panel.</p>
       </li>
-      <li data-id="numero2" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
-        <h2>Stop #2</h2>
-        <p>Get the details right by styling Joyride with a custom stylesheet!</p>
+      <li data-id="numero2" data-button="Next" data-options="tipLocation:top">
+        <h2>Step #2</h2>
+        <p>As you fix the errors, you can re-validate your code using the <strong>Validate</strong> button.</p>
       </li>
-      <li data-id="numero3" data-button="Next" data-options="tipLocation:right">
-        <h2>Stop #3</h2>
-        <p>It works right aligned.</p>
+      <li data-id="numero3" data-button="Next" data-options="tipLocation:bottom">
+        <h2>Step #3</h2>
+        Need help understanding what errors mean?  Try our <strong>Help</strong> link.</p>
       </li>
       <li data-id="numero4" data-button="Next">
         <h2>Stop #4</h2>
-        <p>It works as a modal too!</p>
+        <p>Edit the HTML code for your module in the HTML Editor.</p>
       </li>
       <li data-id="numero5" data-button="Next" data-options="tipLocation:right">
-        <h2>Stop #5</h2>
-        <p>It works with classes, and only on the first visible element with that class.</p>
+        <h2>Step #5</h2>
+        <p>The Preview box is responsive so you will see your changes in the HTML Editor and CSS Editor appear here.</p>
       </li>
-      <li data-id="numero6" data-button="Close">
-        <h2>Stop #6</h2>
-        <p>Now what are you waiting for? Add this to your projects and get the most out of your apps!</p>
+      <li data-id="numero6" data-button="Next" data-options="tipLocation:right">
+        <h2>Step #6</h2>
+        <p>Add CSS styles in this box, it works in a similar way to the HTML Editor. When you start a new website, the CSS Editor box will be blank.  As you progress through the modules, the CSS you create will be saved between each one for you to build upon. Make sure you add the CSS between the style tags.</p>
+      </li>
+    <li data-id="saveButton" data-button="Close" data-options="tipLocation:right">
+        <h2>Step #7</h2>
+        <p>To save your progress, click the <strong>Save</strong> button. When you fix all the errors, a 'Congratulations' box will appear.</p>
       </li>
     </ol>
       
