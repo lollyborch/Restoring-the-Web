@@ -15,7 +15,7 @@ body {
   display: none;
   color: #fff;
   width: 300px;
-  z-index: 101;
+  z-index: 10001;
   top: 0; /* keeps the page from scrolling when calculating position */
   left: 0;
   font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica", Helvetica, Arial, Lucida, sans-serif;
@@ -165,15 +165,15 @@ body {
   font-size: 13px;
   text-decoration: none;
   color: rgb(255,255,255);
-  border: solid 1px rgb(0,60,180);
-  background: rgb(0,99,255);
-  background: -moz-linear-gradient(top, rgb(0,99,255) 0%, rgb(0,85,214) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(0,99,255)), color-stop(100%,rgb(0,85,214)));
-  background: -webkit-linear-gradient(top, rgb(0,99,255) 0%,rgb(0,85,214) 100%);
-  background: -o-linear-gradient(top, rgb(0,99,255) 0%,rgb(0,85,214) 100%);
-  background: -ms-linear-gradient(top, rgb(0,99,255) 0%,rgb(0,85,214) 100%);
+  border: solid 1px rgb(29,112,88);
+  background: rgb(43,166,131);
+  background: -moz-linear-gradient(top, rgb(43,166,131) 0%, rgb(29,112,88) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(43,166,131)), color-stop(100%,rgb(29,112,88)));
+  background: -webkit-linear-gradient(top, rgb(43,166,131) 0%,rgb(29,112,88) 100%);
+  background: -o-linear-gradient(top, rgb(43,166,131) 0%,rgb(29,112,88) 100%);
+  background: -ms-linear-gradient(top, rgb(43,166,131) 0%,rgb(29,112,88) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0063ff', endColorstr='#0055d6',GradientType=0 );
-  background: linear-gradient(top, rgb(0,99,255) 0%,rgb(0,85,214) 100%);
+  background: linear-gradient(top, rgb(43,166,131) 0%,rgb(29,112,88) 100%);
   text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
@@ -185,15 +185,15 @@ body {
 
 .joyride-next-tip:hover {
   color: rgb(255,255,255) !important;
-  border: solid 1px rgb(0,60,180) !important;
-  background: rgb(43,128,255);
-  background: -moz-linear-gradient(top, rgb(43,128,255) 0%, rgb(29,102,211) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(43,128,255)), color-stop(100%,rgb(29,102,211)));
-  background: -webkit-linear-gradient(top, rgb(43,128,255) 0%,rgb(29,102,211) 100%);
-  background: -o-linear-gradient(top, rgb(43,128,255) 0%,rgb(29,102,211) 100%);
-  background: -ms-linear-gradient(top, rgb(43,128,255) 0%,rgb(29,102,211) 100%);
+  border: solid 1px rgb(20,77,61) !important;
+  background: rgb(20,77,61);
+  background: -moz-linear-gradient(top, rgb(29,112,88) 0%, rgb(20,77,61) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(29,112,88)), color-stop(100%,rgb(20,77,61)));
+  background: -webkit-linear-gradient(top, rgb(29,112,88) 0%,rgb(20,77,61) 100%);
+  background: -o-linear-gradient(top, rgb(29,112,88) 0%,rgb(20,77,61) 100%);
+  background: -ms-linear-gradient(top, rgb(29,112,88) 0%,rgb(20,77,61) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b80ff', endColorstr='#1d66d3',GradientType=0 );
-  background: linear-gradient(top, rgb(43,128,255) 0%,rgb(29,102,211) 100%);
+  background: linear-gradient(top, rgb(29,112,88) 0%,rgb(20,77,61) 100%);
 }
 
 .joyride-timer-indicator-wrap {
@@ -237,7 +237,7 @@ body {
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
   opacity: 0.5;
-  z-index: 100;
+  z-index: 10000;
   display: none;
   top: 0;
   left: 0;
@@ -247,7 +247,7 @@ body {
 .joyride-expose-wrapper {
     background-color: #ffffff;
     position: absolute;
-    z-index: 102;
+    z-index: 10002;
     -moz-box-shadow: 0px 0px 30px #ffffff;
     -webkit-box-shadow: 0px 0px 30px #ffffff;
     box-shadow: 0px 0px 30px #ffffff;
@@ -256,7 +256,7 @@ body {
 .joyride-expose-cover {
     background: transparent;
     position: absolute;
-    z-index: 10000;
+    z-index: 100000;
     top: 0px;
     left: 0px;
 }

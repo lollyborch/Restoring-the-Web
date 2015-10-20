@@ -31,9 +31,6 @@ require("base.php");
       
     <!-- Joyride from http://zurb.com/playground/jquery-joyride-feature-tour-plugin -->
     <link rel="stylesheet" href="joyride/joyride-2.1.css">
-      <link rel="stylesheet" href="joyride/demo-style.css">
-       <!--
-    <link rel="stylesheet" href="mobile.css">-->
 
   </head>
   <body ng-app="myApp">
