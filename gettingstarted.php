@@ -104,6 +104,7 @@
             <br />
             <p>When you choose a website to restore, you will be directed to a working page.</p>   
             <h2>Working Panel</h2>
+            <p>Here is an example of the Working Panel for Module 1 of Cricket Australia</p>
             <img class="img-responsive" src="images/working_panel.png" alt="Home Page Instruction" width="100%" />
             <br />
             <div class="row">
