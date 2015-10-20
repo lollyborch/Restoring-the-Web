@@ -52,12 +52,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="my_restorations.php">My Restorations</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle nav-active active" data-toggle="dropdown" href="gettingstarted.php" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="gettingstarted.php">Getting started</a>
-                            <a class="dropdown-item" href="whoweare.php">Who we are</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gettingstarted.php">Getting started</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="help.php">Help</a>
@@ -88,13 +84,13 @@
         <div class="container">
         <ol class="breadcrumb">
         <li class="active">Gallery</li>
-        </ol>-->
+        </ol>
         <div class="breadcrumb-container">
             <ol class="breadcrumb">
                 <li><a href="gettingstarted.html">About</a></li>
                 <li class="active">Getting started</li>
             </ol>
-        </div>
+        </div>-->
         
         <!-- Getting started container -->
         <div class="container">

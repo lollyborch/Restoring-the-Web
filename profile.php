@@ -55,12 +55,8 @@ require("base.php");
                     <li class="nav-item">
                         <a class="nav-link" href="my_restorations.php">My Restorations</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle nav-active " data-toggle="dropdown" href="gettingstarted.php" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="gettingstarted.php">Getting started</a>
-                            <a class="dropdown-item" href="whoweare.php">Who we are</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link " href="gettingstarted.php">Getting started</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="help.php">Help</a>
