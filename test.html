@@ -12,6 +12,11 @@
       
       <!-- web fonts for header -->
     <link href="css/webfont-stylesheet.css" rel="stylesheet">
+      
+    <!-- Joyride from http://zurb.com/playground/jquery-joyride-feature-tour-plugin -->
+    <link rel=" stylesheet" type="text/css" href="joyride/joyride-2.1.css">
+    <script src="joyride/jquery.joyride-2.1.js"></script>
+      <script src="joyride/jquery-1.10.1.js"></script>
     
   </head>
   <body ng-app="myApp">
@@ -93,14 +98,106 @@
 
           </div>
           
-          <script language="javascript">
-var popupWindow = null;
-function positionedPopup(url,winName,w,h,t,l,scroll){
-settings =
-'height='+h+',width='+w+',top='+t+',left='+l+',scrollbars='+scroll+',resizable'
-popupWindow = window.open(url,winName,settings)
-}
-</script>
+    <div class="row">
+      <div class="six columns">
+        <h2 id="numero1" class="so-awesome">Point Out Those New Features!</h2>
+        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.</p>
+      </div>
+      <div class="six columns">
+        <img id="numero5" src="430x200.gif">
+      </div>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="row">
+      <div class="twelve columns">
+        <h3 id="numero3">Get the Most Out of Your App!</h3>
+        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      </div>
+    </div>
+
+   <br><br><br><br>
+
+   <div class="row">
+     <div class="four columns">
+        <img src="280x120.gif">
+      </div>
+      <div class="eight columns">
+        <h3 id="numero2">Customize Each Stop Along the Way</h3>
+        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.</p>
+      </div>
+    </div>
+
+    <div class="row" id="hidden">
+     <div class="four columns">
+        <img src="280x120.gif">
+      </div>
+      <div class="eight columns">
+        <h3 class="someclass">Uses classes - This one is hidden above 768px</h3>
+        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.</p>
+      </div>
+    </div>
+
+    <div class="row">
+     <div class="four columns">
+        <img src="280x120.gif">
+      </div>
+      <div class="eight columns">
+        <h3 class="someclass">Uses classes</h3>
+        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.</p>
+      </div>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="row">
+      <div class="six columns">
+        <h4>Make Every Click Count</h4>
+        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.</p>
+      </div>
+      <div class="six columns">
+        <img src="430x200.gif">
+      </div>
+    </div>
+
+    <br><br><br><br>
+
+  </div>
+      <!-- Tip Content -->
+    <ol id="joyRideTipContent">
+      <li data-class="so-awesome" data-text="Next" class="custom">
+        <h2>Stop #1</h2>
+        <p>You can control all the details for you tour stop. Any valid HTML will work inside of Joyride.</p>
+      </li>
+      <li data-id="numero2" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
+        <h2>Stop #2</h2>
+        <p>Get the details right by styling Joyride with a custom stylesheet!</p>
+      </li>
+      <li data-id="numero3" data-button="Next" data-options="tipLocation:right">
+        <h2>Stop #3</h2>
+        <p>It works right aligned.</p>
+      </li>
+      <li data-button="Next">
+        <h2>Stop #4</h2>
+        <p>It works as a modal too!</p>
+      </li>
+      <li data-class="someclass" data-button="Next" data-options="tipLocation:right">
+        <h2>Stop #4.5</h2>
+        <p>It works with classes, and only on the first visible element with that class.</p>
+      </li>
+      <li data-id="numero5" data-button="Close">
+        <h2>Stop #5</h2>
+        <p>Now what are you waiting for? Add this to your projects and get the most out of your apps!</p>
+      </li>
+    </ol>
+      
+      
+      
+      
+          
+          <p><a href="http://www.quackit.com/javascript/examples/sample_popup.cfm" onclick="centeredPopup(this.href,'myWindow','700','300','yes');return false">Centered Popup</a></p>
+                  
 <p><a href="http://deco1800-g49.uqcloud.net/help.php" onclick="positionedPopup(this.href,'myWindow','1000','450','100','200','yes');return false">Help</a></p>
       
       </div>    
@@ -119,19 +216,41 @@ popupWindow = window.open(url,winName,settings)
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="SASS/dist/js/bootstrap.min.js"></script>
       
+  <!--    <script language="javascript">
+        var popupWindow = null;
+        function centeredPopup(url,winName,w,h,scroll){
+        LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+        TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+        settings =
+        'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+        popupWindow = window.open(url,winName,settings)
+        }
+      </script>
+      
       <script language="javascript">
-var popupWindow = null;
-function centeredPopup(url,winName,w,h,scroll){
-LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
-TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
-settings =
-'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
-popupWindow = window.open(url,winName,settings)
-}
-</script>
+        var popupWindow = null;
+        function positionedPopup(url,winName,w,h,t,l,scroll){
+        settings =
+        'height='+h+',width='+w+',top='+t+',left='+l+',scrollbars='+scroll+',resizable'
+        popupWindow = window.open(url,winName,settings)
+        }
+      </script>-->
       
-      <p><a href="http://www.quackit.com/javascript/examples/sample_popup.cfm" onclick="centeredPopup(this.href,'myWindow','700','300','yes');return false">Centered Popup</a></p>
-      
+      <!-- joyride script -->
+      <script>
+      $(window).load(function() {
+        $('#joyRideTipContent').joyride({
+          autoStart : true,
+          postStepCallback : function (index, tip) {
+          if (index == 2) {
+            $(this).joyride('set_li', false, 1);
+          }
+        },
+        modal:true,
+        expose: true
+        });
+      });
+    </script>     
       
   </body>
 </html>
