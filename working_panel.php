@@ -156,42 +156,14 @@ require("base.php");
     
             <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#HelpModal" role="button">Help Button </a>-->
         
-    </div>      
-      
-      
-      
-      
-      
-      
+    </div>        
 
   <div class="container">
           <div class="otherrow">
                 <h1>Gallery</h1>
               <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#HelpModal" role="button">Help Button </a>
+              <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>
                 <br />
-                
-              
-<!-- Gallery modal content starts-->
-              <!-- Gallery Modal 1 -->
-            <div class="modal fade" id="HelpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Help</h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-                There are lots of places to get help with HTML and CSS on the web.  A good place to start is the <a class="help-links" href="http://www.w3schools.com/">w3schools</a>.  They helpful lists of <a class="help-links" href="http://www.w3schools.com/tags/">HTML tags</a> (including which ones are new) and <a class="help-links" href="http://www.w3schools.com/html/html_tables.asp">HTML Tables</a> (which is helpful as a lot of old websties use these a lot).  Sites like <a class="help-links" href="http://htmldog.com/reference/htmltags/">HTML Dog</a> and <a class="help-links" href="https://css-tricks.com/">CSS-Tricks</a> are also a great resource.
-            </p>
-            <p>
-                Have a specific question?  Try searching or asking on <a class="help-links" href="http://stackoverflow.com/tour">Stack Overflow</a>. Stack Overflow is a question and answer site that can help beginners like you.  
-            </p>
-                  </div>
-    
-                </div>
-              </div>
-            </div>
            
 
           </div>
@@ -241,7 +213,7 @@ require("base.php");
           </div>
       
 
-        <!-- Gallery Modal 1 -->
+        <!-- Help Modal 1 -->
             <div class="modal fade" id="HelpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -257,8 +229,23 @@ require("base.php");
                 Have a specific question?  Try searching or asking on <a class="help-links" href="http://stackoverflow.com/tour">Stack Overflow</a>. Stack Overflow is a question and answer site that can help beginners like you.  
             </p>
                   </div>
-                  <div class="modal-footer">
+                </div>
+              </div>
+            </div>
 
+
+<!-- Congratulations Modal 1 -->
+            <div class="modal fade" id="CongratsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    
+                  </div>
+                  <div class="modal-body">
+                    <img class="img-responsive" src="images/Congratulations.png" alt="Home Page Instruction" width="100%" /><br />
+                      <a class="btn btn-lg btn-primary text-center" role="button" href="my_restorations.php">Start a new module</a>
+                      <a class="btn btn-lg btn-primary text-center" role="button" href="home.php#categorieslink">Browse categories</a>
                   </div>
                 </div>
               </div>
