@@ -298,6 +298,7 @@ require("base.php");
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js'></script>
     <script src="SASS/dist/js/bootstrap.min.js"></script>
+    <script src="js/historylink.js"></script>
       
       		<!-- This script sets up the Editor -->
         <script src="js/index.js"></script>
