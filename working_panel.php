@@ -34,6 +34,12 @@ require("base.php");
      <!-- <link rel="stylesheet" href="joyride/demo-style.css">
        
     <link rel="stylesheet" href="mobile.css">-->
+      
+      <script>
+          // converting php variables to javascript
+          var WebsiteIDNumber = <?php echo (json_encode($getvalues)); ?>;
+          
+      </script>
 
   </head>
   <body ng-app="myApp">
@@ -144,6 +150,7 @@ require("base.php");
         </div>
 
             <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
+            <a id="HistoryButton" class="btn btn-lg btn-primary " role="button">View history of this website</a>
             <!--<a class="btn btn-lg btn-primary text-center" href="my_restorations.html" role="button">Publish</a>
             <a class="btn btn-lg btn-primary text-center" href="help.html" role="button" target="_blank">Help</a>  
     

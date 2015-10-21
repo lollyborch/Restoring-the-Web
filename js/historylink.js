@@ -1,10 +1,14 @@
 $(document).ready( function() {
-    if(WebsiteID==1){
-      $('.class or #id').attr('src', 'link');
+    switch(WebsiteIDNumber) {
+    case 1:
+        $('#HistoryButton').attr('src', 'www.trove.nla.gov.au');
         console.log("website id 1 link")
-        });
-  }else {
-    console.log("no website 1")
-  }
-
+        break;
+    case 2:
+        code block
+        break;
+    default:
+        default console.log("there is no website id")
+}
+    
 });
