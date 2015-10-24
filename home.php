@@ -8,25 +8,25 @@
     <!-- page is built on Bootstrap 4 -->
     <title>Web Historians</title>
 
-	<!--Stylesheet
-<link rel="stylesheet" href="css/style.css">
-<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">-->
+	<!--Stylesheet-->
 
-      <link href="SASS/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="SASS/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+
+        <!--Google Fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
       
-      
-    <!--Google Fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-    
       <!-- web fonts for header -->
-    <link href="css/webfont-stylesheet.css" rel="stylesheet">
-
-   
-     
+    <link href="css/webfont-stylesheet.css" rel="stylesheet">    
     
-      <!-- Font AWESOME -->
+    <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+
+
+ <!-- Font AWESOME -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      
     </head>
     <!-- End of Head -->
     
