@@ -144,8 +144,9 @@
       <!-- footer -->
         <div class="container">
           <div class="otherrow">
-             <p class="small" style="color:#1d7058">&copy; Restoring the web</p>
-
+            <div class="greencolour">
+                <p class="small">&copy; Restoring the web</p>
+              </div>
           </div>
         </div>
     

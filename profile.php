@@ -88,7 +88,7 @@ require("base.php");
         </ol>-->
         <div class="breadcrumb-container">
             <ol class="breadcrumb">
-                <li><a href="profile.html">Account</a></li>
+                <li><a href="profile.php">Account</a></li>
                 <li class="active">Profile</li>
             </ol>
         </div>
@@ -118,8 +118,9 @@ require("base.php");
       <!-- footer -->
         <div class="container">
           <div class="otherrow">
-             <p class="small" style="color:#1d7058">&copy; Restoring the web</p>
-
+             <div class="greencolour">
+                <p class="small">&copy; Restoring the web</p>
+              </div>
           </div>
         </div>
     
