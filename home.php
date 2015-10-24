@@ -76,12 +76,11 @@
         
         <!-- Getting started container -->
         <div class="container">
-                <h1>
-                <img class="img-responsive" src="images/Home_Infographic.png" alt="Home Page Instruction" width="100%"/>
-                </h1>
+                <h1>Web Historians</h1>
                 <br />
-                <p>To find out more about Web Historians, view <a href="gettingstarted.php">Getting started</a></p>   
-        </div> 
+                <p>To find out more about Web Historians and how the process works, view our <a href="gettingstarted.php">Getting started</a> page.</p>   
+                <p>Want to dive right in?  Start a new project by choosing a website from one of the categories below.</p>
+        </div>  
 
       
       <!-- categories -->
