@@ -11,31 +11,23 @@
     <!-- page is built on Bootstrap 4 -->
     <title>Web Historians</title>
 
-	<!--Stylesheet
-<link rel="stylesheet" href="css/style.css">
-<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">-->
+	<!--Stylesheet-->
 
-      <link href="SASS/dist/css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/style.css" rel="stylesheet">
+        <link href="SASS/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+
+        <!--Google Fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
       
-    <!--Google Fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-
       <!-- web fonts for header -->
-    <link href="css/webfont-stylesheet.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-      
-    <!-- Angular JS -->
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
-   <!-- <script src="js/active.js"></script>-->
+    <link href="css/webfont-stylesheet.css" rel="stylesheet">    
     
-	<!-- Font AWESOME -->
+    <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+
+
+ <!-- Font AWESOME -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	
   </head>
@@ -46,8 +38,16 @@
 
             <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
             <nav class="navbar navbar-dark navbar-static-top">
-                <a class="navbar-brand brand-heading" href="home.html">web historians</a>   
-                
+                <a class="navbar-brand brand-heading" href="home.php">web historians</a>   
+                <ul class="nav navbar-nav pull-right">
+                    <li class="nav-item">
+                    <!--add nav-active to current page-->
+                        <a class="nav-link " href="index.php#login">Log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.php#login">Sign up</a>
+                    </li>
+                </ul>
             </nav>
             </div>
         </header>
@@ -104,7 +104,7 @@
 	else {
 	
 		echo '
-        <h3 class="omb_authTitle row"><a href="index.php">Log in</a> or Sign up</h3>
+        <h3 class="omb_authTitle row"><a href="index.php#login">Log in</a> or Sign up</h3>
 			<div class="row"> 
 					<form name="registerform" method="POST" action="register.php#login" id="registerform" class="omb_loginForm col-xs-12">
 						  <div class="input-group">
