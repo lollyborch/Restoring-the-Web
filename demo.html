@@ -24,7 +24,7 @@ require("base.php");
     <link href="css/webfont-stylesheet.css" rel="stylesheet">    
     
     <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
-    <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css'>
+
 
  <!-- Font AWESOME -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -34,6 +34,13 @@ require("base.php");
      <!-- <link rel="stylesheet" href="joyride/demo-style.css">
        
     <link rel="stylesheet" href="mobile.css">-->
+      
+      <script>
+          // converting php variables to javascript
+          //var WebsiteIDNumber = <?php echo (json_encode($getvalues)); ?>;
+          var WebsiteIDNumber = 1;
+          
+      </script>
 
   </head>
   <body ng-app="myApp">
@@ -144,47 +151,18 @@ require("base.php");
         </div>
 
             <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
-            <!--<a class="btn btn-lg btn-primary text-center" href="my_restorations.html" role="button">Publish</a>
-            <a class="btn btn-lg btn-primary text-center" href="help.html" role="button" target="_blank">Help</a>  
-    
-            <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#HelpModal" role="button">Help Button </a>-->
+            <!--<button onclick="ready" id="HistoryButton"  class="btn btn-lg btn-primary ">View history of this website</button>-->
+            <a class="btn btn-lg btn-primary text-center" id="HistoryButton" href="" role="button">View history of this website</a>
+
         
-    </div>      
-      
-      
-      
-      
-      
-      
+    </div>        
 
   <div class="container">
           <div class="otherrow">
                 <h1>Gallery</h1>
               <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#HelpModal" role="button">Help Button </a>
+              <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>
                 <br />
-                
-              
-<!-- Gallery modal content starts-->
-              <!-- Gallery Modal 1 -->
-            <div class="modal fade" id="HelpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Help</h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-                There are lots of places to get help with HTML and CSS on the web.  A good place to start is the <a class="help-links" href="http://www.w3schools.com/">w3schools</a>.  They helpful lists of <a class="help-links" href="http://www.w3schools.com/tags/">HTML tags</a> (including which ones are new) and <a class="help-links" href="http://www.w3schools.com/html/html_tables.asp">HTML Tables</a> (which is helpful as a lot of old websties use these a lot).  Sites like <a class="help-links" href="http://htmldog.com/reference/htmltags/">HTML Dog</a> and <a class="help-links" href="https://css-tricks.com/">CSS-Tricks</a> are also a great resource.
-            </p>
-            <p>
-                Have a specific question?  Try searching or asking on <a class="help-links" href="http://stackoverflow.com/tour">Stack Overflow</a>. Stack Overflow is a question and answer site that can help beginners like you.  
-            </p>
-                  </div>
-    
-                </div>
-              </div>
-            </div>
            
 
           </div>
@@ -228,13 +206,13 @@ require("base.php");
         <div class="container-fluid">
             <div class="container">
               <div class="otherrow">
-                <a href="whoweare.html" class="small">&copy; Restoring the web</a>
+                <p class="small" style="color:#1d7058">&copy; Restoring the web</p>
               </div>
             </div>
           </div>
       
 
-        <!-- Gallery Modal 1 -->
+        <!-- Help Modal 1 -->
             <div class="modal fade" id="HelpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -250,8 +228,23 @@ require("base.php");
                 Have a specific question?  Try searching or asking on <a class="help-links" href="http://stackoverflow.com/tour">Stack Overflow</a>. Stack Overflow is a question and answer site that can help beginners like you.  
             </p>
                   </div>
-                  <div class="modal-footer">
+                </div>
+              </div>
+            </div>
 
+
+<!-- Congratulations Modal 1 -->
+            <div class="modal fade" id="CongratsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    
+                  </div>
+                  <div class="modal-body">
+                    <img class="img-responsive" src="images/Congratulations.png" alt="Home Page Instruction" width="100%" /><br />
+                      <a class="btn btn-lg btn-primary text-center" role="button" href="my_restorations.php">Start a new module</a>
+                      <a class="btn btn-lg btn-primary text-center" role="button" href="home.php#categorieslink">Browse categories</a>
                   </div>
                 </div>
               </div>
@@ -291,6 +284,7 @@ require("base.php");
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js'></script>
     <script src="SASS/dist/js/bootstrap.min.js"></script>
+    <script src="js/historylink.js"></script>
       
       		<!-- This script sets up the Editor -->
         <script src="js/index.js"></script>

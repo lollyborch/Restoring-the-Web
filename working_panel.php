@@ -1,6 +1,27 @@
 <?php 
 require("base.php"); 
 ?>
+<!-- Fetching the Users Restoration HTML and CSS -->
+	<?php
+	// Grab the Website ID which is posted on the cricketaustralia.html module when pressed
+	$getvalues = $_GET['WebsiteID'];
+	$componentID = substr($getvalues,-1,1);
+	$webIDvalue = substr($getvalues,0,1);
+	// Grab the current users name
+	$currentUser = $_SESSION["username"];
+	
+	// Find the userID from their name and email (email must be unique so this is ok)
+	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="' . $_SESSION['username'] . '" and emailAddress="' . $_SESSION['emailAddress'] .'";');
+	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
+	$currentUserID = $currentUserIDTable[0];
+	echo $currentUserID;
+	echo $_SESSION['username'];
+	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="1" and UserID="' .$currentUserID .'" and CompID="1";');
+	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
+	$_SESSION['userHTML'] = $UsersRestorationsTable[0];
+	$uHTML = $_SESSION['userHTML'];
+	?>
+
 <!DOCTYPE html>
 <html >
   <head>
@@ -37,32 +58,18 @@ require("base.php");
       
       <script>
           // converting php variables to javascript
-          var WebsiteIDNumber = <?php echo (json_encode($getvalues)); ?>;
+         // console.log("this script works");
+          var WebsiteIDNumberString = <?php echo (json_encode($getvalues)); ?>;
+          var WebsiteIDNumber = WebsiteIDNumberString[0]
+          
+          //console.log("Website  ID Number " + WebsiteIDNumber);
+          //var WebsiteIDNumber = 1;
           
       </script>
 
   </head>
   <body ng-app="myApp">
-  <!-- Fetching the Users Restoration HTML and CSS -->
-	<?php
-	// Grab the Website ID which is posted on the cricketaustralia.html module when pressed
-	$getvalues = $_GET['WebsiteID'];
-	$componentID = substr($getvalues,-1,1);
-	$webIDvalue = substr($getvalues,0,1);
-	// Grab the current users name
-	$currentUser = $_SESSION["username"];
-	
-	// Find the userID from their name and email (email must be unique so this is ok)
-	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="' . $_SESSION['username'] . '" and emailAddress="' . $_SESSION['emailAddress'] .'";');
-	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
-	$currentUserID = $currentUserIDTable[0];
-	echo $currentUserID;
-	echo $_SESSION['username'];
-	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="1" and UserID="' .$currentUserID .'" and CompID="1";');
-	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
-	$_SESSION['userHTML'] = $UsersRestorationsTable[0];
-	$uHTML = $_SESSION['userHTML'];
-	?>
+  
 	<div id="hiddenHTML" style="display:none"><?php echo $uHTML; ?></div>
       
           
@@ -150,11 +157,9 @@ require("base.php");
         </div>
 
             <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
-            <button onclick="ready" id="HistoryButton"  class="btn btn-lg btn-primary ">View history of this website</button>
-            <!--<a class="btn btn-lg btn-primary text-center" href="my_restorations.html" role="button">Publish</a>
-            <a class="btn btn-lg btn-primary text-center" href="help.html" role="button" target="_blank">Help</a>  
-    
-            <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#HelpModal" role="button">Help Button </a>-->
+            <!--<button onclick="ready" id="HistoryButton"  class="btn btn-lg btn-primary ">View history of this website</button>-->
+            <a class="btn btn-lg btn-primary text-center" id="HistoryButton" href="" role="button" target="_blank">View history of this website</a>
+
         
     </div>        
 
