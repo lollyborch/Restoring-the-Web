@@ -192,7 +192,8 @@ require("base.php");
       <!-- footer -->
         <div class="container">
           <div class="otherrow">
-            <a href="whoweare.html" class="small">&copy; Restoring the web</a>
+            <p class="small" style="color:#1d7058">&copy; Restoring the web</p>
+
           </div>
         </div>
     

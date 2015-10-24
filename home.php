@@ -80,7 +80,7 @@
                 <img class="img-responsive" src="images/Home_Infographic.png" alt="Home Page Instruction" width="100%"/>
                 </h1>
                 <br />
-                <p>To find out more about Web Historians, view <a href="gettingstarted.html">Getting started</a></p>   
+                <p>To find out more about Web Historians, view <a href="gettingstarted.php">Getting started</a></p>   
         </div> 
 
       
@@ -189,7 +189,8 @@
       <!-- footer -->
         <div class="container">
           <div class="otherrow">
-            <a href="whoweare.html" class="small">&copy; Restoring the web</a>
+            <p class="small" style="color:#1d7058">&copy; Restoring the web</p>
+
           </div>
         </div>
     
@@ -207,7 +208,7 @@
     <script src="js/trove.js"></script> 
 
     <!-- Angular Controller-->
-    <script src="js/WebsiteController.js"></script>  -->
+    <script src="js/WebsiteController.js"></script> 
 
     
 

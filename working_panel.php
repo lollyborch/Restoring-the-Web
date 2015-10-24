@@ -150,7 +150,7 @@ require("base.php");
         </div>
 
             <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
-            <a id="HistoryButton" class="btn btn-lg btn-primary " role="button">View history of this website</a>
+            <button onclick="ready" id="HistoryButton"  class="btn btn-lg btn-primary ">View history of this website</button>
             <!--<a class="btn btn-lg btn-primary text-center" href="my_restorations.html" role="button">Publish</a>
             <a class="btn btn-lg btn-primary text-center" href="help.html" role="button" target="_blank">Help</a>  
     
@@ -207,7 +207,7 @@ require("base.php");
         <div class="container-fluid">
             <div class="container">
               <div class="otherrow">
-                <a href="whoweare.html" class="small">&copy; Restoring the web</a>
+                <p class="small" style="color:#1d7058">&copy; Restoring the web</p>
               </div>
             </div>
           </div>
