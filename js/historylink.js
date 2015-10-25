@@ -1,16 +1,3 @@
-/*$(document).ready(function getHistoryButtonLink() {
-    if(WebsiteIDNumber == 1){
-        console.log("website id 1 ");
-        $('#HistoryButton').attr('href', 'https://web.archive.org/web/20050105050831/http://www.cricket.com.au/');
-        console.log("website id 1 link");
-    } else {
-        console.log("nope nope nope");
-    };
-    
-});
-*/
-
-
 $(document).ready(function(getHistoryButtonLink) {
     //console.log("Website ID Number from historylink " + WebsiteIDNumber);
     //console.log(typeof WebsiteIDNumber);

@@ -54,7 +54,7 @@ require("base.php");
         <link rel="stylesheet" href="joyride/joyride-2.1.css">
 
         <script>
-            // converting php variables to javascript
+            // converting php variables to javascript for historylink.js
             // gets website Id and module ID
             var WebsiteIDNumberString = <?php echo (json_encode($getvalues)); ?>;
             //uses index to just get the website ID
@@ -110,14 +110,8 @@ require("base.php");
             </div>
         </header>
         <!--header end-->
-      
-      
-      
-      <!--breadcrumbs for pages NOT HOMEPAGE index.html
-        <div class="container">
-        <ol class="breadcrumb">
-        <li class="active">Gallery</li>
-        </ol>-->
+       
+      <!--breadcrumbs for pages NOT HOMEPAGE index.html-->
         <div class="breadcrumb-container">
             <ol class="breadcrumb">
                 <li><a href="my_restorations.html">My Restorations</a></li>
@@ -125,8 +119,9 @@ require("base.php");
             </ol>
         </div>
       
+<!--START Main working panel fluid container -->
+<!-- HTML editor panes based on http://codepen.io/rlo206/pen/ClEti -->
   <div class="container-fluid">  
-      
         <div class="clearfix">
             <div id="numero1" class="working-header pull-left">Errors</div>
             <div id="numero5" class="working-header pull-right">Preview</div>
@@ -150,58 +145,48 @@ require("base.php");
             <div id="csseditor" class="css-section">
             </div>
         </div>
-
+      
+      <!-- buttons at bottom of page -->
             <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
-            <!--<button onclick="ready" id="HistoryButton"  class="btn btn-lg btn-primary ">View history of this website</button>-->
             <a class="btn btn-lg btn-primary text-center" id="HistoryButton" href="" role="button" target="_blank">View history of this website</a>
-
+            <!--Congratulations modal button - to be removed when script is done -->
+            <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>
         
-    </div>        
+    </div>   
+    <!--END Main working panel fluid container -->
 
-  <div class="container">
-          <div class="otherrow">
-                <h1>Gallery</h1>
-              <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#HelpModal" role="button">Help Button </a>
-              <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>
-                <br />
-           
-
-          </div>
-
-    <br><br>
-
-  </div>
-      <!-- Tip Content -->
-    <ol id="joyRideTipContent">
-      <li data-id="numero1" data-text="Next" >
-        <h2>Step #1</h2>
-        <p>View the errors returned by the HTML validator in the Errors panel.</p>
-      </li>
-      <li data-id="numero2" data-button="Next" data-options="tipLocation:top">
-        <h2>Step #2</h2>
-        <p>As you fix the errors, you can re-validate your code using the <strong>Validate</strong> button.</p>
-      </li>
-      <li data-id="numero3" data-button="Next" data-options="tipLocation:bottom">
-        <h2>Step #3</h2>
-        Need help understanding what errors mean?  Try our <strong>Help</strong> link.</p>
-      </li>
-      <li data-id="numero4" data-button="Next">
-        <h2>Stop #4</h2>
-        <p>Edit the HTML code for your module in the HTML Editor.</p>
-      </li>
-      <li data-id="numero5" data-button="Next" data-options="tipLocation:right">
-        <h2>Step #5</h2>
-        <p>The Preview box is responsive so you will see your changes in the HTML Editor and CSS Editor appear here.</p>
-      </li>
-      <li data-id="numero6" data-button="Next" data-options="tipLocation:right">
-        <h2>Step #6</h2>
-        <p>Add CSS styles in this box, it works in a similar way to the HTML Editor. When you start a new website, the CSS Editor box will be blank.  As you progress through the modules, the CSS you create will be saved between each one for you to build upon. Make sure you add the CSS between the style tags.</p>
-      </li>
-    <li data-id="saveButton" data-button="Close" data-options="tipLocation:right">
-        <h2>Step #7</h2>
-        <p>To save your progress, click the <strong>Save</strong> button. When you fix all the errors, a 'Congratulations' box will appear.</p>
-      </li>
-    </ol>
+        <!-- START Joyride plugin tutorial content -->
+        <ol id="joyRideTipContent">
+            <li data-id="numero1" data-text="Next" >
+                <h2>Step #1</h2>
+                <p>View the errors returned by the HTML validator in the Errors panel.</p>
+            </li>
+            <li data-id="numero2" data-button="Next" data-options="tipLocation:top">
+                <h2>Step #2</h2>
+                <p>As you fix the errors, you can re-validate your code using the <strong>Validate</strong> button.</p>
+            </li>
+            <li data-id="numero3" data-button="Next" data-options="tipLocation:bottom">
+                <h2>Step #3</h2>
+                <p>Need help understanding what errors mean?  Try our <strong>Help</strong> link.</p>
+            </li>
+            <li data-id="numero4" data-button="Next">
+                <h2>Stop #4</h2>
+                <p>Edit the HTML code for your module in the HTML Editor.</p>
+            </li>
+            <li data-id="numero5" data-button="Next" data-options="tipLocation:right">
+                <h2>Step #5</h2>
+                <p>The Preview box is responsive so you will see your changes in the HTML Editor and CSS Editor appear here.</p>
+            </li>
+            <li data-id="numero6" data-button="Next" data-options="tipLocation:right">
+                <h2>Step #6</h2>
+                <p>Add CSS styles in this box, it works in a similar way to the HTML Editor. When you start a new website, the CSS Editor box will be blank.  As you progress through the modules, the CSS you create will be saved between each one for you to build upon. Make sure you add the CSS between the style tags.</p>
+            </li>
+            <li data-id="saveButton" data-button="Close" data-options="tipLocation:right">
+                <h2>Step #7</h2>
+                <p>To save your progress, click the <strong>Save</strong> button. When you fix all the errors, a 'Congratulations' box will appear.</p>
+            </li>
+        </ol>
+        <!-- END Joyride plugin tutorial content -->
       
       <!-- footer -->
         <div class="container-fluid">
@@ -213,28 +198,6 @@ require("base.php");
               </div>
             </div>
           </div>
-      
-
-        <!-- Help Modal 1 -->
-            <div class="modal fade" id="HelpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Help</h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-                There are lots of places to get help with HTML and CSS on the web.  A good place to start is the <a class="help-links" href="http://www.w3schools.com/">w3schools</a>.  They helpful lists of <a class="help-links" href="http://www.w3schools.com/tags/">HTML tags</a> (including which ones are new) and <a class="help-links" href="http://www.w3schools.com/html/html_tables.asp">HTML Tables</a> (which is helpful as a lot of old websties use these a lot).  Sites like <a class="help-links" href="http://htmldog.com/reference/htmltags/">HTML Dog</a> and <a class="help-links" href="https://css-tricks.com/">CSS-Tricks</a> are also a great resource.
-            </p>
-            <p>
-                Have a specific question?  Try searching or asking on <a class="help-links" href="http://stackoverflow.com/tour">Stack Overflow</a>. Stack Overflow is a question and answer site that can help beginners like you.  
-            </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
 
 <!-- Congratulations Modal 1 -->
             <div class="modal fade" id="CongratsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -254,9 +217,11 @@ require("base.php");
             </div>
       
 
-    <!-- Run the plugin -->
+    
     <script type="text/javascript" src="joyride/jquery-1.10.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Joyride plugin from http://zurb.com/playground/jquery-joyride-feature-tour-plugin -->
     <script type="text/javascript" src="joyride/jquery.joyride-2.1.js"></script>
     <script>
       $(window).load(function() {
@@ -273,8 +238,6 @@ require("base.php");
       });
     </script>
       
-      
-      
       <!--script for pop out help from   http://www.quackit.com/javascript/popup_windows.cfm -->
         <script language="javascript">
             var popupWindow = null;
@@ -285,15 +248,23 @@ require("base.php");
             }
         </script>
 
+      <!-- ACE library for validation -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js'></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="SASS/dist/js/bootstrap.min.js"></script>
+      
+    <!-- dynamically changes the history button link to whatever website you are editing -->  
     <script src="js/historylink.js"></script>
       
-      		<!-- This script sets up the Editor -->
-        <script src="js/index.js"></script>
+    <!-- This script sets up the Editor -->
+    <script src="js/index.js"></script>
+      
+    <!-- jQuery UI for JSONP in HTML Validator API calls in cricket.js -->
+    <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
 
-		<!-- This script adds content to the ditor -->
-		<script src="js/cricket.js">printErrors();</script>
+    <!-- This script adds content to the ditor -->
+    <script src="js/cricket.js">printErrors();</script>
 
 
   </body>

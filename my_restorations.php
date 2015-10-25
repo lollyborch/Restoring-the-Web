@@ -134,21 +134,7 @@ require("base.php");
         </header>
         <!--header end-->
         
-        
-      <!--breadcrumbs for pages NOT HOMEPAGE index.html
-    <div class="container">
-        <ol class="breadcrumb">
-          <li class="active">Gallery</li>
-        </ol>
-        
-        <ol class="breadcrumb">
-          <li><a href="#">About</a></li>
-          <li class="active">Getting started</li>
-        </ol>
-      
-      </div>-->
-      
-            <!-- main container starts-->
+        <!-- main container starts-->
       
       <div class="container">
           <div class="otherrow">
@@ -156,34 +142,6 @@ require("base.php");
                 <br />
               <p>Here are the modules you have started and completed.  To start a new restorations, <a href="home.php#categories">choose a website from the categories.</a></p>
              
-              <p>
-               <?php
-             // echo $cricket_module_started;
-               //   echo $cricket_started;
-    /*
-                  if(mysql_num_rows($cricket_start_mysql) == 1) {
-                      // module entry exists for a website, now do stuff 
-                      $cricket = TRUE;
-                      echo "This module exists";
-                      echo $cricket;
-                  } else {
-                      // do something else
-                      $cricket = FALSE;
-                      echo "This module does not exists";
-                  }
-                  
-                  if(mysql_num_rows($olympics_start_mysql) == 1) {
-                      // module entry exists for a website, now do stuff 
-                      $olympics = TRUE;
-                      echo "This module exists";
-                  } else {
-                      // do something else
-                      $olympics = FALSE;
-                      echo "This module does not exists";
-                  } */
-              ?>
-                  </p>
-
           </div>
       
       </div>    

@@ -1,3 +1,5 @@
+/* HTML editor panes from http://codepen.io/rlo206/pen/ClEti */
+
 var hiddenDiv = document.getElementById('hiddenHTML');
 var hiddenDivValue = hiddenDiv.innerHTML;
 console.log(hiddenDivValue);

@@ -108,6 +108,7 @@ else {
     <br />
         <p id="login">Register or log in below to find out more.</p>   
       
+        <!--login adpated from http://bootsnipp.com/snippets/featured/responsive-login-with-social-buttons -->
         <div class="omb_login row">
 			<div class="col-md-6 col-md-offset-3 login-container" >
 			<h3 class="omb_authTitle row">Log in or <a href="register.php#login">Sign up</a></h3>
