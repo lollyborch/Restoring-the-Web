@@ -1,19 +1,31 @@
 <?php 
 require("base.php"); 
 ?>
-
 <?php
+	// Grab the Website ID which is posted on the cricketaustralia.html module when pressed
+	$getvalues = $_GET['WebsiteID'];
+	$componentID = substr($getvalues,-1,1);
+	$webIDvalue = substr($getvalues,0,1);
+	// Grab the current users name
+	$currentUser = $_SESSION["username"];
+	
+	// Find the userID from their name and email (email must be unique so this is ok)
+	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="' . $_SESSION['username'] . '" and emailAddress="' . $_SESSION['emailAddress'] .'";');
+	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
+	$currentUserID = $currentUserIDTable[0];
+	echo $currentUserID;
+
     /* variables that query the mySQL database to see if there is an entry for a particular module */
-    $cricket_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1'");
-    $olympics_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2'");
-    $cycling_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '4'");
-    $ballet_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '5'");
-    $writers_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '6'");
-    $uq_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '7'");
-    $qtac_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '8'");
-    $council_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '9'");
-    $gallery_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '10'");
-    $museum_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '11'");
+    $cricket_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND UserID = $currentUserID ");
+    $olympics_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2' AND UserID = $currentUserID ");
+    $cycling_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '4' AND UserID = $currentUserID ");
+    $ballet_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '5' AND UserID = $currentUserID ");
+    $writers_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '6' AND UserID = $currentUserID ");
+    $uq_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '7' AND UserID = $currentUserID ");
+    $qtac_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '8' AND UserID = $currentUserID ");
+    $council_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '9' AND UserID = $currentUserID ");
+    $gallery_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '10' AND UserID = $currentUserID ");
+    $museum_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '11' AND UserID = $currentUserID ");
 
     $cricket_start = mysql_num_rows($cricket_start_mysql);
     $olympics_start = mysql_num_rows($olympics_start_mysql);

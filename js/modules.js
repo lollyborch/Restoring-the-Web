@@ -1,4 +1,5 @@
-/*var cricket = 1;
+/* hard coded vars for testing
+var cricket = 1;
 var olympics = 1;
 var cycling = 1;
 var ballet = 1;
