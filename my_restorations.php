@@ -1,68 +1,66 @@
 <?php 
 require("base.php"); 
 ?>
+
 <?php
-	
-            $cricket_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1'");
-            $olympics_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2'");
-            $cycling_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '4'");
-            $ballet_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '5'");
-            $writers_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '6'");
-            $uq_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '7'");
-            $qtac_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '8'");
-            $council_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '9'");
-            $gallery_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '10'");
-            $museum_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '11'");
+    /* variables that query the mySQL database to see if there is an entry for a particular module */
+    $cricket_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1'");
+    $olympics_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2'");
+    $cycling_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '4'");
+    $ballet_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '5'");
+    $writers_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '6'");
+    $uq_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '7'");
+    $qtac_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '8'");
+    $council_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '9'");
+    $gallery_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '10'");
+    $museum_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '11'");
 
-            $cricket_start = mysql_num_rows($cricket_start_mysql);
-            $olympics_start = mysql_num_rows($olympics_start_mysql);
-            $cycling_start = mysql_num_rows($cycling_start_mysql);
-            $ballet_start = mysql_num_rows($ballet_start_mysql);
-            $writers_start = mysql_num_rows($writers_start_mysql);
-            $uq_start = mysql_num_rows($uq_start_mysql);
-            $qtac_start = mysql_num_rows($qtac_start_mysql);
-            $council_start = mysql_num_rows($council_start_mysql);
-            $gallery_start = mysql_num_rows($gallery_start_mysql);
-            $museum_start = mysql_num_rows($museum_start_mysql);
+    $cricket_start = mysql_num_rows($cricket_start_mysql);
+    $olympics_start = mysql_num_rows($olympics_start_mysql);
+    $cycling_start = mysql_num_rows($cycling_start_mysql);
+    $ballet_start = mysql_num_rows($ballet_start_mysql);
+    $writers_start = mysql_num_rows($writers_start_mysql);
+    $uq_start = mysql_num_rows($uq_start_mysql);
+    $qtac_start = mysql_num_rows($qtac_start_mysql);
+    $council_start = mysql_num_rows($council_start_mysql);
+    $gallery_start = mysql_num_rows($gallery_start_mysql);
+    $museum_start = mysql_num_rows($museum_start_mysql);
 
-
-            ?>
+?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- all other head elements after this point -->
-    <!-- page is built on Bootstrap 4 -->
-    <title>Web Historians</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- page is built on Bootstrap 4 -->
+        <title>Web Historians - my restorations</title>
 
-	<!--Stylesheet-->
+        <!--Stylesheets-->
 
+        <!--Bootstrap 4 styles generated with SASS by grunt.js-->
         <link href="SASS/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!--Web Historians style sheet including login CSS from http://bootsnipp.com/snippets/featured/responsive-login-with-social-buttons-->
         <link href="css/style.css" rel="stylesheet">
 
-
-        <!--Google Fonts-->
+        <!--Fonts--!>
+        <!--Google Fonts - Roboto -->
         <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-      
-      <!-- web fonts for header -->
-    <link href="css/webfont-stylesheet.css" rel="stylesheet">    
-    
-    <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
 
+        <!-- FFF Tusj font from http://www.fontsquirrel.com/fonts/fff-tusj -->
+        <link href="css/webfont-stylesheet.css" rel="stylesheet">    
 
- <!-- Font AWESOME -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-      
-    <!-- Angular JS + jQuery + divController -->
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="js/divController.js"></script>
-      
-      <!-- converting php variables to js -->
-      <script>
+        <!-- Font AWESOME for icons https://fortawesome.github.io/Font-Awesome/-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+
+        <!-- Angular JS + jQuery + divController -->
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="js/divController.js"></script>
+
+        <!-- converting php variables to js -->
+        <script>
           //var cricket = <?php echo (json_encode($cricket_start_mysql)); ?>;
           var cricket = <?php echo (json_encode($cricket_start)); ?>;
           var olympics = <?php echo (json_encode($olympics_start)); ?>;
@@ -74,8 +72,8 @@ require("base.php");
           var council = <?php echo (json_encode($council_start)); ?>;
           var gallery = <?php echo (json_encode($gallery_start)); ?>;
           var museum = <?php echo (json_encode($museum_start)); ?>;
-          
-      </script>
+
+        </script>
     
     </head>
     <!-- End of Head -->

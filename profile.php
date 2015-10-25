@@ -7,36 +7,33 @@ require("base.php");
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- all other head elements after this point -->
         <!-- page is built on Bootstrap 4 -->
-        <title>Web Historians - who we are</title>
+        <title>Web Historians - profile</title>
 
-        <!--Stylesheet-->
+        <!--Stylesheets-->
 
+        <!--Bootstrap 4 styles generated with SASS by grunt.js-->
         <link href="SASS/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!--Web Historians style sheet including login CSS from http://bootsnipp.com/snippets/featured/responsive-login-with-social-buttons-->
         <link href="css/style.css" rel="stylesheet">
 
-
-        <!--Google Fonts-->
+        <!--Fonts--!>
+        <!--Google Fonts - Roboto -->
         <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-      
-      <!-- web fonts for header -->
-    <link href="css/webfont-stylesheet.css" rel="stylesheet">    
-    
-    <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
 
+        <!-- FFF Tusj font from http://www.fontsquirrel.com/fonts/fff-tusj -->
+        <link href="css/webfont-stylesheet.css" rel="stylesheet">    
 
- <!-- Font AWESOME -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        
-        <!-- Angular JS -->
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>     
+        <!-- Font AWESOME for icons https://fortawesome.github.io/Font-Awesome/-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+
+             
         
     </head>
     <!-- End of Head -->
     
-    <body ng-app="myApp">
+    <body>
       
         <!--header start-->
         <header class="header">

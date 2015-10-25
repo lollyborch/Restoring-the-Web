@@ -24,51 +24,46 @@ require("base.php");
 
 <!DOCTYPE html>
 <html >
-  <head>
-    <meta charset="UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Working Panel</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <!-- page is built on Bootstrap 4 -->
+        <title>Web Historians - working panel</title>
 
-    <!--Stylesheet-->
+        <!--Stylesheets-->
 
+        <!--Bootstrap 4 styles generated with SASS by grunt.js-->
         <link href="SASS/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!--Web Historians style sheet including login CSS from http://bootsnipp.com/snippets/featured/responsive-login-with-social-buttons-->
         <link href="css/style.css" rel="stylesheet">
 
-
-        <!--Google Fonts-->
+        <!--Fonts--!>
+        <!--Google Fonts - Roboto -->
         <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-      
-      <!-- web fonts for header -->
-    <link href="css/webfont-stylesheet.css" rel="stylesheet">    
-    
-    <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
 
+        <!-- FFF Tusj font from http://www.fontsquirrel.com/fonts/fff-tusj -->
+        <link href="css/webfont-stylesheet.css" rel="stylesheet">    
 
- <!-- Font AWESOME -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-      
-    <!-- Joyride from http://zurb.com/playground/jquery-joyride-feature-tour-plugin -->
-    <link rel="stylesheet" href="joyride/joyride-2.1.css">
-     <!-- <link rel="stylesheet" href="joyride/demo-style.css">
-       
-    <link rel="stylesheet" href="mobile.css">-->
-      
-      <script>
-          // converting php variables to javascript
-         // console.log("this script works");
-          var WebsiteIDNumberString = <?php echo (json_encode($getvalues)); ?>;
-          var WebsiteIDNumber = WebsiteIDNumberString[0]
-          
-          //console.log("Website  ID Number " + WebsiteIDNumber);
-          //var WebsiteIDNumber = 1;
-          
-      </script>
+        <!-- Font AWESOME for icons https://fortawesome.github.io/Font-Awesome/-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+
+        <!-- Joyride plugin from http://zurb.com/playground/jquery-joyride-feature-tour-plugin -->
+        <link rel="stylesheet" href="joyride/joyride-2.1.css">
+
+        <script>
+            // converting php variables to javascript
+            // gets website Id and module ID
+            var WebsiteIDNumberString = <?php echo (json_encode($getvalues)); ?>;
+            //uses index to just get the website ID
+            var WebsiteIDNumber = WebsiteIDNumberString[0]
+
+        </script>
 
   </head>
-  <body ng-app="myApp">
+  <body>
   
 	<div id="hiddenHTML" style="display:none"><?php echo $uHTML; ?></div>
       
