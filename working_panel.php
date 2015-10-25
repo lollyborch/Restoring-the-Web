@@ -55,10 +55,13 @@ require("base.php");
 
         <script>
             // converting php variables to javascript for historylink.js
-            // gets website Id and module ID
+            // gets website Id and module (comp) ID
             var WebsiteIDNumberString = <?php echo (json_encode($getvalues)); ?>;
             //uses index to just get the website ID
-            var WebsiteIDNumber = WebsiteIDNumberString[0]
+            var WebsiteIDNumber = WebsiteIDNumberString[0];
+            console.log("IDnumb " + WebsiteIDNumber);
+            var ModuleIDNumber = WebsiteIDNumberString.slice(-1);
+            console.log("Comp numb " + ModuleIDNumber);
 
         </script>
 
@@ -114,7 +117,7 @@ require("base.php");
       <!--breadcrumbs for pages NOT HOMEPAGE index.html-->
         <div class="breadcrumb-container">
             <ol class="breadcrumb">
-                <li><a href="my_restorations.html">My Restorations</a></li>
+                <li><a href="my_restorations.php">My Restorations</a></li>
                 <li class="active">Working panel</li>
             </ol>
         </div>
@@ -122,6 +125,8 @@ require("base.php");
 <!--START Main working panel fluid container -->
 <!-- HTML editor panes based on http://codepen.io/rlo206/pen/ClEti -->
   <div class="container-fluid">  
+      <h1>Working panel<span id="websitename"></span><span id="modulenumber"></span></h1>
+      <br />
         <div class="clearfix">
             <div id="numero1" class="working-header pull-left">Errors</div>
             <div id="numero5" class="working-header pull-right">Preview</div>
@@ -256,6 +261,11 @@ require("base.php");
       
     <!-- dynamically changes the history button link to whatever website you are editing -->  
     <script src="js/historylink.js"></script>
+      
+    <!-- dynamically changes the h1 text to whatever website you are editing -->  
+    <script src="js/WebsiteModuleTitle.js"></script>
+      
+      
       
     <!-- This script sets up the Editor -->
     <script src="js/index.js"></script>
