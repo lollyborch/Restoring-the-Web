@@ -1,4 +1,4 @@
-$(document).ready(function(getHistoryButtonLink) {
+$(document).ready(function() {
     //console.log("Website ID Number from historylink " + WebsiteIDNumber);
     //console.log(typeof WebsiteIDNumber);
     WebsiteIDNumber = Number(WebsiteIDNumber);

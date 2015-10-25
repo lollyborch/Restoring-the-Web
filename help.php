@@ -71,19 +71,7 @@
             </div>
         </header>
         <!--header end-->
-      
-      
-        <!--breadcrumbs for pages NOT HOMEPAGE index.html
-        <div class="container">
-        <ol class="breadcrumb">
-        <li class="active">Gallery</li>
-        </ol>
-        <div class="breadcrumb-container">
-            <ol class="breadcrumb">
-                <li><a href="gettingstarted.html">About</a></li>
-                <li class="active">Help</li>
-            </ol>
-        </div>-->
+
         
         <!-- Getting started container -->
         <div class="container">
@@ -91,7 +79,7 @@
             <h1>Help</h1>
             <br />
             <p>
-                There are lots of places to get help with HTML and CSS on the web.  A good place to start is the <a class="help-links" href="http://www.w3schools.com/">w3schools</a>.  They helpful lists of <a class="help-links" href="http://www.w3schools.com/tags/">HTML tags</a> (including which ones are new) and <a class="help-links" href="http://www.w3schools.com/html/html_tables.asp">HTML Tables</a> (which is helpful as a lot of old websties use these a lot).  Sites like <a class="help-links" href="http://htmldog.com/reference/htmltags/">HTML Dog</a> and <a class="help-links" href="https://css-tricks.com/">CSS-Tricks</a> are also a great resource.
+                There are lots of places to get help with HTML and CSS on the web.  A good place to start is the <a class="help-links" href="http://www.w3schools.com/">w3schools</a>.  They helpful lists of <a class="help-links" href="http://www.w3schools.com/tags/">HTML tags</a> (including which ones are new) and <a class="help-links" href="http://www.w3schools.com/html/html_tables.asp">HTML Tables</a> (which is helpful as a lot of old websites use these a lot).  Sites like <a class="help-links" href="http://htmldog.com/reference/htmltags/">HTML Dog</a> and <a class="help-links" href="https://css-tricks.com/">CSS-Tricks</a> are also a great resource.
             </p>
             <p>
                 Have a specific question?  Try searching or asking on <a class="help-links" href="http://stackoverflow.com/tour">Stack Overflow</a>. Stack Overflow is a question and answer site that can help beginners like you.  

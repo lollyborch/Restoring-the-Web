@@ -86,18 +86,6 @@ else {
             </div>
         </header>
         <!--header end-->
-      <!--breadcrumbs for pages NOT HOMEPAGE index.html
-    <div class="container">
-        <ol class="breadcrumb">
-          <li class="active">Gallery</li>
-        </ol>
-        
-        <ol class="breadcrumb">
-          <li><a href="#">About</a></li>
-          <li class="active">Getting started</li>
-        </ol>
-      
-      </div>-->
 
 
     <!-- Getting started container -->
@@ -162,10 +150,6 @@ else {
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="SASS/dist/js/bootstrap.min.js"></script>
 
-      
 
-	<?php
-}
-?>
 </body>
 </html>

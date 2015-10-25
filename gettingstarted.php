@@ -71,19 +71,6 @@
             </div>
         </header>
         <!--header end-->
-      
-      
-        <!--breadcrumbs for pages NOT HOMEPAGE index.html
-        <div class="container">
-        <ol class="breadcrumb">
-        <li class="active">Gallery</li>
-        </ol>
-        <div class="breadcrumb-container">
-            <ol class="breadcrumb">
-                <li><a href="gettingstarted.html">About</a></li>
-                <li class="active">Getting started</li>
-            </ol>
-        </div>-->
         
         <!-- Getting started container -->
         <div class="container">
@@ -110,7 +97,7 @@
                     <h2>CSS Editor</h2> 
                     <p>Add your CSS styles in this box, it works in a similar way to the HTML Editor. When you start a new website, the CSS Editor box will be blank.  As you progress through the modules, the CSS you create will be saved between each one for you to build upon. Make sure you add the CSS between the style tags.</p>
                     <h2>Saving and completing a module</h2> 
-                    <p>To save your progress, clickthe <strong>Save</strong> button at the bottom of the page.</p>
+                    <p>To save your progress, click the <strong>Save</strong> button at the bottom of the page.</p>
                     <p>Fixed all your errors? Congratulations! You can choose to move to the next module or start a new website.</p>
                 </div>
                 <div class="col-md-6">

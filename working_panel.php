@@ -59,9 +59,9 @@ require("base.php");
             var WebsiteIDNumberString = <?php echo (json_encode($getvalues)); ?>;
             //uses index to just get the website ID
             var WebsiteIDNumber = WebsiteIDNumberString[0];
-            console.log("IDnumb " + WebsiteIDNumber);
+          //  console.log("IDnumb " + WebsiteIDNumber);
             var ModuleIDNumber = WebsiteIDNumberString.slice(-1);
-            console.log("Comp numb " + ModuleIDNumber);
+         //   console.log("Comp numb " + ModuleIDNumber);
 
         </script>
 
@@ -205,7 +205,7 @@ require("base.php");
           </div>
 
 <!-- Congratulations Modal 1 -->
-            <div class="modal fade" id="CongratsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade" id="CongratsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -227,7 +227,7 @@ require("base.php");
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- Joyride plugin from http://zurb.com/playground/jquery-joyride-feature-tour-plugin -->
-    <script type="text/javascript" src="joyride/jquery.joyride-2.1.js"></script>
+   <script type="text/javascript" src="joyride/jquery.joyride-2.1.js"></script>
     <script>
       $(window).load(function() {
         $('#joyRideTipContent').joyride({
@@ -275,6 +275,13 @@ require("base.php");
 
     <!-- This script adds content to the ditor -->
     <script src="js/cricket.js">printErrors();</script>
+      
+    <!-- congratulations script -->
+      <script src="js/Congratulations.js"></script>
+      <script>
+          /* use the congrats function to trigger the congratulations screen
+          congrats(0);*/
+      </script>
 
 
   </body>

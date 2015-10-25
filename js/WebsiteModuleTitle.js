@@ -1,6 +1,6 @@
-$(document).ready(function(getHistoryButtonLink) {
+$(document).ready(function() {
     WebsiteIDNumber = Number(WebsiteIDNumber);
-    console.log(WebsiteIDNumber);
+    //console.log(WebsiteIDNumber);
 
     switch(WebsiteIDNumber) {
         case 1:
@@ -49,7 +49,7 @@ $(document).ready(function(getHistoryButtonLink) {
     
 });
 
-$(document).ready(function(getHistoryButtonLink) {
+$(document).ready(function() {
     var WebsiteModuleNumber = Number(ModuleIDNumber);
     //console.log(typeof WebsiteIDNumber);
     switch(WebsiteModuleNumber) {

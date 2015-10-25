@@ -79,10 +79,7 @@ require("base.php");
       
       
         <!--breadcrumbs for pages NOT HOMEPAGE index.html
-        <div class="container">
-        <ol class="breadcrumb">
-        <li class="active">Gallery</li>
-        </ol>-->
+
         <div class="breadcrumb-container">
             <ol class="breadcrumb">
                 <li><a href="profile.php">Account</a></li>
