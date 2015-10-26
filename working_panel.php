@@ -11,8 +11,6 @@ require("base.php");
 	$componentID = substr($webCompStr,1);
 	$_SESSION['componentID'] = $componentID;
 	$_SESSION['webID'] = $webIDvalue;
-	echo "This is the componentID " . $_SESSION['componentID'];
-	echo "This is the webID " . $_SESSION['webID'];
 	// Grab the current users name
 	$currentUser = $_SESSION["username"];
 
@@ -20,12 +18,20 @@ require("base.php");
 	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="' . $_SESSION['username'] . '" and emailAddress="' . $_SESSION['emailAddress'] .'";');
 	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
 	$currentUserID = $currentUserIDTable[0];
-	//echo $_SESSION['componentID'];
-	//echo $_SESSION['webID'];
+	$_SESSION['userID'] = $currentUserID;
+
 	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="' . $webIDvalue .'" and UserID="' .$currentUserID .'" and CompID="' . $componentID . '";');
 	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
-	$_SESSION['userHTML'] = $UsersRestorationsTable[0];
-	$uHTML = $_SESSION['userHTML'];
+	if ($UsersRestorationsTable === false) {
+		$default = mysql_query('SELECT compHTML FROM `components` WHERE WebsiteID="' . $webIDvalue .'" and CompID="' . $componentID . '";');
+		$defaultValue = mysql_fetch_array($default);
+		$_SESSION['userHTML'] = $defaultValue[0];
+		$uHTML = $_SESSION['userHTML'];
+	}
+	else {
+		$_SESSION['userHTML'] = $UsersRestorationsTable[0];
+		$uHTML = $_SESSION['userHTML'];
+	}
 	?>
 
 <!DOCTYPE html>

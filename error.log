@@ -6346,3 +6346,321 @@ table {cellspacing:"0", cellpadding:"0", border: 0;}
     </table>
   
 '
+[26-Oct-2015 06:34:30 UTC] Something happened
+[26-Oct-2015 06:34:30 UTC] '
+
+  
+    <meta charset="utf-8">
+    <title>Header</title>
+  
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+    </tbody>
+    </table>
+  
+'
+[26-Oct-2015 06:35:42 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER) in /var/www/htdocs/php/save.php on line 11
+[26-Oct-2015 06:35:50 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER) in /var/www/htdocs/php/save.php on line 11
+[26-Oct-2015 06:37:50 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER) in /var/www/htdocs/php/save.php on line 11
+[26-Oct-2015 06:38:03 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/profile.php on line 6
+[26-Oct-2015 06:39:15 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/profile.php on line 6
+[26-Oct-2015 06:39:23 UTC] Something happened
+[26-Oct-2015 06:39:23 UTC] 
+
+  
+    <meta charset="utf-8">
+    <title>Header</title>
+  
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr>
+    <td colspan="2" background="/images/cricketaus/img_header1.jpg" height="20" valign="bottom">    
+        <img src="/images/cricketaus/img_spacer.gif" width="665" height="1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.338f1889253737ed371ae9104420a2a0/">Contact Us</a>&nbsp;&nbsp;
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/">Home</a>
+    </td>   
+    <td rowspan="2" bgcolor="#669933" width="100%">&nbsp;</td>
+   </tr>
+   <tr>
+    <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/"><img alt="Cricket Australia" height="85" src="/images/cricketaus/img_header2-1.jpg" width="301" border="0"></a></td>
+    <td><img alt="" height="85" src="/images/cricketaus/img_header2-2.jpg" width="466"></td>
+   </tr>
+    </tbody>
+    </table>
+  
+
+[26-Oct-2015 06:39:32 UTC] Something happened
+[26-Oct-2015 06:39:32 UTC] 
+
+  
+    <meta charset="utf-8">
+    <title>Header</title>
+  
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+    </tbody>
+    </table>
+  
+
+[26-Oct-2015 06:40:59 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/profile.php on line 6
+[26-Oct-2015 06:41:35 UTC] Something happened
+[26-Oct-2015 06:41:35 UTC] 
+
+  
+    <meta charset="utf-8">
+    <title>Header</title>
+  
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+    </tbody>
+    </table>
+  
+
+[26-Oct-2015 06:41:49 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/profile.php on line 6
+[26-Oct-2015 06:42:03 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/profile.php on line 6
+[26-Oct-2015 06:42:48 UTC] Something happened
+[26-Oct-2015 06:42:48 UTC] Yo what is happening here?
+[26-Oct-2015 06:46:18 UTC] Something happened
+[26-Oct-2015 06:46:18 UTC] <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Header</title>
+  </head>
+  <body>
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr>
+    <td colspan="2" background="/images/cricketaus/img_header1.jpg" height="20" valign="bottom">    
+        <img src="/images/cricketaus/img_spacer.gif" width="665" height="1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.338f1889253737ed371ae9104420a2a0/">Contact Us</a>&nbsp;&nbsp;
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/">Home</a>
+    </td>   
+    <td rowspan="2" bgcolor="#669933" width="100%">&nbsp;</td>
+   </tr>
+   <tr>
+    <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/"><img alt="Cricket Australia" height="85" src="/images/cricketaus/img_header2-1.jpg" width="301" border="0"></a></td>
+    <td><img alt="" height="85" src="/images/cricketaus/img_header2-2.jpg" width="466"></td>
+   </tr>
+    </tbody>
+    </table>
+  </body>
+</html>
+[26-Oct-2015 06:47:35 UTC] Something happened
+[26-Oct-2015 06:47:35 UTC] 
+    <meta charset="utf-8">
+    <title>Header</title>
+  
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+    </tbody>
+    </table>
+[26-Oct-2015 06:48:01 UTC] Something happened
+[26-Oct-2015 06:48:01 UTC] <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Header</title>
+  </head>
+  <body>
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr>
+    <td colspan="2" background="/images/cricketaus/img_header1.jpg" height="20" valign="bottom">    
+        <img src="/images/cricketaus/img_spacer.gif" width="665" height="1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.338f1889253737ed371ae9104420a2a0/">Contact Us</a>&nbsp;&nbsp;
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/">Home</a>
+    </td>   
+    <td rowspan="2" bgcolor="#669933" width="100%">&nbsp;</td>
+   </tr>
+   <tr>
+    <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/"><img alt="Cricket Australia" height="85" src="/images/cricketaus/img_header2-1.jpg" width="301" border="0"></a></td>
+    <td><img alt="" height="85" src="/images/cricketaus/img_header2-2.jpg" width="466"></td>
+   </tr>
+    </tbody>
+    </table>
+  </body>
+</html>
+[26-Oct-2015 06:50:24 UTC] Something happened
+[26-Oct-2015 06:50:24 UTC] 
+    <meta charset="utf-8">
+    <title>Header</title>
+  
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+    </tbody>
+    </table>
+[26-Oct-2015 06:50:48 UTC] Something happened
+[26-Oct-2015 06:50:48 UTC] <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Header</title>
+  </head>
+  <body>
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr>
+    <td colspan="2" background="/images/cricketaus/img_header1.jpg" height="20" valign="bottom">    
+        <img src="/images/cricketaus/img_spacer.gif" width="665" height="1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.338f1889253737ed371ae9104420a2a0/">Contact Us</a>&nbsp;&nbsp;
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/">Home</a>
+    </td>   
+    <td rowspan="2" bgcolor="#669933" width="100%">&nbsp;</td>
+   </tr>
+   <tr>
+    <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/"><img alt="Cricket Australia" height="85" src="/images/cricketaus/img_header2-1.jpg" width="301" border="0"></a></td>
+    <td><img alt="" height="85" src="/images/cricketaus/img_header2-2.jpg" width="466"></td>
+   </tr>
+    </tbody>
+    </table>
+  </body>
+</html>
+[26-Oct-2015 06:51:10 UTC] Something happened
+[26-Oct-2015 06:51:10 UTC] 
+
+  
+    <meta charset="utf-8">
+    <title>Header</title>
+  
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+    </tbody>
+    </table>
+  
+
+[26-Oct-2015 09:49:43 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/htdocs/php/save.php on line 9
+[26-Oct-2015 09:58:24 UTC] PHP Warning:  split() expects at least 2 parameters, 1 given in /var/www/htdocs/working_panel.php on line 9
+[26-Oct-2015 10:02:05 UTC] PHP Warning:  split() expects at least 2 parameters, 1 given in /var/www/htdocs/working_panel.php on line 9
+[26-Oct-2015 10:02:26 UTC] PHP Warning:  split() expects at least 2 parameters, 1 given in /var/www/htdocs/working_panel.php on line 9
+[26-Oct-2015 10:08:04 UTC] PHP Notice:  Undefined variable: webIDvalue in /var/www/htdocs/php/save.php on line 6
+[26-Oct-2015 10:21:22 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 12
+[26-Oct-2015 10:21:22 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 23
+[26-Oct-2015 10:25:55 UTC] PHP Warning:  strpos() expects at least 2 parameters, 1 given in /var/www/htdocs/working_panel.php on line 10
+[26-Oct-2015 10:26:25 UTC] PHP Warning:  strpos() expects at least 2 parameters, 1 given in /var/www/htdocs/working_panel.php on line 10
+[26-Oct-2015 10:31:07 UTC] PHP Warning:  strchr() expects at least 2 parameters, 1 given in /var/www/htdocs/working_panel.php on line 10
+[26-Oct-2015 10:31:07 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 12
+[26-Oct-2015 10:31:07 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 23
+[26-Oct-2015 10:31:18 UTC] PHP Warning:  strchr() expects at least 2 parameters, 1 given in /var/www/htdocs/working_panel.php on line 10
+[26-Oct-2015 10:31:18 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 12
+[26-Oct-2015 10:31:18 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 23
+[26-Oct-2015 10:32:10 UTC] PHP Warning:  strchr() expects at least 2 parameters, 1 given in /var/www/htdocs/working_panel.php on line 10
+[26-Oct-2015 10:32:10 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 12
+[26-Oct-2015 10:32:10 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 23
+[26-Oct-2015 10:32:22 UTC] PHP Warning:  strchr() expects at least 2 parameters, 1 given in /var/www/htdocs/working_panel.php on line 10
+[26-Oct-2015 10:32:22 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 12
+[26-Oct-2015 10:32:22 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 23
+[26-Oct-2015 10:32:46 UTC] PHP Notice:  Undefined variable: webcompStr in /var/www/htdocs/working_panel.php on line 11
+[26-Oct-2015 10:32:46 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 12
+[26-Oct-2015 10:32:46 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 23
+[26-Oct-2015 10:33:06 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 12
+[26-Oct-2015 10:33:06 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 23
+[26-Oct-2015 10:36:00 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 12
+[26-Oct-2015 10:36:00 UTC] PHP Notice:  Undefined variable: componentID in /var/www/htdocs/working_panel.php on line 23
+[26-Oct-2015 10:38:06 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:38:06 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:38:06 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:38:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:38:10 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:38:10 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:38:11 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:38:11 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:38:11 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:38:13 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:38:13 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:38:13 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:38:14 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:38:14 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:38:14 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:38:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:38:15 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:38:15 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:38:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:38:16 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:38:16 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:38:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:38:17 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:38:17 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:39:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:39:57 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:39:57 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:40:00 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:40:00 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:40:00 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:40:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:40:02 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:40:02 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:40:03 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:40:03 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:40:03 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:40:04 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:40:04 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:40:04 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:40:06 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:40:06 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:40:06 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:40:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:40:07 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:40:07 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:40:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:40:08 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:40:08 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:40:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:40:09 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:40:09 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:40:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:40:17 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:40:17 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 10:40:22 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 10:40:22 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 10:40:22 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 11:26:24 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/htdocs/php/save.php on line 6
+[26-Oct-2015 12:28:49 UTC] PHP Notice:  Array to string conversion in /var/www/htdocs/working_panel.php on line 25
+[26-Oct-2015 12:31:31 UTC] PHP Notice:  Use of undefined constant console - assumed 'console' in /var/www/htdocs/working_panel.php on line 27
+[26-Oct-2015 12:31:31 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /var/www/htdocs/working_panel.php on line 27
+[26-Oct-2015 12:35:43 UTC] PHP Notice:  Use of undefined constant console - assumed 'console' in /var/www/htdocs/working_panel.php on line 27
+[26-Oct-2015 12:40:50 UTC] PHP Notice:  Use of undefined constant result - assumed 'result' in /var/www/htdocs/working_panel.php on line 24
+[26-Oct-2015 12:41:14 UTC] PHP Notice:  Use of undefined constant result - assumed 'result' in /var/www/htdocs/working_panel.php on line 24
+[26-Oct-2015 12:43:08 UTC] PHP Notice:  Undefined variable: UserRestoration in /var/www/htdocs/working_panel.php on line 24
+[26-Oct-2015 12:43:08 UTC] PHP Notice:  Undefined variable: query in /var/www/htdocs/working_panel.php on line 26
+[26-Oct-2015 12:43:32 UTC] PHP Notice:  Undefined variable: UserRestoration in /var/www/htdocs/working_panel.php on line 24
+[26-Oct-2015 12:43:32 UTC] PHP Notice:  Undefined variable: query in /var/www/htdocs/working_panel.php on line 26
+[26-Oct-2015 12:48:29 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/working_panel.php on line 7
+[26-Oct-2015 12:48:29 UTC] PHP Warning:  array_values() expects parameter 1 to be array, boolean given in /var/www/htdocs/working_panel.php on line 26
+[26-Oct-2015 12:48:38 UTC] PHP Notice:  Array to string conversion in /var/www/htdocs/working_panel.php on line 26
+[26-Oct-2015 12:48:51 UTC] PHP Warning:  array_values() expects parameter 1 to be array, boolean given in /var/www/htdocs/working_panel.php on line 26
+[26-Oct-2015 13:03:47 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 13:03:47 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 13:03:47 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 13:03:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 13:03:55 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 13:03:55 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 13:04:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 13:04:15 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 13:04:15 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 13:11:29 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 13:11:29 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 13:11:29 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 13:22:13 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting ',' or ';' in /var/www/htdocs/php/save.php on line 9
+[26-Oct-2015 13:22:50 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting ',' or ';' in /var/www/htdocs/php/save.php on line 9
+[26-Oct-2015 13:23:40 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting ',' or ';' in /var/www/htdocs/php/save.php on line 9
+[26-Oct-2015 13:25:00 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting ',' or ';' in /var/www/htdocs/php/save.php on line 9
+[26-Oct-2015 13:30:38 UTC] Some cool shit
+[26-Oct-2015 13:32:46 UTC] 1
+[26-Oct-2015 13:33:16 UTC] 1
+[26-Oct-2015 13:36:26 UTC] It was not false
+[26-Oct-2015 13:36:57 UTC] It was not false
+[26-Oct-2015 13:39:56 UTC] It was not false2
+[26-Oct-2015 13:40:09 UTC] It was not false2
+[26-Oct-2015 13:48:38 UTC] PHP Parse error:  syntax error, unexpected '}' in /var/www/htdocs/php/save.php on line 10
+[26-Oct-2015 13:49:44 UTC] PHP Warning:  mysql_affected_rows() expects parameter 1 to be resource, boolean given in /var/www/htdocs/php/save.php on line 7
+[26-Oct-2015 13:49:44 UTC] PHP Warning:  mysql_affected_rows() expects parameter 1 to be resource, boolean given in /var/www/htdocs/php/save.php on line 8
+[26-Oct-2015 13:49:44 UTC] 
+[26-Oct-2015 13:52:25 UTC] 1
+[26-Oct-2015 13:54:28 UTC] This is test 2 Result 1
+[26-Oct-2015 13:55:30 UTC] This is test 2 Result 0
+[26-Oct-2015 14:12:16 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /var/www/htdocs/php/save.php on line 9
+[26-Oct-2015 14:12:34 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /var/www/htdocs/php/save.php on line 9
