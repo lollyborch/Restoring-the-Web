@@ -82,7 +82,7 @@
 		if(mysql_num_rows($checkusername) == 1) 
 		{
 			echo "<h3>Error</h3>";
-			echo '<p>Sorry, that Username is taken. Please <a href="register.php#login">go back</a> and try again.</p>';
+			echo '<p>Sorry, that Username is taken. Please <a href="register.php">go back</a> and try again.</p>';
 		}
 		else 
 		{
@@ -107,20 +107,20 @@
 					<form name="registerform" method="POST" action="register.php#login" id="registerform" class="omb_loginForm col-xs-12">
 						  <div class="input-group">
 							<label class="input-group-addon">
-								<i class="fa fa-user"></i>
+								<i class="fa fa-user fa-icon-fixed"></i>
 							</label>
 							<input type="text" class="form-control" id="username" name="username" placeholder="username" />
 						  </div>
 					  <span class="help-block"></span>		
 						 <div class="input-group">
 							<label class="input-group-addon">
-								<i class="fa fa-lock"></i>
+								<i class="fa fa-lock fa-icon-fixed"></i>
 							</label>
 							<input  type="password" id="password" class="form-control" name="password" placeholder="password" />
 						 </div>
                         <div class="input-group">
 							<label class="input-group-addon">
-								<i class="fa fa-envelope-o"></i>
+								<i class="fa fa-envelope-o fa-icon-fixed"></i>
 							</label>
 							<input  type="email" name="email" id="email" class="form-control" placeholder="email@email.com" />
 						 </div>

@@ -104,14 +104,14 @@ else {
 					<form name="loginform" method="POST" action="index.php" id="loginform" class="omb_loginForm col-xs-12">
 						  <div class="input-group">
 							<label class="input-group-addon">
-								<i class="fa fa-user"></i>
+								<i class="fa fa-user fa-icon-fixed"></i>
 							</label>
 							<input type="text" class="form-control" id="username" name="username" placeholder="username" />
 						  </div>
 					  <span class="help-block"></span>		
 						 <div class="input-group">
 							<label class="input-group-addon">
-								<i class="fa fa-lock"></i>
+								<i class="fa fa-lock fa-icon-fixed"></i>
 							</label>
 							<input  type="password" id="password" class="form-control" name="password" placeholder="password" />
 						 </div>
@@ -150,6 +150,10 @@ else {
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="SASS/dist/js/bootstrap.min.js"></script>
 
+      
 
+	<?php
+}
+?>
 </body>
 </html>

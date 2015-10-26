@@ -14,9 +14,13 @@ require("base.php");
 	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
 	$currentUserID = $currentUserIDTable[0];
 	echo $currentUserID;
+    
+    //Hard coded User ID
+    $currentUserID1 = 19;
 
     /* variables that query the mySQL database to see if there is an entry for a particular module */
-    $cricket_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND UserID = $currentUserID ");
+    $cricket_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND UserID = $currentUserID1 ");
+    $cricket_start_mysql2 = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1'");
     $olympics_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2' AND UserID = $currentUserID ");
     $cycling_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '4' AND UserID = $currentUserID ");
     $ballet_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '5' AND UserID = $currentUserID ");
@@ -28,6 +32,7 @@ require("base.php");
     $museum_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '11' AND UserID = $currentUserID ");
 
     $cricket_start = mysql_num_rows($cricket_start_mysql);
+    $cricket_start2 = mysql_num_rows($cricket_start_mysql2);
     $olympics_start = mysql_num_rows($olympics_start_mysql);
     $cycling_start = mysql_num_rows($cycling_start_mysql);
     $ballet_start = mysql_num_rows($ballet_start_mysql);
@@ -73,8 +78,17 @@ require("base.php");
 
         <!-- converting php variables to js -->
         <script>
-          //var cricket = <?php echo (json_encode($cricket_start_mysql)); ?>;
           var cricket = <?php echo (json_encode($cricket_start)); ?>;
+          console.log("cricket var " + cricket);
+          var cricket2 = <?php echo (json_encode($cricket_start2)); ?>;
+          console.log("cricket2 var " + cricket2);
+            
+            var currentuserid1 = <?php echo (json_encode($currentUserID)); ?>;
+          console.log("current user id is " + currentuserid1);
+            
+            var currentuser1 = <?php echo (json_encode($currentUser)); ?>;
+          console.log("current user is " + currentuser1);
+            
           var olympics = <?php echo (json_encode($olympics_start)); ?>;
           var cycling = <?php echo (json_encode($cycling_start)); ?>;
           var ballet = <?php echo (json_encode($ballet_start)); ?>;
