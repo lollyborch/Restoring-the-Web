@@ -158,8 +158,8 @@ require("base.php");
       <!-- buttons at bottom of page -->
             <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
             <a class="btn btn-lg btn-primary text-center" id="HistoryButton" href="" role="button" target="_blank">View history of this website</a>
-            <!--Congratulations modal button - to be removed when script is done -->
-            <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>
+            <!--Congratulations modal button - to be removed when script is done 
+            <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>-->
         
     </div>   
     <!--END Main working panel fluid container -->
