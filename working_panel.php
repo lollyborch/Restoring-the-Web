@@ -134,7 +134,7 @@ require("base.php");
             <div id="validator" class="validator-section">
                 <textarea style="font-weight:300" rows="9" cols="82" class="col-md-12"></textarea>
                 <button id="numero2" class="working-button" onclick="printErrors()">Validate</button>
-                <p id="numero7 errornumber" class="working-errors">Errors</p>
+                <p id="numero7" class="working-errors"></p>
                 <a href="http://deco1800-g49.uqcloud.net/help.php" id="numero3" class="working-help" onclick="positionedPopup(this.href,'myWindow','1000','450','100','200','yes');return false">Help</a>
             </div>
             
@@ -279,13 +279,6 @@ require("base.php");
 
     <!-- This script adds content to the ditor -->
     <script src="js/cricket.js">printErrors();</script>
-      
-    <!-- congratulations script -->
-      <script src="js/Congratulations.js"></script>
-      <script>
-          /* use the congrats function to trigger the congratulations screen
-          congrats(0);*/
-      </script>
 
 
   </body>

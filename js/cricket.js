@@ -31,14 +31,20 @@ function validate() {
 			}
 		console.log(errorList);
 		console.log(errorList.length);
-        var errornumber = errorList.length;
+        var errornumber = errorList.length - 1;
         console.log(errornumber);
 		console.log(i);
-		for (i = 0; i < errorList.length; i++) {
+		for (i = 1; i < errorList.length; i++) {
 			$(errorListContainer).append(errorList[i][0] + " From line " +errorList[i][1] + " Column " +errorList[i][2] + "\n" + "\n");
 			//document.getElementById("test").innerHTML = errorList[i].valueOf();		
 			}
         $('.working-errors').text('Errors: ' + errornumber);
+        if(errornumber==0){
+            console.log("there are no errors")
+            $("#CongratsModal").modal()
+          }else {
+            console.log("there are still errors")
+          }
 		}
 	})
 };
@@ -50,4 +56,4 @@ function printErrors() {
 		$(errorListContainer).html("");
 		postData = cricketHTML.contentDocument.body.innerHTML; 
 		validate();
-	}
+}
