@@ -5,8 +5,14 @@ require("base.php");
 	<?php
 	// Grab the Website ID which is posted on the cricketaustralia.html module when pressed
 	$getvalues = $_GET['WebsiteID'];
-	$componentID = substr($getvalues,-1,1);
-	$webIDvalue = substr($getvalues,0,1);
+	//echo $getvalues; 1?CompID=1
+	$webIDvalue = strchr($getvalues,'?','true');
+	$webCompStr = strchr($getvalues,'=');
+	$componentID = substr($webCompStr,1);
+	$_SESSION['componentID'] = $componentID;
+	$_SESSION['webID'] = $webIDvalue;
+	echo "This is the componentID " . $_SESSION['componentID'];
+	echo "This is the webID " . $_SESSION['webID'];
 	// Grab the current users name
 	$currentUser = $_SESSION["username"];
 
@@ -14,8 +20,8 @@ require("base.php");
 	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="' . $_SESSION['username'] . '" and emailAddress="' . $_SESSION['emailAddress'] .'";');
 	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
 	$currentUserID = $currentUserIDTable[0];
-	echo $currentUserID;
-	echo $_SESSION['username'];
+	//echo $_SESSION['componentID'];
+	//echo $_SESSION['webID'];
 	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="' . $webIDvalue .'" and UserID="' .$currentUserID .'" and CompID="' . $componentID . '";');
 	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
 	$_SESSION['userHTML'] = $UsersRestorationsTable[0];
@@ -158,17 +164,14 @@ require("base.php");
       <!-- buttons at bottom of page -->
             <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
             <a class="btn btn-lg btn-primary text-center" id="HistoryButton" href="" role="button" target="_blank">View history of this website</a>
-<<<<<<< HEAD
             <!--Congratulations modal button - to be removed when script is done -->
             <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>
 
     </div>
-=======
-            <!--Congratulations modal button - to be removed when script is done 
+            <!--Congratulations modal button - to be removed when script is done
             <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>-->
-        
-    </div>   
->>>>>>> origin/master
+
+    </div>
     <!--END Main working panel fluid container -->
 
         <!-- START Joyride plugin tutorial content -->
