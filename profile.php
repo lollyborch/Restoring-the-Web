@@ -64,7 +64,7 @@ require("base.php");
                         <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="profile.php" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="profile.php">Profile</a>
-                            <a class="dropdown-item" href="index.php" onclick='<?php unset($_SESSION["username"],$_SESSION["emailAddress"]);?>'>Log out</a>
+                            <a class="dropdown-item" href="logout.php">Log out</a>
                         </div>
                     </li>
                     <li class="nav-item">
