@@ -1,4 +1,5 @@
 <?php 
+session_start();
 require("base.php"); 
 ?>
 <?php
@@ -24,7 +25,7 @@ require("base.php");
 	$uHTML = $_SESSION['userHTML'];
     
     //Hard coded User ID
-    $currentUserID1 = 19;
+    //$currentUserID1 = 19;
 
     /* variables that query the mySQL database to see if there is an entry for a particular module */
     $cricket_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND UserID = $currentUserID ");
@@ -50,25 +51,6 @@ require("base.php");
     $council_start = mysql_num_rows($council_start_mysql);
     $gallery_start = mysql_num_rows($gallery_start_mysql);
     $museum_start = mysql_num_rows($museum_start_mysql);
-
-    //cricket modules
-    $cricket_mod1_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND CompID = '1' AND UserID = $currentUserID ");
-    $cricket_mod2_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND CompID = '2' AND UserID = $currentUserID ");
-    $cricket_mod3_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND CompID = '3' AND UserID = $currentUserID ");
-    $cricket_mod4_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND CompID = '4' AND UserID = $currentUserID ");
-    $cricket_mod5_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND CompID = '5' AND UserID = $currentUserID ");
-    $cricket_mod6_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND CompID = '6' AND UserID = $currentUserID ");
-    $cricket_mod7_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND CompID = '7' AND UserID = $currentUserID ");
-    $cricket_mod8_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND CompID = '8' AND UserID = $currentUserID ");
-
-    $cricket_mod1_start = mysql_num_rows($cricket_mod1_mysql);
-    $cricket_mod2_start = mysql_num_rows($cricket_mod2_mysql);
-    $cricket_mod3_start = mysql_num_rows($cricket_mod3_mysql);
-    $cricket_mod4_start = mysql_num_rows($cricket_mod4_mysql);
-    $cricket_mod5_start = mysql_num_rows($cricket_mod5_mysql);
-    $cricket_mod6_start = mysql_num_rows($cricket_mod6_mysql);
-    $cricket_mod7_start = mysql_num_rows($cricket_mod7_mysql);
-    $cricket_mod8_start = mysql_num_rows($cricket_mod8_mysql);
 
 ?>
 <!DOCTYPE html>
@@ -108,17 +90,14 @@ require("base.php");
           var cricket = <?php echo (json_encode($cricket_start)); ?>;
           console.log("cricket var = " + cricket);
             
-         /* var cricket2 = <?php //echo (json_encode($cricket_start2)); ?>;
+          var cricket2 = <?php echo (json_encode($cricket_start2)); ?>;
           console.log("cricket2 (not checking for userid) var " + cricket2);
             
-            var currentuserid = <?php //echo (json_encode($currentUserID)); ?>;
-          console.log("current user id is " + currentuserid1);
+            var currentuserid = <?php echo (json_encode($currentUserID)); ?>;
+          console.log("current user id is " + currentuserid);
             
-            var currentuserid1 = <?php //echo (json_encode($currentUserID1)); ?>;
-          console.log("current user id1 (hardcoded) is " + currentuserid1);
-            
-            var sessionusername1 = <?php //echo (json_encode($SessionUsername)); ?>;
-          console.log("session username is " + sessionusername1); */
+            var sessionusername1 = <?php echo (json_encode($SessionUsername)); ?>;
+          console.log("session username is " + sessionusername1); 
             
           var olympics = <?php echo (json_encode($olympics_start)); ?>;
           
@@ -130,17 +109,6 @@ require("base.php");
           var council = <?php echo (json_encode($council_start)); ?>;
           var gallery = <?php echo (json_encode($gallery_start)); ?>;
           var museum = <?php echo (json_encode($museum_start)); ?>;
-          
-          var cricketmod1 = <?php echo (json_encode($cricket_mod1_start)); ?>;
-          console.log("cricket mod 1 var = " + cricketmod1);
-          var cricketmod2 = <?php echo (json_encode($cricket_mod2_start)); ?>;
-          console.log("cricket mod 2 var = " + cricketmod2);
-          var cricketmod3 = <?php echo (json_encode($cricket_mod3_start)); ?>;
-          var cricketmod4 = <?php echo (json_encode($cricket_mod4_start)); ?>;
-          var cricketmod5 = <?php echo (json_encode($cricket_mod5_start)); ?>;
-          var cricketmod6 = <?php echo (json_encode($cricket_mod6_start)); ?>;
-          var cricketmod7 = <?php echo (json_encode($cricket_mod7_start)); ?>;
-          var cricketmod8 = <?php echo (json_encode($cricket_mod8_start)); ?>;
 
         </script>
     
@@ -178,7 +146,7 @@ require("base.php");
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profile.php" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="profile.php">Profile</a>
-                            <a class="dropdown-item" href="index.php" onclick='<?php unset($_SESSION["username"],$_SESSION["emailAddress"]);?>'>Log out</a>
+                            <a class="dropdown-item" href="logout.php">Log out</a>
                         </div>
                     </li>
                     <li class="nav-item">
