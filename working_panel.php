@@ -1,5 +1,5 @@
-<?php 
-require("base.php"); 
+<?php
+require("base.php");
 ?>
 <!-- Fetching the Users Restoration HTML and CSS -->
 	<?php
@@ -9,14 +9,14 @@ require("base.php");
 	$webIDvalue = substr($getvalues,0,1);
 	// Grab the current users name
 	$currentUser = $_SESSION["username"];
-	
+
 	// Find the userID from their name and email (email must be unique so this is ok)
 	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="' . $_SESSION['username'] . '" and emailAddress="' . $_SESSION['emailAddress'] .'";');
 	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
 	$currentUserID = $currentUserIDTable[0];
 	echo $currentUserID;
 	echo $_SESSION['username'];
-	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="1" and UserID="' .$currentUserID .'" and CompID="1";');
+	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="' . $webIDvalue .'" and UserID="' .$currentUserID .'" and CompID="' . $componentID . '";');
 	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
 	$_SESSION['userHTML'] = $UsersRestorationsTable[0];
 	$uHTML = $_SESSION['userHTML'];
@@ -44,10 +44,10 @@ require("base.php");
         <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
 
         <!-- FFF Tusj font from http://www.fontsquirrel.com/fonts/fff-tusj -->
-        <link href="css/webfont-stylesheet.css" rel="stylesheet">    
+        <link href="css/webfont-stylesheet.css" rel="stylesheet">
 
         <!-- Font AWESOME for icons https://fortawesome.github.io/Font-Awesome/-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
         <!-- Joyride plugin from http://zurb.com/playground/jquery-joyride-feature-tour-plugin -->
         <link rel="stylesheet" href="joyride/joyride-2.1.css">
@@ -66,18 +66,18 @@ require("base.php");
 
   </head>
   <body>
-  
+
 	<div id="hiddenHTML" style="display:none"><?php echo $uHTML; ?></div>
-      
-          
-      
+
+
+
         <!--header start-->
         <header class="header">
             <div class="header-container">
 
             <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
             <nav class="navbar navbar-dark navbar-static-top">
-                <a class="navbar-brand brand-heading" href="home.php">web historians</a>   
+                <a class="navbar-brand brand-heading" href="home.php">web historians</a>
                 <ul class="nav navbar-nav">
                     <li class="nav-item">
                     <!--add nav-active to current page-->
@@ -92,11 +92,11 @@ require("base.php");
                     <li class="nav-item">
                         <a class="nav-link " href="help.php">Help</a>
                     </li>
-                    
+
                 </ul>
-                
+
                 <ul class="nav navbar-nav pull-right">
-                    <li class="nav-item dropdown"> 
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="profile.php" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="profile.php">Profile</a>
@@ -105,14 +105,14 @@ require("base.php");
                     </li>
                     <li class="nav-item">
                         <i class="fa fa-user fa-account"></i>
-                    
+
                     </li>
                 </ul>
             </nav>
             </div>
         </header>
         <!--header end-->
-       
+
       <!--breadcrumbs for pages NOT HOMEPAGE index.html-->
         <div class="breadcrumb-container">
             <ol class="breadcrumb">
@@ -120,10 +120,10 @@ require("base.php");
                 <li class="active">Working panel</li>
             </ol>
         </div>
-      
+
 <!--START Main working panel fluid container -->
 <!-- HTML editor panes based on http://codepen.io/rlo206/pen/ClEti -->
-  <div class="container-fluid">  
+  <div class="container-fluid">
       <h1>Working panel<span id="websitename"></span><span id="modulenumber"></span></h1>
       <br />
         <div class="clearfix">
@@ -137,9 +137,9 @@ require("base.php");
                 <p id="numero7" class="working-errors"></p>
                 <a href="http://deco1800-g49.uqcloud.net/help.php" id="numero3" class="working-help" onclick="positionedPopup(this.href,'myWindow','1000','450','100','200','yes');return false">Help</a>
             </div>
-            
+
             <iframe id="preview" class="preview-section"></iframe>
-        </div>  
+        </div>
         <div class="clearfix">
             <div id="numero4" class="working-header pull-left" id="html-editor">HTML Editor</div>
         </div>
@@ -154,14 +154,14 @@ require("base.php");
             <div id="csseditor" class="css-section">
             </div>
         </div>
-      
+
       <!-- buttons at bottom of page -->
             <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
             <a class="btn btn-lg btn-primary text-center" id="HistoryButton" href="" role="button" target="_blank">View history of this website</a>
             <!--Congratulations modal button - to be removed when script is done -->
             <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>
-        
-    </div>   
+
+    </div>
     <!--END Main working panel fluid container -->
 
         <!-- START Joyride plugin tutorial content -->
@@ -196,7 +196,7 @@ require("base.php");
             </li>
         </ol>
         <!-- END Joyride plugin tutorial content -->
-      
+
       <!-- footer -->
         <div class="container-fluid">
             <div class="container">
@@ -214,7 +214,7 @@ require("base.php");
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    
+
                   </div>
                   <div class="modal-body">
                     <img class="img-responsive" src="images/Congratulations.png" alt="Home Page Instruction" width="100%" /><br />
@@ -224,9 +224,9 @@ require("base.php");
                 </div>
               </div>
             </div>
-      
 
-    
+
+
     <script type="text/javascript" src="joyride/jquery-1.10.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -246,7 +246,7 @@ require("base.php");
         });
       });
     </script>
-      
+
       <!--script for pop out help from   http://www.quackit.com/javascript/popup_windows.cfm -->
         <script language="javascript">
             var popupWindow = null;
@@ -262,16 +262,16 @@ require("base.php");
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="SASS/dist/js/bootstrap.min.js"></script>
-      
-    <!-- dynamically changes the history button link to whatever website you are editing -->  
+
+    <!-- dynamically changes the history button link to whatever website you are editing -->
     <script src="js/historylink.js"></script>
-      
-    <!-- dynamically changes the h1 text to whatever website you are editing -->  
+
+    <!-- dynamically changes the h1 text to whatever website you are editing -->
     <script src="js/WebsiteModuleTitle.js"></script>
-      
+
     <!-- This script sets up the Editor -->
     <script src="js/index.js"></script>
-      
+
     <!-- jQuery UI for JSONP in HTML Validator API calls in cricket.js -->
     <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
 

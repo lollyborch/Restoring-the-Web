@@ -22,7 +22,7 @@ console.log(hiddenDivValue);
       testMarkupCss += "\n";
       testMarkupCss += "</style>";
 	  testMarkup= hiddenDivValue;
-	  
+
   function setupEditor () {
     aceEditor = ace.edit("editor");
     aceEditor.setShowPrintMargin(false);
@@ -32,9 +32,9 @@ console.log(hiddenDivValue);
     aceEditor.setValue(testMarkup);
       //setUseWrapMode disablesleft and right scroll and wraps text - yay!
     aceEditor.getSession().setUseWrapMode(true);
-    
+
   }
-  
+
   //same function as the html editor, but make the inputs as css syntax
   function setupCssEditor () {
   	aceEditorCss = ace.edit("csseditor");
@@ -57,13 +57,13 @@ console.log(hiddenDivValue);
   	var editorContent = aceEditorCss.getSession().getValue();
   	$preview.contents().find('head').html(editorContent);
   }
-  
+
   // A function to add an event listener to the save button
   function saveListener() {
 	  var saveButton = document.getElementById("saveButton");
 	  saveButton.addEventListener("click",saveHTML);
   }
-  
+
   // A function to save the current content into the hidden div
 	function saveHTML() {
 		updatedHTML = aceEditor.getValue();
@@ -77,7 +77,7 @@ console.log(hiddenDivValue);
 			}
 		});
 	};
-  
+
 
   //run both function as the editor
   setupEditor();
