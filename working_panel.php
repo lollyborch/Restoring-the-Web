@@ -26,7 +26,6 @@ require("base.php");
 <html >
     <head>
         <meta charset="UTF-8">
-        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <!-- page is built on Bootstrap 4 -->
@@ -132,7 +131,12 @@ require("base.php");
             <div id="numero5" class="working-header pull-right">Preview</div>
         </div>
         <div class="item-container">
-            <div id="validator" class="validator-section"><textarea style="font-weight:300" rows="9" cols="82" class="col-md-12"></textarea><button id="numero2" class="working-button" onclick="printErrors()">Validate</button><a href="http://deco1800-g49.uqcloud.net/help.php" id="numero3" class="working-help" onclick="positionedPopup(this.href,'myWindow','1000','450','100','200','yes');return false">Help</a></div>
+            <div id="validator" class="validator-section">
+                <textarea style="font-weight:300" rows="9" cols="82" class="col-md-12"></textarea>
+                <button id="numero2" class="working-button" onclick="printErrors()">Validate</button>
+                <p id="numero7 errornumber" class="working-errors">Errors</p>
+                <a href="http://deco1800-g49.uqcloud.net/help.php" id="numero3" class="working-help" onclick="positionedPopup(this.href,'myWindow','1000','450','100','200','yes');return false">Help</a>
+            </div>
             
             <iframe id="preview" class="preview-section"></iframe>
         </div>  

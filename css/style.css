@@ -114,6 +114,14 @@
     position: absolute;
 }
 
+.working-errors {
+    margin-left: 3%;
+    margin-top: -25px;
+    left: 5px;
+    position: absolute;
+    font-weight: 400;
+}
+
 .greencolour {
     color: #1d7058;
 }

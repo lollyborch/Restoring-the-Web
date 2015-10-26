@@ -31,11 +31,14 @@ function validate() {
 			}
 		console.log(errorList);
 		console.log(errorList.length);
+        var errornumber = errorList.length;
+        console.log(errornumber);
 		console.log(i);
 		for (i = 0; i < errorList.length; i++) {
-			$(errorListContainer).append(errorList[i][0] + " From line " +errorList[i][1] + " Column " +errorList[i][2] + "\n");
+			$(errorListContainer).append(errorList[i][0] + " From line " +errorList[i][1] + " Column " +errorList[i][2] + "\n" + "\n");
 			//document.getElementById("test").innerHTML = errorList[i].valueOf();		
 			}
+        $('.working-errors').text('Errors: ' + errornumber);
 		}
 	})
 };

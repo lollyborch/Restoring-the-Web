@@ -5,7 +5,7 @@ $(document).ready(function() {
     //console.log(typeof WebsiteIDNumber);
     switch(WebsiteIDNumber) {
         case 1:
-            $('#HistoryButton').attr('href', 'https://web.archive.org/web/20050105050831/http://www.cricket.com.au/')
+            $('#HistoryButton').attr('href', 'https://web.archive.org/web/20050105050831/http://www.cricket.com.au/');
             console.log("website id 1 link")
             break;
         case 2:
