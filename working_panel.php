@@ -269,8 +269,6 @@ require("base.php");
     <!-- dynamically changes the h1 text to whatever website you are editing -->  
     <script src="js/WebsiteModuleTitle.js"></script>
       
-      
-      
     <!-- This script sets up the Editor -->
     <script src="js/index.js"></script>
       

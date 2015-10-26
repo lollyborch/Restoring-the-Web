@@ -15,7 +15,7 @@ var museum = 1;
 $(document).ready( function() {
     if(cricket==1){
       console.log("cricket" + cricket)
-  $("#cricket").load("../modules/cricketmodules.html");
+      $("#cricket").load("../modules/cricketmodules.html");
   }else {
     console.log("I got nothing")
   }

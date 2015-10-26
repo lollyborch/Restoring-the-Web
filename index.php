@@ -43,6 +43,7 @@ if(!empty($_SESSION["loggedIn"]) && !empty($_SESSION["username"])){
 elseif(!empty($_POST["username"]) && !empty($_POST["password"]))
 {
 	$username = mysql_real_escape_string($_POST["username"]);
+    //change to $password = md5(mysql_real_escape_string($_POST["password"])); to ENCRYPT LATER
 	$password = mysql_real_escape_string($_POST["password"]);
 	
 	$checklogin = mysql_query('SELECT * FROM users WHERE username ="'.$username.'" AND password ="'.$password.'";');
