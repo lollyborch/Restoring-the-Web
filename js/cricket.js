@@ -35,7 +35,7 @@ function validate() {
         console.log(errornumber);
 		console.log(i);
 		for (i = 1; i < errorList.length; i++) {
-			$(errorListContainer).append(errorList[i][0] + " From line " +errorList[i][1] + " Column " +errorList[i][2] + "\n" + "\n");
+			$(errorListContainer).append(i + ". " + errorList[i][0] + " From line " +errorList[i][1] + " Column " +errorList[i][2] + "\n" + "\n");
 			//document.getElementById("test").innerHTML = errorList[i].valueOf();		
 			}
         $('.working-errors').text('Errors: ' + errornumber);

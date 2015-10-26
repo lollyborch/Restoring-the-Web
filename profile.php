@@ -1,6 +1,32 @@
 <?php 
 require("base.php"); 
 ?>
+<?php
+	// Grab the Website ID which is posted on the cricketaustralia.html module when pressed
+	$getvalues = $_GET['WebsiteID'];
+	$componentID = substr($getvalues,-1,1);
+	$webIDvalue = substr($getvalues,0,1);
+	// Grab the current users name
+	$currentUser = $_SESSION["username"];
+	
+	// Find the userID from their name and email (email must be unique so this is ok)
+	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="' . $_SESSION['username'] . '" and emailAddress="' . $_SESSION['emailAddress'] .'";');
+	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
+	$currentUserID = $currentUserIDTable[0];
+	//echo $currentUserID;
+    $SessionUsername = $_SESSION['username'];
+    $SessionEmail = $_SESSION['emailAddress'];
+    //echo $_SESSION['username'];
+    echo $SessionUsername;
+    echo $SessionEmail;
+
+	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="1" and UserID="' .$currentUserID .'" and CompID="1";');
+	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
+	$_SESSION['userHTML'] = $UsersRestorationsTable[0];
+	$uHTML = $_SESSION['userHTML'];
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -94,8 +120,9 @@ require("base.php");
             <br />
             <div class="row">
                 <div class="col-lg-6">
-                    <p id="uName">Name: User Name</p>
-                    <p id="uEmail">Email: user@email.com</p>
+                    <p id="uName">Name: <?php echo $SessionUsername; ?></p>
+                    <p id="uEmail">Email: <?php echo $SessionEmail; ?> </p>
+                         
                 </div>
                 <!-- Profile pic change is we get time
                 <div class="col-lg-6">
@@ -104,8 +131,7 @@ require("base.php");
                 </div>-->
             </div>
 
-            <p>
-            <a class="btn btn-primary-outline" href="#" role="button">Edit profile</a></p>
+            <!-- Edit feature not supported <p><a class="btn btn-primary-outline" href="#" role="button">Edit profile</a></p> -->
 
         </div> 
       
