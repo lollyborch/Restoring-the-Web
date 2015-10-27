@@ -3,6 +3,8 @@
 var hiddenDiv = document.getElementById('hiddenHTML');
 var hiddenDivValue = hiddenDiv.innerHTML;
 console.log(hiddenDivValue);
+var hiddenCSS = document.getElementById('hiddenCSS');
+var hiddenCSSValue = hiddenCSS.innerHTML;
 
 
 (function (){
@@ -15,11 +17,8 @@ console.log(hiddenDivValue);
 	  aceEditorCss,
       resizable = true,
       testMarkupCss="";
-      testMarkupCss += "<style>\n";
-      testMarkupCss += "\n";
-      testMarkupCss += "\n";
-      testMarkupCss += "\n";
-      testMarkupCss += "\n";
+      testMarkupCss += "<style>";
+      testMarkupCss += hiddenCSSValue;
       testMarkupCss += "</style>";
 	  testMarkup= hiddenDivValue;
 
@@ -67,15 +66,25 @@ console.log(hiddenDivValue);
   // A function to save the current content into the hidden div
 	function saveHTML() {
 		updatedHTML = aceEditor.getValue();
+    updatedCSS = aceEditorCss.getValue().slice(7,-8);
 		console.log(updatedHTML);
+    console.log(updatedCSS);
 		$.ajax({
 			type: "POST",
-			data: {"data": updatedHTML},
+			data: {"data": updatedHTML, "cssData": updatedCSS},
 			url: "php/save.php",
 			success: function(){
 				console.log("Success function triggered");
 			}
 		});
+    /*$.ajax({
+			type: "POST",
+			data: {"cssData": updatedCSS},
+			url: "php/save.php",
+			success: function(){
+				console.log("Success function triggered");
+			}
+		});*/
 	};
 
 

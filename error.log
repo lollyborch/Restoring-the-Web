@@ -6722,3 +6722,477 @@ table {cellspacing:"0", cellpadding:"0", border: 0;}
 [27-Oct-2015 00:33:07 UTC] Did not select any rows
 [27-Oct-2015 00:33:41 UTC] Found the row hombre
 [27-Oct-2015 00:33:48 UTC] Found the row hombre
+[27-Oct-2015 01:25:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 01:25:54 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 01:25:54 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 01:26:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 01:26:09 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 01:26:09 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 01:26:59 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 01:26:59 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 01:26:59 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 01:34:07 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 11
+[27-Oct-2015 01:34:07 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 01:39:10 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 11
+[27-Oct-2015 01:39:10 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 01:39:10 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 01:39:10 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 01:44:14 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 01:44:14 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 01:44:14 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 01:47:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 01:47:54 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 01:47:54 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 01:53:04 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 01:53:04 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 01:53:04 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 01:57:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 01:57:48 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 01:57:48 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 01:57:51 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/profile.php on line 6
+[27-Oct-2015 01:57:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 01:57:56 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 01:57:56 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 01:57:59 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/profile.php on line 6
+[27-Oct-2015 01:58:11 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/profile.php on line 6
+[27-Oct-2015 01:58:36 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 01:58:36 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 01:58:36 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 01:58:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 01:58:50 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 01:58:50 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:01:36 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:01:36 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:01:36 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:01:45 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:01:45 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:01:45 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:02:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:02:33 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:02:33 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:02:42 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:02:42 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:02:42 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:02:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:02:48 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:02:48 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:04:19 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:04:19 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:04:19 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:04:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:04:30 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:04:30 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:06:46 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:06:46 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:06:46 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:06:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:06:57 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:06:57 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:07:01 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:07:01 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:07:01 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:07:04 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:07:04 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:07:04 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:07:20 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:07:20 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:07:20 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:10:14 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 11
+[27-Oct-2015 02:10:14 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 02:13:27 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 11
+[27-Oct-2015 02:13:27 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 02:13:27 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 02:13:27 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 02:13:29 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:13:29 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:13:29 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:15:15 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 11
+[27-Oct-2015 02:15:15 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 02:15:15 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 02:15:15 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 02:56:45 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:56:45 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:56:45 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:57:03 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 11
+[27-Oct-2015 02:57:03 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 02:57:03 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 02:57:03 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 02:57:06 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:57:06 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:57:06 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:57:14 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:57:14 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:57:14 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 112
+[27-Oct-2015 02:58:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:58:50 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 02:59:00 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 02:59:00 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 03:00:19 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 11
+[27-Oct-2015 03:00:19 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:00:19 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 03:00:19 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:01:08 UTC] PHP Notice:  Undefined index: username in /var/www/htdocs/working_panel.php on line 15
+[27-Oct-2015 03:01:08 UTC] PHP Notice:  Undefined index: username in /var/www/htdocs/working_panel.php on line 18
+[27-Oct-2015 03:01:08 UTC] PHP Notice:  Undefined index: emailAddress in /var/www/htdocs/working_panel.php on line 18
+[27-Oct-2015 03:01:08 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /var/www/htdocs/working_panel.php on line 44
+[27-Oct-2015 03:01:09 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 11
+[27-Oct-2015 03:01:09 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:01:09 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 03:01:09 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:02:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 03:02:16 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 03:03:25 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 11
+[27-Oct-2015 03:03:25 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:03:25 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 03:03:25 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:07:12 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:07:12 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 03:07:12 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 03:07:12 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 03:08:13 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 03:08:13 UTC] 
+[27-Oct-2015 03:08:13 UTC] <style>
+
+Some more stuff.
+
+</style>
+[27-Oct-2015 03:08:13 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 03:08:13 UTC] Some stuff  
+[27-Oct-2015 03:08:13 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:08:13 UTC] 
+[27-Oct-2015 03:08:13 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 03:08:36 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 03:08:36 UTC] 
+[27-Oct-2015 03:08:36 UTC] <style>
+
+
+
+</style>
+[27-Oct-2015 03:08:36 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 03:08:36 UTC] different stuff this time?
+[27-Oct-2015 03:08:36 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:08:36 UTC] 
+[27-Oct-2015 03:08:36 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 03:09:46 UTC] 
+
+  
+    <meta charset="utf-8">
+    <title>Header</title>
+    HOLY SHIT BALLS.
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+    </tbody>
+    </table>
+  
+
+[27-Oct-2015 03:09:46 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:09:46 UTC] 
+[27-Oct-2015 03:09:46 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 03:09:46 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 03:09:46 UTC] 
+[27-Oct-2015 03:09:46 UTC] <style>
+
+
+
+</style>
+[27-Oct-2015 03:09:46 UTC] PHP Notice:  Undefined variable: uCSS in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 03:15:46 UTC]          <meta charset="utf-8">     <title>Header</title><table id="header"<tbody></tbody>     </table>   
+[27-Oct-2015 03:15:46 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:15:46 UTC] 
+[27-Oct-2015 03:15:46 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 03:15:46 UTC] 
+[27-Oct-2015 03:15:46 UTC] <style>
+
+Now different CSS.
+</style>
+[27-Oct-2015 03:16:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 03:16:27 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 03:17:00 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 03:17:00 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 03:17:57 UTC]          <meta charset="utf-8">     <title>Header</title><table id="header" cellspacing="0" cellpadding="0" border="0">     <tbody>     </tbody>     </table>   
+[27-Oct-2015 03:17:57 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:17:57 UTC] 
+[27-Oct-2015 03:17:57 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 03:17:57 UTC] 
+[27-Oct-2015 03:17:57 UTC] <style>
+What is happening?
+</style>
+[27-Oct-2015 03:19:28 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 03:19:28 UTC] 
+[27-Oct-2015 03:19:28 UTC] <style>
+Are you going to update now?
+</style>
+[27-Oct-2015 03:19:28 UTC] 
+[27-Oct-2015 03:19:28 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:19:28 UTC] 
+[27-Oct-2015 03:20:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 03:20:12 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 03:22:31 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 03:22:31 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 03:23:47 UTC] Put some stuff in here
+[27-Oct-2015 03:23:47 UTC] PHP Notice:  Undefined index: cssData in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 03:23:47 UTC] 
+[27-Oct-2015 03:23:47 UTC] PHP Notice:  Undefined index: data in /var/www/htdocs/php/save.php on line 5
+[27-Oct-2015 03:23:47 UTC] 
+[27-Oct-2015 03:23:47 UTC] <style>
+
+And some CSS here.
+
+</style>
+[27-Oct-2015 03:33:48 UTC]          <meta charset="utf-8">     <title>Header</title>     HOLY SHIT BALLS.        AND MORE STUFF.<table id="header" cellspacing="0" cellpadding="0" border="0">     <tbody>     </tbody>     </table>   
+[27-Oct-2015 03:33:48 UTC] <style>
+CSS times.
+</style>
+[27-Oct-2015 03:34:24 UTC] HAS HE DONE IT?
+[27-Oct-2015 03:34:24 UTC] <style>
+IS THIS THE REAL THING.
+</style>
+[27-Oct-2015 03:36:55 UTC] <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Header</title>
+  </head>
+  <body>
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr>
+    <td colspan="2" background="/images/cricketaus/img_header1.jpg" height="20" valign="bottom">    
+        <img src="/images/cricketaus/img_spacer.gif" width="665" height="1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.338f1889253737ed371ae9104420a2a0/">Contact Us</a>&nbsp;&nbsp;
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/">Home</a>
+    </td>   
+    <td rowspan="2" bgcolor="#669933" width="100%">&nbsp;</td>
+   </tr>
+   <tr>
+    <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/"><img alt="Cricket Australia" height="85" src="/images/cricketaus/img_header2-1.jpg" width="301" border="0"></a></td>
+    <td><img alt="" height="85" src="/images/cricketaus/img_header2-2.jpg" width="466"></td>
+   </tr>
+    </tbody>
+    </table>
+  </body>
+</html>
+[27-Oct-2015 03:36:55 UTC] <style>
+
+
+<style>
+IS THIS THE REAL THING.
+</style>
+</style>
+[27-Oct-2015 03:38:04 UTC] 
+
+  
+    <meta charset="utf-8">
+    <title>Header</title>
+  
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr>
+    <td colspan="2" background="/images/cricketaus/img_header1.jpg" height="20" valign="bottom">    
+        <img src="/images/cricketaus/img_spacer.gif" width="665" height="1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.338f1889253737ed371ae9104420a2a0/">Contact Us</a>&nbsp;&nbsp;
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/">Home</a>
+    </td>   
+    <td rowspan="2" bgcolor="#669933" width="100%">&nbsp;</td>
+   </tr>
+   <tr>
+    <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/"><img alt="Cricket Australia" height="85" src="/images/cricketaus/img_header2-1.jpg" width="301" border="0"></a></td>
+    <td><img alt="" height="85" src="/images/cricketaus/img_header2-2.jpg" width="466"></td>
+   </tr>
+    </tbody>
+    </table>
+  
+
+[27-Oct-2015 03:38:04 UTC] <style>
+IT frikken works.
+
+</style>
+[27-Oct-2015 03:47:57 UTC] 
+
+  
+    <meta charset="utf-8">
+    <title>Header</title>
+  
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr>
+    <td colspan="2" background="/images/cricketaus/img_header1.jpg" height="20" valign="bottom">    
+        <img src="/images/cricketaus/img_spacer.gif" width="665" height="1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.338f1889253737ed371ae9104420a2a0/">Contact Us</a>&nbsp;&nbsp;
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/">Home</a>
+    </td>   
+    <td rowspan="2" bgcolor="#669933" width="100%">&nbsp;</td>
+   </tr>
+   <tr>
+    <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/"><img alt="Cricket Australia" height="85" src="/images/cricketaus/img_header2-1.jpg" width="301" border="0"></a></td>
+    <td><img alt="" height="85" src="/images/cricketaus/img_header2-2.jpg" width="466"></td>
+   </tr>
+    </tbody>
+    </table>
+  
+
+[27-Oct-2015 03:47:57 UTC] <style>
+a {
+    color: red;
+}
+
+
+</style>
+[27-Oct-2015 03:48:48 UTC] 
+
+  
+    <meta charset="utf-8">
+    <title>Header</title>
+  
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr>
+    <td colspan="2" background="/images/cricketaus/img_header1.jpg" height="20" valign="bottom">    
+        <img src="/images/cricketaus/img_spacer.gif" width="665" height="1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.338f1889253737ed371ae9104420a2a0/">Contact Us</a>&nbsp;&nbsp;
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/">Home</a>
+    </td>   
+    <td rowspan="2" bgcolor="#669933" width="100%">&nbsp;</td>
+   </tr>
+   <tr>
+    <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/"><img alt="Cricket Australia" height="85" src="/images/cricketaus/img_header2-1.jpg" width="301" border="0"></a></td>
+    <td><img alt="" height="85" src="/images/cricketaus/img_header2-2.jpg" width="466"></td>
+   </tr>
+    </tbody>
+    </table>
+  
+
+[27-Oct-2015 03:48:48 UTC] <style>
+
+
+
+a {
+    color: red;
+}
+p {
+    color: red;
+}
+
+
+</style>
+[27-Oct-2015 03:50:15 UTC] 
+
+  
+    <meta charset="utf-8">
+    <title>Header</title>
+  
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr>
+    <td colspan="2" background="/images/cricketaus/img_header1.jpg" height="20" valign="bottom">    
+        <img src="/images/cricketaus/img_spacer.gif" width="665" height="1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.338f1889253737ed371ae9104420a2a0/">Contact Us</a>&nbsp;&nbsp;
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/">Home</a>
+    </td>   
+    <td rowspan="2" bgcolor="#669933" width="100%">&nbsp;</td>
+   </tr>
+   <tr>
+    <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/"><img alt="Cricket Australia" height="85" src="/images/cricketaus/img_header2-1.jpg" width="301" border="0"></a></td>
+    <td><img alt="" height="85" src="/images/cricketaus/img_header2-2.jpg" width="466"></td>
+   </tr>
+    </tbody>
+    </table>
+  
+
+[27-Oct-2015 03:50:15 UTC] <style>
+
+</style>
+[27-Oct-2015 03:50:43 UTC] 
+
+  
+    <meta charset="utf-8">
+    <title>Header</title>
+  
+  
+    <table id="header" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr>
+    <td colspan="2" background="/images/cricketaus/img_header1.jpg" height="20" valign="bottom">    
+        <img src="/images/cricketaus/img_spacer.gif" width="665" height="1">
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.338f1889253737ed371ae9104420a2a0/">Contact Us</a>&nbsp;&nbsp;
+        <a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/">Home</a>
+    </td>   
+    <td rowspan="2" bgcolor="#669933" width="100%">&nbsp;</td>
+   </tr>
+   <tr>
+    <td><a href="/web/20050105050831/http://www.cricket.com.au/portal/site/cricketaustralia/menuitem.4a871880c089f6ed371ae9104420a2a0/"><img alt="Cricket Australia" height="85" src="/images/cricketaus/img_header2-1.jpg" width="301" border="0"></a></td>
+    <td><img alt="" height="85" src="/images/cricketaus/img_header2-2.jpg" width="466"></td>
+   </tr>
+    </tbody>
+    </table>
+  
+
+[27-Oct-2015 03:50:43 UTC] <style>
+
+a {
+    color: red;
+}
+</style>
+[27-Oct-2015 04:33:19 UTC] Is this working or not?
+[27-Oct-2015 04:33:19 UTC] PHP Notice:  Undefined variable: css in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 04:33:55 UTC] Is this working or not?
+[27-Oct-2015 04:33:55 UTC] PHP Notice:  Undefined variable: css in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 04:35:32 UTC] PHP Notice:  Undefined variable: css in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 04:39:15 UTC] 
+Put some CSS here.
+</style>
+[27-Oct-2015 04:39:15 UTC] PHP Notice:  Undefined variable: css in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 04:39:36 UTC] 
+Different CSS this time.
+</style>
+[27-Oct-2015 04:39:36 UTC] PHP Notice:  Undefined variable: css in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 04:44:20 UTC] 
+</style>
+[27-Oct-2015 04:44:20 UTC] PHP Notice:  Undefined variable: css in /var/www/htdocs/php/save.php on line 15
+[27-Oct-2015 04:44:38 UTC] 
+</style>
+[27-Oct-2015 04:44:38 UTC] PHP Notice:  Undefined variable: css in /var/www/htdocs/php/save.php on line 15
+[27-Oct-2015 04:47:37 UTC] PHP Notice:  Undefined variable: styleCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 04:47:37 UTC] 
+[27-Oct-2015 04:47:37 UTC] PHP Notice:  Undefined variable: css in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 04:47:55 UTC] PHP Notice:  Undefined variable: styleCSS in /var/www/htdocs/php/save.php on line 12
+[27-Oct-2015 04:47:55 UTC] 
+[27-Oct-2015 04:47:55 UTC] PHP Notice:  Undefined variable: css in /var/www/htdocs/php/save.php on line 14
+[27-Oct-2015 04:50:04 UTC] 
+This is it?
+
+[27-Oct-2015 04:50:04 UTC] PHP Notice:  Undefined variable: css in /var/www/htdocs/php/save.php on line 15
+[27-Oct-2015 04:50:20 UTC] 
+try with some fun
+p {
+    stuff.
+}
+
+[27-Oct-2015 04:50:20 UTC] PHP Notice:  Undefined variable: css in /var/www/htdocs/php/save.php on line 15
+[27-Oct-2015 04:52:53 UTC] 
+
+[27-Oct-2015 04:53:05 UTC] 
+Please work 2
+
+[27-Oct-2015 04:53:52 UTC] 
+WHere did that E come from?
+
+[27-Oct-2015 04:54:52 UTC] PHP Notice:  Undefined variable: cssStyleFront in /var/www/htdocs/php/save.php on line 13
+[27-Oct-2015 04:54:52 UTC] 
+[27-Oct-2015 04:55:09 UTC] PHP Notice:  Undefined variable: cssStyleFront in /var/www/htdocs/php/save.php on line 13
+[27-Oct-2015 04:55:09 UTC] 
+[27-Oct-2015 04:55:22 UTC] PHP Notice:  Undefined variable: cssStyleFront in /var/www/htdocs/php/save.php on line 13
+[27-Oct-2015 04:55:22 UTC] 
+[27-Oct-2015 04:56:15 UTC] <style>
+
+[27-Oct-2015 04:57:13 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 04:57:13 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 04:57:51 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 04:57:51 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 04:58:35 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 04:58:35 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 05:00:41 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 05:00:41 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 05:02:24 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 05:02:24 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 05:03:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 05:03:16 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7

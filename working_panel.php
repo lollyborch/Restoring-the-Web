@@ -22,6 +22,7 @@ require("base.php");
 
 	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="' . $webIDvalue .'" and UserID="' .$currentUserID .'" and CompID="' . $componentID . '";');
 	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
+
 	if ($UsersRestorationsTable === false) {
 		$default = mysql_query('SELECT compHTML FROM `components` WHERE WebsiteID="' . $webIDvalue .'" and CompID="' . $componentID . '";');
 		$defaultValue = mysql_fetch_array($default);
@@ -33,6 +34,11 @@ require("base.php");
 		$uHTML = $_SESSION['userHTML'];
 	}
 
+	$UsersRestorationCSS = mysql_query('SELECT RestoredCSS FROM `restorations` WHERE WebsiteID="' . $webIDvalue .'" and UserID="' .$currentUserID .'" and CompID="' . $componentID . '";');
+	$UsersRestoCSSTable = mysql_fetch_array($UsersRestorationCSS);
+	$_SESSION['userCSS'] = $UsersRestoCSSTable[0];
+	$uCSS = $_SESSION['userCSS'];
+
 	$firstTimeUser = mysql_query("SELECT * FROM `restorations` WHERE UserID = $currentUserID;");
 	$test = mysql_num_rows($firstTimeUser);
 	if ($test == 0) {
@@ -41,7 +47,6 @@ require("base.php");
 	else {
 		$showTutorial = 0;
 	}
-	echo $showTutorial;
 	?>
 
 <!DOCTYPE html>
@@ -93,6 +98,7 @@ require("base.php");
   <body>
 
 	<div id="hiddenHTML" style="display:none"><?php echo $uHTML; ?></div>
+	<div id="hiddenCSS" style="display:none"><?php echo $uCSS; ?></div>
 
 
 
@@ -183,9 +189,9 @@ require("base.php");
       <!-- buttons at bottom of page -->
             <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
             <a class="btn btn-lg btn-primary text-center" id="HistoryButton" href="" role="button" target="_blank">View history of this website</a>
-            <!--Congratulations modal button - to be removed when script is done -->
+            <!--Congratulations modal button - to be removed when script is done >
             <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>
-
+					-->
     </div>
             <!--Congratulations modal button - to be removed when script is done
             <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>-->
