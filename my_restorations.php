@@ -14,10 +14,10 @@ require("base.php");
 	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="' . $_SESSION['username'] . '" and emailAddress="' . $_SESSION['emailAddress'] .'";');
 	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
 	$currentUserID = $currentUserIDTable[0];
-	echo $currentUserID;
+	//echo $currentUserID;
     $SessionUsername = $_SESSION['username'];
-    echo $_SESSION['username'];
-    echo $SessionUsername;
+ //   echo $_SESSION['username'];
+ //   echo $SessionUsername;
 
 	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="1" and UserID="' .$currentUserID .'" and CompID="1";');
 	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
@@ -298,7 +298,7 @@ require("base.php");
           <div class="otherrow">
                 <h1>My Restorations</h1>
                 <br />
-              <p>Here are the modules you have started and completed.  To start a new restorations, <a href="home.php#categories">choose a website from the categories.</a></p>
+              <p>The modules you have started or completed are highlighted in green below.  Modules you have not started are white.  You can click on any module to start work on it.  To start a new website restoration, <a href="home.php#categories">choose a website from the categories on the home page</a>.</p>
              
           </div>
       
