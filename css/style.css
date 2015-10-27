@@ -92,14 +92,6 @@
     text-align: center;
 }
 
-.moduletextstart{
-    margin-bottom: 15px;
-    font-size: 1.8rem;
-    text-align: center;
-    color: #fff;
-    background-color: #1d7058;
-}
-
 .fa-account {
     color: #ffffff;
     font-size: 1.5rem !important;
@@ -136,4 +128,9 @@
 
 .fa-icon-fixed {
     width: 25px;
+}
+
+.modmod {
+    padding-bottom: 10px;
+    text-align: center;
 }

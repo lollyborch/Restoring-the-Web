@@ -5363,13 +5363,28 @@ figure:hover:before {
   margin-right: 0;
 }
 
-.modules section {
+.modulebox {
   padding: 15px 10px 0 10px;
   border: 1px solid #000;
 }
 
-.modules section:hover {
+.moduleboxStart {
+  padding: 15px 10px 0 10px;
+  color: #fff;
+  background-color: #1d7058;
+  border: 1px solid #000;
+}
+
+.moduleboxStart a {
+  color: #fff;
+}
+
+.modulebox:hover {
   background: rgba(29, 112, 88, .2);
+}
+
+.moduleboxStart:hover {
+  background: rgba(29, 112, 88, .6);
 }
 
 .modules a:hover {
