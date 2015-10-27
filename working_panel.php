@@ -32,6 +32,16 @@ require("base.php");
 		$_SESSION['userHTML'] = $UsersRestorationsTable[0];
 		$uHTML = $_SESSION['userHTML'];
 	}
+
+	$firstTimeUser = mysql_query("SELECT * FROM `restorations` WHERE UserID = $currentUserID;");
+	$test = mysql_num_rows($firstTimeUser);
+	if ($test == 0) {
+		$showTutorial = 1;
+	}
+	else {
+		$showTutorial = 0;
+	}
+	echo $showTutorial;
 	?>
 
 <!DOCTYPE html>
@@ -51,7 +61,7 @@ require("base.php");
         <!--Web Historians style sheet including login CSS from http://bootsnipp.com/snippets/featured/responsive-login-with-social-buttons-->
         <link href="css/style.css" rel="stylesheet">
 
-        <!--Fonts--!>
+        <!--Fonts-->
         <!--Google Fonts - Roboto -->
         <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
 
@@ -74,6 +84,9 @@ require("base.php");
             var ModuleIDNumber = WebsiteIDNumberString.slice(-1);
          //   console.log("Comp numb " + ModuleIDNumber);
 
+				 	// Variable to see if Users first time logging in
+						var showTute = <?php echo $showTutorial ?>;
+						console.log(showTute);
         </script>
 
   </head>
@@ -250,16 +263,21 @@ require("base.php");
    <script type="text/javascript" src="joyride/jquery.joyride-2.1.js"></script>
     <script>
       $(window).load(function() {
-        $('#joyRideTipContent').joyride({
-          autoStart : true,
-          postStepCallback : function (index, tip) {
-          if (index == 2) {
-            $(this).joyride('set_li', false, 1);
-          }
-        },
-        modal:true,
-        expose: true
-        });
+				if (showTute == 1) {
+					$('#joyRideTipContent').joyride({
+	          autoStart : true,
+	          postStepCallback : function (index, tip) {
+	          if (index == 2) {
+	            $(this).joyride('set_li', false, 1);
+	          }
+	        },
+	        modal:true,
+	        expose: true
+	        });
+				}
+				else {
+					console.log("Existing User");
+				}
       });
     </script>
 

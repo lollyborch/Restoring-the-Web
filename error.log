@@ -6664,3 +6664,61 @@ table {cellspacing:"0", cellpadding:"0", border: 0;}
 [26-Oct-2015 13:55:30 UTC] This is test 2 Result 0
 [26-Oct-2015 14:12:16 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /var/www/htdocs/php/save.php on line 9
 [26-Oct-2015 14:12:34 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /var/www/htdocs/php/save.php on line 9
+[26-Oct-2015 23:20:13 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 5
+[26-Oct-2015 23:20:13 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 23:20:13 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 23:56:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[26-Oct-2015 23:56:10 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 23:56:10 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 23:56:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[26-Oct-2015 23:56:50 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 23:56:50 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 23:58:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[26-Oct-2015 23:58:23 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 23:58:23 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[26-Oct-2015 23:58:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[26-Oct-2015 23:58:38 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[26-Oct-2015 23:58:38 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[27-Oct-2015 00:10:08 UTC] PHP Notice:  Undefined index: UserID in /var/www/htdocs/working_panel.php on line 36
+[27-Oct-2015 00:10:08 UTC] PHP Warning:  error_log() expects parameter 1 to be string, resource given in /var/www/htdocs/working_panel.php on line 37
+[27-Oct-2015 00:10:08 UTC] Result of first time user was True
+[27-Oct-2015 00:10:27 UTC] PHP Notice:  Undefined index: UserID in /var/www/htdocs/working_panel.php on line 36
+[27-Oct-2015 00:10:27 UTC] PHP Warning:  error_log() expects parameter 1 to be string, resource given in /var/www/htdocs/working_panel.php on line 37
+[27-Oct-2015 00:10:27 UTC] Result of first time user was True
+[27-Oct-2015 00:10:43 UTC] PHP Notice:  Undefined index: UserID in /var/www/htdocs/working_panel.php on line 36
+[27-Oct-2015 00:10:43 UTC] PHP Warning:  error_log() expects parameter 1 to be string, resource given in /var/www/htdocs/working_panel.php on line 37
+[27-Oct-2015 00:10:43 UTC] Result of first time user was True
+[27-Oct-2015 00:10:59 UTC] PHP Notice:  Undefined index: UserID in /var/www/htdocs/working_panel.php on line 36
+[27-Oct-2015 00:10:59 UTC] PHP Warning:  error_log() expects parameter 1 to be string, resource given in /var/www/htdocs/working_panel.php on line 37
+[27-Oct-2015 00:10:59 UTC] Result of first time user was True
+[27-Oct-2015 00:13:27 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /var/www/htdocs/working_panel.php on line 36
+[27-Oct-2015 00:13:29 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /var/www/htdocs/working_panel.php on line 36
+[27-Oct-2015 00:13:31 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /var/www/htdocs/working_panel.php on line 36
+[27-Oct-2015 00:13:34 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /var/www/htdocs/working_panel.php on line 36
+[27-Oct-2015 00:14:11 UTC] PHP Notice:  Undefined index: UserID in /var/www/htdocs/working_panel.php on line 36
+[27-Oct-2015 00:14:11 UTC] Result of first time user was True
+[27-Oct-2015 00:14:27 UTC] PHP Notice:  Undefined index: UserID in /var/www/htdocs/working_panel.php on line 36
+[27-Oct-2015 00:14:27 UTC] Result of first time user was True
+[27-Oct-2015 00:16:42 UTC] Result of first time user was True
+[27-Oct-2015 00:16:56 UTC] Result of first time user was True
+[27-Oct-2015 00:17:03 UTC] Result of first time user was True
+[27-Oct-2015 00:17:13 UTC] Result of first time user was True
+[27-Oct-2015 00:17:18 UTC] Result of first time user was True
+[27-Oct-2015 00:20:34 UTC] Result of first time user was True 2
+[27-Oct-2015 00:21:07 UTC] Result of first time user was True 2
+[27-Oct-2015 00:22:32 UTC] Result of first time user was True 3
+[27-Oct-2015 00:22:43 UTC] Result of first time user was True 3
+[27-Oct-2015 00:29:59 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER) in /var/www/htdocs/working_panel.php on line 38
+[27-Oct-2015 00:30:04 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER) in /var/www/htdocs/working_panel.php on line 38
+[27-Oct-2015 00:30:13 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER) in /var/www/htdocs/working_panel.php on line 38
+[27-Oct-2015 00:30:41 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/htdocs/base.php on line 6
+[27-Oct-2015 00:30:41 UTC] PHP Notice:  Undefined index: WebsiteID in /var/www/htdocs/my_restorations.php on line 7
+[27-Oct-2015 00:30:41 UTC] PHP Notice:  Undefined variable: cricket_start2 in /var/www/htdocs/my_restorations.php on line 93
+[27-Oct-2015 00:30:48 UTC] PHP Warning:  mysql_num_rows() expects exactly 1 parameter, 0 given in /var/www/htdocs/working_panel.php on line 37
+[27-Oct-2015 00:30:48 UTC] Did not select any rows
+[27-Oct-2015 00:30:55 UTC] PHP Warning:  mysql_num_rows() expects exactly 1 parameter, 0 given in /var/www/htdocs/working_panel.php on line 37
+[27-Oct-2015 00:30:55 UTC] Did not select any rows
+[27-Oct-2015 00:32:59 UTC] Did not select any rows
+[27-Oct-2015 00:33:07 UTC] Did not select any rows
+[27-Oct-2015 00:33:41 UTC] Found the row hombre
+[27-Oct-2015 00:33:48 UTC] Found the row hombre

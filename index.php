@@ -17,24 +17,23 @@
         <!--Web Historians style sheet including login CSS from http://bootsnipp.com/snippets/featured/responsive-login-with-social-buttons-->
         <link href="css/style.css" rel="stylesheet">
 
-        <!--Fonts--!>
+        <!--Fonts-->
         <!--Google Fonts - Roboto -->
         <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500,500italic' rel='stylesheet' type='text/css'>
 
         <!-- FFF Tusj font from http://www.fontsquirrel.com/fonts/fff-tusj -->
-        <link href="css/webfont-stylesheet.css" rel="stylesheet">    
+        <link href="css/webfont-stylesheet.css" rel="stylesheet">
 
         <!-- Font AWESOME for icons https://fortawesome.github.io/Font-Awesome/-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
-	
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
     </head>
 <body>
 <?php
 
 if(!empty($_SESSION["loggedIn"]) && !empty($_SESSION["username"])){
+  header('Location: http://deco1800-g49.uqcloud.net/my_restorations.php');
 	?>
-	<h1>Member Area</h1>
-	<p>Thanks for loggin in! You are <code><?=$_SESSION["username"]?></code> and your email address is <code><?=$_SESSION["emailAddress"]?></code>.</p>
 
 <?php
 //$connection = mysql_connect("localhost", "Felixlinh", "155764") or die("MySQL Error: " . mysql_error());
@@ -45,14 +44,14 @@ elseif(!empty($_POST["username"]) && !empty($_POST["password"]))
 	$username = mysql_real_escape_string($_POST["username"]);
     //change to $password = md5(mysql_real_escape_string($_POST["password"])); to ENCRYPT LATER
 	$password = mysql_real_escape_string($_POST["password"]);
-	
+
 	$checklogin = mysql_query('SELECT * FROM users WHERE username ="'.$username.'" AND password ="'.$password.'";');
 	//$checklogin = mysqli_query($con,'SELECT * FROM users WHERE username ="'.$username.'" AND password ="'.$password.'";');
 
 	if(mysql_num_rows($checklogin) == '1'){
 		$row = mysql_fetch_array($checklogin);
 		$email = $row["emailAddress"];
-		
+
 		$_SESSION['username'] = $username;
 		$_SESSION['emailAddress'] = $email;
 		$_SESSION['loggedIn'] = 1;
@@ -73,7 +72,7 @@ else {
 
             <!-- NAVBAR adapted from http://getbootstrap.com/components/#navbar-->
             <nav class="navbar navbar-dark navbar-static-top">
-                <a class="navbar-brand brand-heading" href="home.php">web historians</a>   
+                <a class="navbar-brand brand-heading" href="home.php">web historians</a>
                 <ul class="nav navbar-nav pull-right">
                     <li class="nav-item">
                     <!--add nav-active to current page-->
@@ -95,13 +94,13 @@ else {
     <img class="img-responsive" src="images/Home_Infographic.png" alt="Home Page Instruction" width="100%"/>
     </h1>
     <br />
-        <p id="login">Register or log in below to find out more.</p>   
-      
+        <p id="login">Register or log in below to find out more.</p>
+
         <!--login adpated from http://bootsnipp.com/snippets/featured/responsive-login-with-social-buttons -->
         <div class="omb_login row">
 			<div class="col-md-6 col-md-offset-3 login-container" >
 			<h3 class="omb_authTitle row">Log in or <a href="register.php#login">Sign up</a></h3>
-				<div class="row"> 
+				<div class="row">
 					<form name="loginform" method="POST" action="index.php" id="loginform" class="omb_loginForm col-xs-12">
 						  <div class="input-group">
 							<label class="input-group-addon">
@@ -109,7 +108,7 @@ else {
 							</label>
 							<input type="text" class="form-control" id="username" name="username" placeholder="username" />
 						  </div>
-					  <span class="help-block"></span>		
+					  <span class="help-block"></span>
 						 <div class="input-group">
 							<label class="input-group-addon">
 								<i class="fa fa-lock fa-icon-fixed"></i>
@@ -132,10 +131,10 @@ else {
 				</p>
 			  </div>
 			</div>
-		
+
 		</div>
     </div>
-</div>     
+</div>
       <!-- footer -->
         <div class="container">
           <div class="otherrow">
@@ -144,14 +143,14 @@ else {
               </div>
           </div>
         </div>
-    
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="SASS/dist/js/bootstrap.min.js"></script>
 
-      
+
 
 	<?php
 }
