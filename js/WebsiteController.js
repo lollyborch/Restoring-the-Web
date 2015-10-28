@@ -22,8 +22,8 @@ app.controller('WebsiteController', ['$scope', function ($scope) {
             title: 'Cycling Queensland',
             imgalt: 'Cycling Queensland',
             url: 'working_panel.php?WebsiteID=4?CompID=1',
-            level: 'images/Hard.png',
-            levelalt: 'hard level'
+            level: 'images/Easy.png',
+            levelalt: 'easy level'
         }
     ];
     
@@ -34,8 +34,8 @@ app.controller('WebsiteController', ['$scope', function ($scope) {
             title: 'Queensland Ballet',
             imgalt: 'Queensland Ballet',
             url: 'working_panel.php?WebsiteID=5?CompID=1',
-            level: 'images/Easy.png',
-            levelalt: 'easy level'
+            level: 'images/Hard.png',
+            levelalt: 'hard level'
         },
         {
             title: 'Brisbane Writers Festival',
@@ -50,8 +50,8 @@ app.controller('WebsiteController', ['$scope', function ($scope) {
             title: 'UQ',
             imgalt: 'UQ',
             url: 'working_panel.php?WebsiteID=7?CompID=1',
-            level: 'images/Easy.png',
-            levelalt: 'easy level'
+            level: 'images/Hard.png',
+            levelalt: 'hard level'
         },
         {
             title: 'QTAC',
@@ -80,8 +80,8 @@ app.controller('WebsiteController', ['$scope', function ($scope) {
             title: 'Qld Museum',
             imgalt: 'Qld Museum',
             url: 'working_panel.php?WebsiteID=11?CompID=1',
-            level: 'images/Easy.png',
-            levelalt: 'easy level'
+            level: 'images/Hard.png',
+            levelalt: 'hard level'
         }
     ];
   
