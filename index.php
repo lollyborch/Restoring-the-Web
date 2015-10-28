@@ -94,7 +94,8 @@ else {
     <img class="img-responsive" src="images/Home_Infographic.png" alt="Home Page Instruction" width="100%"/>
     </h1>
     <br />
-        <p id="login">Register or log in below to find out more.</p>
+        <h2 id="login" class="text-center">Register or log in below to find out more.</h2>
+        <br />
 
         <!--login adpated from http://bootsnipp.com/snippets/featured/responsive-login-with-social-buttons -->
         <div class="omb_login row">
@@ -119,19 +120,6 @@ else {
 					<button class="btn btn-lg btn-primary btn-block" name="login" id="login" type="submit">Log in</button>
 					</form>
 				</div>
-			<div class="row" style="margin-top:5px">
-			  <div class="col-xs-6">
-				<label class="checkbox" style="margin-left:20px;">
-				  <input type="checkbox" value="remember-me">Remember Me
-				</label>
-			  </div>
-			  <div class="col-xs-6">
-				<p class="omb_forgotPwd" style="margin:0;">
-				  <a href="#">Forgot password?</a>
-				</p>
-			  </div>
-			</div>
-
 		</div>
     </div>
 </div>
