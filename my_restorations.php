@@ -18,11 +18,6 @@ require("base.php");
     $SessionUsername = $_SESSION['username'];
  //   echo $_SESSION['username'];
  //   echo $SessionUsername;
-
-	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="1" and UserID="' .$currentUserID .'" and CompID="1";');
-	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
-	$_SESSION['userHTML'] = $UsersRestorationsTable[0];
-	$uHTML = $_SESSION['userHTML'];
     
     //Hard coded User ID
     $currentUserID1 = 19;

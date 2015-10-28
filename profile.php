@@ -13,18 +13,12 @@ require("base.php");
 	$currentUserRequest = mysql_query('SELECT UserID FROM users WHERE username="' . $_SESSION['username'] . '" and emailAddress="' . $_SESSION['emailAddress'] .'";');
 	$currentUserIDTable = mysql_fetch_array($currentUserRequest);
 	$currentUserID = $currentUserIDTable[0];
-	//echo $currentUserID;
+    
+    //gets username and email to pass into html fields below
     $SessionUsername = $_SESSION['username'];
     $SessionEmail = $_SESSION['emailAddress'];
-    //echo $_SESSION['username'];
-    echo $SessionUsername;
-    echo $SessionEmail;
-
-	$UsersRestoration = mysql_query('SELECT RestoredHTML FROM `restorations` WHERE WebsiteID="1" and UserID="' .$currentUserID .'" and CompID="1";');
-	$UsersRestorationsTable = mysql_fetch_array($UsersRestoration);
-	$_SESSION['userHTML'] = $UsersRestorationsTable[0];
-	$uHTML = $_SESSION['userHTML'];
-
+//    echo $SessionUsername;
+   // echo $SessionEmail;
 
 ?>
 <!DOCTYPE html>

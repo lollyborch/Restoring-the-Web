@@ -165,14 +165,14 @@ require("base.php");
             <div id="validator" class="validator-section">
                 <textarea style="font-weight:300" rows="9" cols="82" class="col-md-12"></textarea>
                 <button id="numero2" class="working-button" onclick="printErrors()">Validate</button>
-                <p id="numero7" class="working-errors"></p>
-                <a href="http://deco1800-g49.uqcloud.net/help.php" id="numero3" class="working-help" onclick="positionedPopup(this.href,'myWindow','1000','450','100','200','yes');return false">Help</a>
+                <p id="errortip" class="working-errors"></p>
+                <a href="http://deco1800-g49.uqcloud.net/help.php" id="num3" class="working-help" onclick="positionedPopup(this.href,'myWindow','1000','450','100','200','yes');return false">Help</a>
             </div>
 
             <iframe id="preview" class="preview-section"></iframe>
         </div>
         <div class="clearfix">
-            <div id="numero4" class="working-header pull-left" id="html-editor">HTML Editor</div>
+            <div id="num4" class="working-header pull-left" id="html-editor">HTML Editor</div>
         </div>
         <div class="news-item-container">
             <div id="editor" class="preview-section"></div>
@@ -198,28 +198,40 @@ require("base.php");
                 <h2>Step #1</h2>
                 <p>View the errors returned by the HTML validator in the Errors panel.</p>
             </li>
-            <li data-id="numero2" data-button="Next" data-options="tipLocation:top">
+            <li data-id="errortip" data-button="Next" data-options="tipLocation:top">
                 <h2>Step #2</h2>
+                <p>The number of errors left to fix can be found here.</p>
+            </li>
+            <li data-id="numero2" data-button="Next" data-options="tipLocation:top">
+                <h2>Step #3</h2>
                 <p>As you fix the errors, you can re-validate your code using the <strong>Validate</strong> button.</p>
             </li>
             <li data-id="numero3" data-button="Next" data-options="tipLocation:bottom">
-                <h2>Step #3</h2>
+                <h2>Step </h2>
+                
+            </li>
+            <li data-id="num3" data-button="Next" data-options="tipLocation:bottom">
+                <h2>Step #4</h2>
                 <p>Need help understanding what errors mean?  Try our <strong>Help</strong> link.</p>
             </li>
             <li data-id="numero4" data-button="Next">
-                <h2>Stop #4</h2>
+                <h2>Stop </h2>
+                
+            </li>
+            <li data-id="num4" data-button="Next" data-options="tipLocation:right">
+                <h2>Stop #5</h2>
                 <p>Edit the HTML code for your module in the HTML Editor.</p>
             </li>
             <li data-id="numero5" data-button="Next" data-options="tipLocation:right">
-                <h2>Step #5</h2>
+                <h2>Step #6</h2>
                 <p>The Preview box is responsive so you will see your changes in the HTML Editor and CSS Editor appear here.</p>
             </li>
             <li data-id="numero6" data-button="Next" data-options="tipLocation:right">
-                <h2>Step #6</h2>
+                <h2>Step #7</h2>
                 <p>Add CSS styles in this box, it works in a similar way to the HTML Editor. When you start a new website, the CSS Editor box will be blank.  As you progress through the modules, the CSS you create will be saved between each one for you to build upon. Make sure you add the CSS between the style tags.</p>
             </li>
             <li data-id="saveButton" data-button="Close" data-options="tipLocation:right">
-                <h2>Step #7</h2>
+                <h2>Step #8</h2>
                 <p>To save your progress, click the <strong>Save</strong> button. When you fix all the errors, a 'Congratulations' box will appear.</p>
             </li>
         </ol>
