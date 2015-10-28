@@ -1,3 +1,5 @@
+//<!-- dynamically changes the history button link to whatever website you are editing on working_panel.php-->
+
 $(document).ready(function() {
     //console.log("Website ID Number from historylink " + WebsiteIDNumber);
     //console.log(typeof WebsiteIDNumber);

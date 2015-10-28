@@ -1,3 +1,4 @@
+//<!-- Angular Content Container populated on home.php -->
 var app = angular.module("myApp", []);
 var imageArray = ["http://nla.gov.au/nla.obj-148694544/representativeImage", "http://nla.gov.au/nla.obj-136587996/representativeImage", "http://nla.gov.au/nla.obj-150937117/representativeImage"];
 

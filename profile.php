@@ -102,15 +102,7 @@ require("base.php");
             </div>
         </header>
         <!--header end-->
-      
-      
-        <!--breadcrumbs for pages NOT HOMEPAGE index.html
 
-        <div class="breadcrumb-container">
-            <ol class="breadcrumb">
-                <li><a href="profile.php">Account</a></li>
-                <li class="active">Profile</li>
-            </ol>
         </div>
         
         <!-- Getting started container -->
@@ -120,7 +112,8 @@ require("base.php");
             <br />
             <div class="row">
                 <div class="col-lg-6">
-                    <p id="uName">Name: <?php echo $SessionUsername; ?></p>
+                    <!-- Uses php variables to populate name and email fields -->
+                    <p id="uName">Username: <?php echo $SessionUsername; ?></p>
                     <p id="uEmail">Email: <?php echo $SessionEmail; ?> </p>
                          
                 </div>

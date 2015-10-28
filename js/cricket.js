@@ -1,3 +1,4 @@
+// <!-- This script adds content to the editor on working_panel.php -->
 //var cricketHTML = $("#preview").contents();
 var cricketHTML = document.getElementById("preview")
 var errorList = new Array();

@@ -1,3 +1,5 @@
+/*dynamically changes the h1 text to whatever website you are editing on working_panel.php */
+    
 $(document).ready(function() {
     WebsiteIDNumber = Number(WebsiteIDNumber);
     //console.log(WebsiteIDNumber);

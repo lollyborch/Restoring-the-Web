@@ -101,7 +101,7 @@
           </li>
         </ul>
 
-        <!-- Angular Content Container -->
+        <!-- Angular Content Container populated by WebsiteController.js -->
         <div class="tab-content" ng-controller="WebsiteController">
 
           <!-- Content for Sports Panel -->

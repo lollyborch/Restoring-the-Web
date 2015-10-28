@@ -189,13 +189,6 @@ require("base.php");
       <!-- buttons at bottom of page -->
             <a id="saveButton" class="btn btn-lg btn-primary " role="button">Save</a>
             <a class="btn btn-lg btn-primary text-center" id="HistoryButton" href="" role="button" target="_blank">View history of this website</a>
-            <!--Congratulations modal button - to be removed when script is done >
-            <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>
-					-->
-    </div>
-            <!--Congratulations modal button - to be removed when script is done
-            <a class="btn btn-lg btn-primary text-center" data-toggle="modal" data-target="#CongratsModal" role="button">Congratulations </a>-->
-
     </div>
     <!--END Main working panel fluid container -->
 
@@ -243,7 +236,7 @@ require("base.php");
             </div>
           </div>
 
-<!-- Congratulations Modal 1 -->
+<!-- Congratulations Modal - Bootstrap modal -->
             <div class="modal fade" id="CongratsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -315,7 +308,7 @@ require("base.php");
     <!-- jQuery UI for JSONP in HTML Validator API calls in cricket.js -->
     <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
 
-    <!-- This script adds content to the ditor -->
+    <!-- This script adds content to the editor -->
     <script src="js/cricket.js">printErrors();</script>
 
 

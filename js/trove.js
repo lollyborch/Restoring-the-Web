@@ -1,3 +1,5 @@
+//Trove API calls for images on home.php
+
 var imageArraySport = [];
 
 //cricket image
@@ -74,7 +76,7 @@ $(document).ready(function cycling() {
         
 	});
 });
-	
+//adds images in array to class on home.php
 function printSportImg() {
     if(imageArraySport.length == 3){
         $('.sportimage').each(function(index) {
@@ -135,7 +137,7 @@ $(document).ready(function writers() {
 	});
     
 });
-
+//adds images in array to class on home.php
 function printArtsImg() {
     if(imageArrayArts.length == 2){
         $('.artimage').each(function(index) {
@@ -197,7 +199,7 @@ $(document).ready(function qtac() {
 	});
     
 });
-
+//adds images in array to class on home.php
 function printEducationImg() {
     if(imageArrayEducation.length == 2){
    //     console.log("the array length is 2");
@@ -287,7 +289,7 @@ $(document).ready(function qldmuseum() {
 	});
     
 });
-
+//adds images in array to class on home.php
 function printGovernmentImg() {
     if(imageArrayGovernment.length == 3){
     //    console.log("the array length is 2");

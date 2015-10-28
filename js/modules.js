@@ -11,6 +11,7 @@ var gallery = 1;
 var museum = 1;
 */
 
+/* uses jQuery to populate specific divs with module html based on mySQL query variables on my_restorations.php*/
 
 $(document).ready( function() {
     if(cricket==1){

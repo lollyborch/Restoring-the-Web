@@ -1,3 +1,4 @@
+//<!-- This script sets up the Editor on working_panel.php--> 
 /* HTML editor panes from http://codepen.io/rlo206/pen/ClEti */
 
 var hiddenDiv = document.getElementById('hiddenHTML');

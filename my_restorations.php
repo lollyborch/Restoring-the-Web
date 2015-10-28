@@ -27,9 +27,8 @@ require("base.php");
     //Hard coded User ID
     $currentUserID1 = 19;
 
-    /* variables that query the mySQL database to see if there is an entry for a particular module */
+    /* variables that query the mySQL database to see if there is an entry for a particular websites to popuate modules */
     $cricket_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND UserID = $currentUserID ");
-   /* $cricket_start_mysql2 = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1'");*/
     $olympics_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2' AND UserID = $currentUserID ");
     $cycling_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '4' AND UserID = $currentUserID ");
     $ballet_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '5' AND UserID = $currentUserID ");
@@ -41,7 +40,6 @@ require("base.php");
     $museum_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '11' AND UserID = $currentUserID ");
 
     $cricket_start = mysql_num_rows($cricket_start_mysql);
-  /*  $cricket_start2 = mysql_num_rows($cricket_start_mysql2);*/
     $olympics_start = mysql_num_rows($olympics_start_mysql);
     $cycling_start = mysql_num_rows($cycling_start_mysql);
     $ballet_start = mysql_num_rows($ballet_start_mysql);
@@ -52,6 +50,7 @@ require("base.php");
     $gallery_start = mysql_num_rows($gallery_start_mysql);
     $museum_start = mysql_num_rows($museum_start_mysql);
 
+    /* variables that query the mySQL database to see if there is an entry for a particular module to activate module styling */
     //cricket modules
     $cricket_mod1_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND CompID = '1' AND UserID = $currentUserID ");
     $cricket_mod2_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND CompID = '2' AND UserID = $currentUserID ");
@@ -185,7 +184,7 @@ require("base.php");
         <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="js/divController.js"></script>
 
-        <!-- converting php variables to js -->
+        <!-- converting php variables to js to query webstie and module entries-->
         <script>
           var cricket = <?php echo (json_encode($cricket_start)); ?>;
           var olympics = <?php echo (json_encode($olympics_start)); ?>;         
@@ -303,6 +302,7 @@ require("base.php");
           </div>
       
       </div>    
+        <!-- uses AngularJS function to repeat empty divs for modules to be added to from divController.js-->
       <div ng-controller="divController">
           <div ng-repeat="div in divID">
               <div id="{{ div }}">
@@ -311,6 +311,9 @@ require("base.php");
 
           </div>
       </div>
+        
+   <!-- uses jQuery to populate specific divs with module html based on mySQL query variables on my_restorations.php -->
+
    <script src="js/modules.js"></script>
         
       <!-- main container ends-->      
