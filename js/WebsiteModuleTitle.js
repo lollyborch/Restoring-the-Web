@@ -3,6 +3,16 @@
 $(document).ready(function() {
     WebsiteIDNumber = Number(WebsiteIDNumber);
     //console.log(WebsiteIDNumber);
+    
+    if (WebsiteIDDouble=="1"){
+        document.getElementById('websitename').innerHTML = ': Qld Museum'
+        console.log("website id 11 Qld Museum")
+        
+    }else if (WebsiteIDDouble=="0"){
+        document.getElementById('websitename').innerHTML = ': Qld Art Gallery'
+        console.log("website id 10 Qld Art Gallery")
+        
+    }else {
 
     switch(WebsiteIDNumber) {
         case 1:
@@ -41,13 +51,14 @@ $(document).ready(function() {
             document.getElementById('websitename').innerHTML = ': Brisbane City Council'
             console.log("website id 9 Brisbane City Council")
             break;     
-        case 10:
+        /*case 10:
             document.getElementById('websitename').innerHTML = ': Qld Museum'
             console.log("website id 10 Qld Museum")
-            break;     
+            break;  */   
         default:
             console.log("there is no website id for H1")
     }
+        }
     
 });
 

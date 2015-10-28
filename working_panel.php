@@ -5,7 +5,7 @@ require("base.php");
 	<?php
 	// Grab the Website ID which is posted on the cricketaustralia.html module when pressed
 	$getvalues = $_GET['WebsiteID'];
-	//echo $getvalues; 1?CompID=1
+	//echo $getvalues;
 	$webIDvalue = strchr($getvalues,'?','true');
 	$webCompStr = strchr($getvalues,'=');
 	$componentID = substr($webCompStr,1);
@@ -85,6 +85,8 @@ require("base.php");
             var WebsiteIDNumberString = <?php echo (json_encode($getvalues)); ?>;
             //uses index to just get the website ID
             var WebsiteIDNumber = WebsiteIDNumberString[0];
+            //to check if website id is double digits
+            var WebsiteIDDouble = WebsiteIDNumberString[1];
           //  console.log("IDnumb " + WebsiteIDNumber);
             var ModuleIDNumber = WebsiteIDNumberString.slice(-1);
          //   console.log("Comp numb " + ModuleIDNumber);

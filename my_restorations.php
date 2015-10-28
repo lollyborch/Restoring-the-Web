@@ -23,16 +23,16 @@ require("base.php");
     $currentUserID1 = 19;
 
     /* variables that query the mySQL database to see if there is an entry for a particular websites to popuate modules */
-    $cricket_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND UserID = $currentUserID ");
-    $olympics_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2' AND UserID = $currentUserID ");
-    $cycling_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '4' AND UserID = $currentUserID ");
-    $ballet_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '5' AND UserID = $currentUserID ");
-    $writers_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '6' AND UserID = $currentUserID ");
-    $uq_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '7' AND UserID = $currentUserID ");
-    $qtac_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '8' AND UserID = $currentUserID ");
-    $council_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '9' AND UserID = $currentUserID ");
-    $gallery_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '10' AND UserID = $currentUserID ");
-    $museum_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '11' AND UserID = $currentUserID ");
+    $cricket_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '1' AND CompID = '1' AND UserID = $currentUserID ");
+    $olympics_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '2' AND CompID = '1' AND UserID = $currentUserID ");
+    $cycling_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '4' AND CompID = '1' AND UserID = $currentUserID ");
+    $ballet_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '5' AND CompID = '1' AND UserID = $currentUserID ");
+    $writers_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '6' AND CompID = '1' AND UserID = $currentUserID ");
+    $uq_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '7' AND CompID = '1' AND UserID = $currentUserID ");
+    $qtac_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '8' AND CompID = '1' AND UserID = $currentUserID ");
+    $council_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '9' AND CompID = '1' AND UserID = $currentUserID ");
+    $gallery_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '10' AND CompID = '1' AND UserID = $currentUserID ");
+    $museum_start_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '11' AND CompID = '1' AND UserID = $currentUserID ");
 
     $cricket_start = mysql_num_rows($cricket_start_mysql);
     $olympics_start = mysql_num_rows($olympics_start_mysql);
@@ -207,12 +207,12 @@ require("base.php");
           var gallerymod4 = <?php echo (json_encode($gallery_mod4_start)); ?>;
           var gallerymod5 = <?php echo (json_encode($gallery_mod5_start)); ?>;
           
-          var olympicsmod1 = <?php echo (json_encode($olympics_mod1_start)); ?>;
-          var olympicsmod2 = <?php echo (json_encode($olympics_mod2_start)); ?>;
-          var olympicsmod3 = <?php echo (json_encode($olympics_mod3_start)); ?>;
-          var olympicsmod4 = <?php echo (json_encode($olympics_mod4_start)); ?>;
-          var olympicsmod5 = <?php echo (json_encode($olympics_mod5_start)); ?>;
-          var olympicsmod6 = <?php echo (json_encode($olympics_mod6_start)); ?>;
+          var olympicmod1 = <?php echo (json_encode($olympics_mod1_start)); ?>;
+          var olympicmod2 = <?php echo (json_encode($olympics_mod2_start)); ?>;
+          var olympicmod3 = <?php echo (json_encode($olympics_mod3_start)); ?>;
+          var olympicmod4 = <?php echo (json_encode($olympics_mod4_start)); ?>;
+          var olympicmod5 = <?php echo (json_encode($olympics_mod5_start)); ?>;
+          var olympicmod6 = <?php echo (json_encode($olympics_mod6_start)); ?>;
           
           var councilmod1 = <?php echo (json_encode($council_mod1_start)); ?>;
           var councilmod2 = <?php echo (json_encode($council_mod2_start)); ?>;
