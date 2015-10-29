@@ -157,7 +157,8 @@ require("base.php");
 <!--START Main working panel fluid container -->
 <!-- HTML editor panes based on http://codepen.io/rlo206/pen/ClEti -->
   <div class="container-fluid">
-      <h1>Working panel<span id="websitename"></span><span id="modulenumber"></span></h1>
+      <h1>Working panel<span id="websitename"></span><span id="modulenumber"></span></h1><br />
+      <p>Not sure what to do?  Visit our <a href="gettingstarted.php">Getting Started</a> page.  Remember, <strong>don't forget to save </strong>as you go along!</p>
       <br />
         <div class="clearfix">
             <div id="numero1" class="working-header pull-left">Errors</div>

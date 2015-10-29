@@ -76,6 +76,7 @@ var hiddenCSSValue = hiddenCSS.innerHTML;
 			url: "php/save.php",
 			success: function(){
 				console.log("Success function triggered");
+                alert("Module saved!");
 			}
 		});
     /*$.ajax({

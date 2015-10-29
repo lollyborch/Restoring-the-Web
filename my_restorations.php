@@ -94,9 +94,9 @@ require("base.php");
     $olympics_mod6_start = mysql_num_rows($olympics_mod6_mysql);
 
     //council modules
-    $council_mod1_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '3' AND CompID = '1' AND UserID = $currentUserID ");
-    $council_mod2_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '3' AND CompID = '2' AND UserID = $currentUserID ");
-    $council_mod3_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '3' AND CompID = '3' AND UserID = $currentUserID ");
+    $council_mod1_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '9' AND CompID = '1' AND UserID = $currentUserID ");
+    $council_mod2_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '9' AND CompID = '2' AND UserID = $currentUserID ");
+    $council_mod3_mysql = mysql_query("SELECT * FROM restorations WHERE WebsiteID = '9' AND CompID = '3' AND UserID = $currentUserID ");
 
     $council_mod1_start = mysql_num_rows($council_mod1_mysql);
     $council_mod2_start = mysql_num_rows($council_mod2_mysql);
